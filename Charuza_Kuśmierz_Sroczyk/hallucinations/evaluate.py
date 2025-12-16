@@ -8,7 +8,7 @@ from evaluation.schemas import EvaluationResultItem, EvaluationOutput
 MODELS = ['gpt-5-nano']
 JUDGE_CONFIG = {"type": "llm", "provider": "gpt-5-mini"}
 DATA_CONFIG = {"type": "jsonl", "data_dir": "dummy_data"}
-OUTPUT_FILE = "evaluation_results.json"
+OUTPUT_FILE = "dataset_evaluation.json"
 # ---------------------
 
 def main():
