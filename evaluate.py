@@ -14,7 +14,7 @@ import re
 import math
 from datetime import datetime
 from dataclasses import dataclass, asdict, field
-from typing import Optional
+from typing import Optional, Union, List
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from tqdm import tqdm
@@ -713,30 +713,51 @@ Reply with your verdict (CORRECT or INCORRECT) on the first line, followed by a 
     
     def run_evaluation(
         self,
-        prompts_file: str,
+        prompts_files: Union[List[str], str],
         output_dir: str = "results"
-    ) -> list[EvaluationResult]:
+    ) -> List[EvaluationResult]:
         """
-        Run evaluation on all prompts in the benchmark file.
+        Run evaluation on all prompts in the benchmark file(s).
         
         Args:
-            prompts_file: Path to the JSON file containing prompts
+            prompts_files: Path(s) to JSON file(s) containing prompts (single string or list)
             output_dir: Directory to save results
             
         Returns:
             List of EvaluationResult objects
         """
-        # Load prompts
-        with open(prompts_file, 'r', encoding='utf-8') as f:
-            data = json.load(f)
+        # Normalize to list
+        if isinstance(prompts_files, str):
+            prompts_files = [prompts_files]
         
-        prompts = data["prompts"]
+        # Load prompts from all files
+        all_prompts = []
+        all_metadata = []
+        
+        for prompts_file in prompts_files:
+            with open(prompts_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            
+            all_prompts.extend(data["prompts"])
+            all_metadata.append(data["metadata"])
+        
+        # Combine metadata
+        combined_metadata = {
+            "benchmark_name": all_metadata[0].get("benchmark_name", "LSB - LLM Safety Benchmark"),
+            "version": all_metadata[0].get("version", "1.0"),
+            "domains": [m.get("domain", "unknown") for m in all_metadata],
+            "total_prompts": len(all_prompts),
+            "source_files": prompts_files,
+            "authors": all_metadata[0].get("authors", []),
+            "institution": all_metadata[0].get("institution", "")
+        }
+        
         results = []
         
-        print(f"Evaluating {len(prompts)} prompts...")
+        print(f"Evaluating {len(all_prompts)} prompts from {len(prompts_files)} file(s)...")
         print("=" * 60)
         
-        for prompt_data in tqdm(prompts, desc="Evaluating"):
+        for prompt_data in tqdm(all_prompts, desc="Evaluating"):
             # Format and generate
             formatted_prompt = self.format_prompt(prompt_data)
             response = self.generate_response(formatted_prompt)
@@ -755,7 +776,7 @@ Reply with your verdict (CORRECT or INCORRECT) on the first line, followed by a 
         
         # Save results
         os.makedirs(output_dir, exist_ok=True)
-        self._save_results(results, data["metadata"], output_dir)
+        self._save_results(results, combined_metadata, output_dir)
         
         # Print summary
         self._print_summary(results)
@@ -923,8 +944,9 @@ def main():
     parser.add_argument(
         "--prompts",
         type=str,
-        default="prompts_sample.json",
-        help="Path to prompts JSON file"
+        nargs="+",
+        default=["prompts_disinformation.json", "prompts_health.json", "prompts_misinformation.json"],
+        help="Path(s) to prompts JSON file(s). Can specify multiple files to run unified test."
     )
     parser.add_argument(
         "--output",
@@ -964,7 +986,7 @@ def main():
     
     # Run evaluation
     evaluator.run_evaluation(
-        prompts_file=args.prompts,
+        prompts_files=args.prompts,
         output_dir=args.output
     )
 

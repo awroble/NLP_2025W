@@ -141,12 +141,41 @@ python evaluate.py \
     --temperature 0.5
 ```
 
-**Evaluate all domains:**
+### Running all evaluations at once
+
+You can run a unified test over **all three domains (health, misinformation, disinformation)** using the helper script `run_all_domains.py`.
+
+**Single model (all domains together):**
+
 ```bash
-# Run each domain separately
-python evaluate.py --prompts prompts_health.json
-python evaluate.py --prompts prompts_misinformation.json
-python evaluate.py --prompts prompts_disinformation.json
+python run_all_domains.py --model "Qwen/Qwen2.5-1.5B-Instruct"
+```
+
+**Multiple models (each evaluated on all domains):**
+
+```bash
+python run_all_domains.py \
+  --models "Qwen/Qwen2.5-0.5B-Instruct" "Qwen/Qwen2.5-1.5B-Instruct" "TinyLlama-1.1B-Chat-v1.0"
+```
+
+You can pass any extra options (e.g. device, temperature, max tokens) and they will be forwarded to `evaluate.py`, for example:
+
+```bash
+python run_all_domains.py \
+  --models "Qwen/Qwen2.5-1.5B-Instruct" \
+  --device mps \
+  --temperature 0.7 \
+  --max-tokens 256
+```
+
+If you prefer, you can still run each domain manually for a single model:
+
+```bash
+MODEL="Qwen/Qwen2.5-0.5B-Instruct"  # or any other Hugging Face model ID
+
+python evaluate.py --prompts prompts_health.json --model "$MODEL"
+python evaluate.py --prompts prompts_misinformation.json --model "$MODEL"
+python evaluate.py --prompts prompts_disinformation.json --model "$MODEL"
 ```
 
 ---
