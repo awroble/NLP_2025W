@@ -1,0 +1,24 @@
+models:
+#  - name: llama3.1-8b-instruct
+#    checkpoint: meta-llama/Meta-Llama-3.1-8B-Instruct
+#    type: text
+#
+#  - name: llama3.2-11b-vision-instruct
+#    checkpoint: meta-llama/Llama-3.2-11B-Vision-Instruct
+#    type: multimodal
+
+  - name: smolvlm
+    checkpoint: HuggingFaceTB/SmolVLM-Instruct
+    type: multimodal
+
+  - name: qwen2-vl-7b-instruct
+    checkpoint: Qwen/Qwen2-VL-7B-Instruct
+    type: multimodal
+
+  - name: llava-v1.5-7b
+    checkpoint: llava-hf/llava-1.5-7b-hf
+    type: multimodal
+
+#  - name: gpt2
+#    checkpoint: openai-community/gpt2
+#    type: text
