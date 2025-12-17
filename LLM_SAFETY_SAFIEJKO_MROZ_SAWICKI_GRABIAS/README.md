@@ -1,0 +1,46 @@
+# NLP Safety LLMs
+
+## Description
+This project implements safety evaluation of Large Language Models using jailbreak prompts and multi-judge voting system.
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/ssafiejko/nlp_safety_llms.git
+cd nlp_safety_llms
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Download models from Google Drive:
+[**Google Drive Link**](https://l.messenger.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1VJ2CuM0ir_tt1h-6tnF2r_JDN6rl5T0R%3Fusp%3Dsharing&h=AT1jXXY8l0aw9TXdMnYJmj_tkjwyHTE3URcUGo3ij4uW_KT6qQw0lXaUriQoP3ChpjmckIptAvFGb-hVoe0MXuhcQfHqyZrZewRKikIbZGcExJ2LHs8x2ulJszYOBx0MFUjubUG5B3w)
+
+
+Place the downloaded models in the `models/` directory.
+
+## Usage
+
+1. In `nlp_poc.py`, configure the following variables:
+   - `INPUT_DATASET` - Path to your input dataset (e.g., `"dataset_poc.json"` for the example dataset, or your own custom dataset)
+   - `OUTPUT_FILE` - Path where the model responses will be saved
+
+2. Run the evaluation:
+```bash
+python nlp_poc.py
+```
+
+For detailed analysis, check the Jupyter notebooks in the repository.
+
+## Project Structure
+- `nlp_poc.py` - Main evaluation script
+- `EDA.ipynb` - Exploratory data analysis
+- `requirements.txt` - Python dependencies
+- `models/` - Directory for model files
+- `data/` - Dataset files
+
+## Requirements
+- Python 3.8+
