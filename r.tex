@@ -1,0 +1,62 @@
+\subsection{Dataset Statistics}
+
+We have created an initial dataset of 150 prompts (50 per domain) as a foundation for the full LSB benchmark. This section presents key statistics characterizing the current dataset composition and structure.
+
+\subsubsection{Overall Composition}
+
+The dataset consists of 150 prompts evenly distributed across three domains: health (50), misinformation (50), and disinformation (50). Prompts are organized into four difficulty tiers, with 36 prompts in Tier 1, 45 in Tier 2, 39 in Tier 3, and 30 in Tier 4. The dataset includes 33 safe prompts (harmless requests to test for false refusals) and 117 unsafe prompts (adversarial attacks). Table~\ref{tab:domain_distribution} shows the distribution across domains and difficulty tiers.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Domain} & \textbf{Tier 1} & \textbf{Tier 2} & \textbf{Tier 3} & \textbf{Tier 4} \\
+\midrule
+Health & 12 & 15 & 13 & 10 \\
+Misinformation & 12 & 15 & 13 & 10 \\
+Disinformation & 12 & 15 & 13 & 10 \\
+\midrule
+\textbf{Total} & \textbf{36} & \textbf{45} & \textbf{39} & \textbf{30} \\
+\bottomrule
+\end{tabular}
+\caption{Distribution of prompts across domains and difficulty tiers.}
+\label{tab:domain_distribution}
+\end{table}
+
+\subsubsection{Attack Method Distribution}
+
+The dataset incorporates six attack methods, with distribution shown in Table~\ref{tab:attack_methods}. The most common attack method is implicit misinformation (28 prompts), followed by topic selection (27), multi-turn persuasion (24), jailbreak/roleplay (20), prompt injection (13), and no attack baseline (38). The multi-turn persuasion category includes sophisticated conversational attacks that gradually escalate requests, as documented in recent work \cite{russinovich2025great}.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lc}
+\toprule
+\textbf{Attack Method} & \textbf{Count} \\
+\midrule
+No attack & 38 \\
+Implicit misinformation & 28 \\
+Topic selection & 27 \\
+Multi-turn persuasion & 24 \\
+Jailbreak/Roleplay & 20 \\
+Prompt injection & 13 \\
+\midrule
+\textbf{Total} & \textbf{150} \\
+\bottomrule
+\end{tabular}
+\caption{Distribution of prompts by attack method.}
+\label{tab:attack_methods}
+\end{table}
+
+\subsubsection{Expected Behavior Distribution}
+
+Prompts are categorized by expected model behavior: \textit{blocked} (76 prompts) indicates the model should refuse the request; \textit{factual} (63 prompts) indicates the model should provide accurate information and correct any misinformation; \textit{threat\_assessment} (7 prompts) requires the model to evaluate health risks; and \textit{safe} (4 prompts) tests for false refusals on harmless requests. The high proportion of blocked prompts (50.7\%) reflects the adversarial nature of the benchmark, particularly in the disinformation domain where 76\% of prompts should be refused.
+
+\subsubsection{Prompt Characteristics}
+
+The dataset includes both single-turn (120 prompts, 80\%) and multi-turn conversational prompts (30 prompts, 20\%). Multi-turn prompts are distributed evenly across domains (10 per domain) and primarily appear in higher difficulty tiers (Tier 3 and Tier 4), reflecting the increased sophistication required for multi-turn attacks. Prompt length varies substantially, with a median length of 186 characters (interquartile range: 87--285 characters), ranging from 23 to 1,124 characters. The longer prompts typically correspond to multi-turn conversations or complex scenarios requiring detailed context.
+
+\subsubsection{Domain-Specific Characteristics}
+
+Each domain exhibits distinct characteristics aligned with its evaluation objectives. The health domain includes 7 threat assessment prompts requiring structured risk evaluation (likelihood, impact, source), alongside 24 health advice prompts and 19 physical safety prompts. The misinformation domain emphasizes correction tasks, with 35 prompts expecting factual responses that debunk false claims, distributed across common misconceptions (18), implicit misinformation (10), explicit misinformation (18), and logical fallacies (4). The disinformation domain focuses on refusal behavior, with 38 prompts (76\%) requiring the model to block content generation, covering false narratives (21) and coordinated inauthentic behavior (17).
