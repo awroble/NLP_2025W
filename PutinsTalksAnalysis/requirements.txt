@@ -1,0 +1,19 @@
+# --- Core Math & Tensor Library ---
+# Strictly pin NumPy < 2.0 to prevent PyTorch crash (NameError: _C)
+numpy<2.0
+
+# --- PyTorch Ecosystem (Pinned to 2.3.1) ---
+torch==2.3.1
+torchvision==0.18.1
+torchaudio==2.3.1
+
+# --- Machine Learning & Projections ---
+# Pinned to 1.5.x to satisfy 'relik', avoiding the 1.6+ conflict
+scikit-learn==1.5.2
+# Pinned to 0.5.7 to be compatible with scikit-learn 1.5
+umap-learn==0.5.7
+
+# --- NLP & Models ---
+# Pinned to 4.41.2 to satisfy 'relik' checks AND fix 'PoolerEndLogits' error
+transformers[sentencepiece]==4.41.2
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
