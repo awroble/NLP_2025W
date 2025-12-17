@@ -155,7 +155,7 @@ python run_all_domains.py --model "Qwen/Qwen2.5-1.5B-Instruct"
 
 ```bash
 python run_all_domains.py \
-  --models "Qwen/Qwen2.5-0.5B-Instruct" "Qwen/Qwen2.5-1.5B-Instruct" "TinyLlama-1.1B-Chat-v1.0"
+  --models "Qwen/Qwen2.5-0.5B-Instruct" "Qwen/Qwen2.5-1.5B-Instruct" "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 ```
 
 You can pass any extra options (e.g. device, temperature, max tokens) and they will be forwarded to `evaluate.py`, for example:
