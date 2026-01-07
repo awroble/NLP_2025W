@@ -1,0 +1,411 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{booktabs}
+
+\usepackage{setspace}
+\onehalfspacing
+
+\title{
+    \textbf{International Agreements Data Base Mining \\[1em]
+    \includegraphics[width=0.4\textwidth]{Images/title_graphic.png}\\[1em]
+    \large Subject: Natural Language Processing}
+}
+\author{authors:
+    Muhamed Fahim Asim, 
+    Paulina Kulczyk,  
+    Mateusz Zagórski,  
+    Mateusz Wiktorzak, 
+}
+\date{November 2025}
+
+
+\begin{document}
+
+\maketitle
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{SOTA Analysis}
+
+\subsection{Optical Character Recognition (OCR)}
+
+Recent work in document understanding shows that OCR alone is insufficient for reliably processing formal government PDFs that mix multi-page scans, complex layouts, stamps, signatures, and legal boilerplate \cite{tesseract2007_smith,documentai2021_survey}. This project targets converting such heterogeneous, often low-quality inputs into structured representations with correct page, paragraph, and reading-order reconstruction so that downstream systems can search, validate, and analyze official records at scale, including measuring agreement length in pages or words. The task lies at the intersection of OCR, layout-aware information extraction, and document-structure recovery, building on multimodal document AI, form understanding, and invoice-style IE for business and government workflows \cite{lie2022_layout_ie,documentai2021_survey}.
+
+Modern OCR backbones are largely open-source and deep-learning based, with engines such as Tesseract, PaddleOCR, TrOCR, and docTR forming standard building blocks \cite{tesseract2007_smith,paddleocr2025,trocr2022,doctr2021}. Tesseract remains a widely adopted baseline for printed and multilingual text in large digitization efforts, including legal and governmental archives \cite{tesseract2007_smith}. Newer engines extend these capabilities with convolutional and transformer architectures that jointly model visual and textual context, improving robustness to noise, skew, and varying fonts common in legacy scans and faxed documents and enabling reliable word-level statistics for agreement-length estimation \cite{paddleocr2025,trocr2022,doctr2021}. Work on degraded and historical documents shows that binarization, denoising, background removal, and super-resolution further boost OCR quality in the presence of stamps, seals, marginal notes, and low-resolution scans \cite{gatos2019_degraded_binarization}.
+
+Beyond OCR, state-of-the-art layout-aware IE models treat documents as multimodal objects where text, layout, and visual signals are processed jointly \cite{documentai2021_survey}. LayoutLM-style architectures pretrain on large corpora of business and administrative documents with 2D positional embeddings and visual features, then fine-tune for key-value extraction, form understanding, and document QA \cite{documentai2021_survey,yashwant2025_invoice_ie}. Benchmarks such as FUNSD, CORD, SROIE, and LIE show that layout-aware models consistently outperform text-only baselines on entity extraction and relation prediction, which directly supports extracting areas of cooperation from cleaned agreement text as basic semantic fields \cite{lie2022_layout_ie,documentai2021_survey}. LIE is particularly relevant because it includes product and official documents from more than 150 organizations, with diverse templates and page lengths resembling real-world government PDFs \cite{lie2022_layout_ie}.
+
+At the structural level, work on PDF and document structure extraction focuses on recovering logical hierarchy, section boundaries, and reading order across multi-column and multi-page documents \cite{luz2011_pdf_structure_extraction,li2025_xycutpp}. Classical methods such as XY-cut and its variants are strong baselines for segmenting text blocks and columns but are sensitive to noise and layout variation and often require heavy heuristic tuning \cite{li2025_xycutpp}. Newer graph-based and neural approaches operate over layout graphs to recover headings, and tables of contents, which in this context support reliable paragraph reconstruction and the identification of recurring clause segments that can be standardized and counted across agreements \cite{luz2011_pdf_structure_extraction,documentai2021_survey}. For this project, these techniques motivate a hybrid design that combines robust block segmentation with learning-based ordering and section classification tuned to government document genres.
+
+Commercial systems such as Google Document AI, ABBYY, and Azure Document Intelligence achieve strong extraction accuracy on forms, invoices, and contracts. However, their closed-source nature, dependence on proprietary clouds, and limited transparency about training data and behavior complicate tuning them \cite{documentai2021_survey,msdocai2021}. Open benchmarks such as CC-OCR and evaluations of layout-aware and multimodal models indicate that open-source and academic approaches can match or surpass these systems in adaptability and extensibility, especially with domain-specific fine-tuning \cite{yang2024_ccocr,documentai2021_survey}. Collectively, this literature defines the current SOTA and supports a domain-specialized, open pipeline for formal government PDFs that combines proven components while addressing gaps in domain adaptation and full-document reconstruction, including agreement-length measurement, basic extraction of cooperation areas, and clause-frequency analysis over standardized segments.
+
+\subsection{Agreement type, sides, organizations extraction}
+
+There are three interconnected subtasks that can be grouped together based on the similarity of their outputs:
+
+\begin{itemize}
+    \item[2.] Identify the parties involved,
+    
+    \item[3.] Identify the types of agreements,
+    
+    \item[5.] Identify international organizations mentioned.
+\end{itemize}
+
+These tasks can be addressed using two primary NLP techniques: Named Entity Recognition (NER) for extracting entities such as parties and organizations (tasks 2. and 5.), and Document Classification for categorizing the types of agreements (task 3.). This grouping reflects the underlying workflows needed to transform unstructured legal texts into structured data, performing extraction and finding the key information.
+
+\subsubsection{Legal-Domain Named Entity Recognition (NER)}
+
+The most advanced model in legal NER is \textbf{LegNER}~\cite{karamitsos2025legner}, a domain-adapted transformer model pretrained on extensive legal corpora with span-level supervision. LegNER achieves \textit{F1} scores over 99\%, surpassing other models like \textbf{Legal-BERT}~\cite{chalkidis2022legalknowledge} by several percentage points. Its architecture, based on BERT-base but fine-tuned on legal-specific language, enables precise recognition of key legal entities such as parties, laws, and organizations crucial for international agreements. The model maintains high precision and recall, making it reliable for clean entity extraction even on complex, noisy legal data.
+
+Other competitive models include \textbf{SpanBERT-Legal}, which captures entity spans well, and \textbf{ContractNLI}~\cite{henderson2021contractnli}, which extends entity recognition to contract clause classification but typically scores lower than LegNER in benchmarks.
+
+\subsubsection{Legal agreement type classification}
+
+Transformers like \textbf{RoBERTa}, \textbf{LegalBERT}, and \textbf{T5} are the leading models for legal document classification tasks, including categorizing types of agreements. They are fine-tuned on domain-specific datasets to identify particular categories of contracts. These models leverage multi-label classification and contextual understanding, achieving near-human accuracy in distinguishing diverse legal document types.
+
+\subsubsection{Essential datasets}
+
+\begin{enumerate}
+    \item \textbf{LEDGAR}~\cite{tuggener2020ledgar}: A large-scale, multi-label corpus for contract provision classification created from SEC filings (EDGAR). It contains nearly 100,000 provisions across more than 12,000 labels from over 60,000 contracts. LEDGAR is widely used for fine-tuning models like LegalBERT for clause and agreement type classification, supporting scalable legal NLP research,
+
+    \item \textbf{CUAD} (Contract Understanding Atticus Dataset)~\cite{henderson2024cuad}: An expert-annotated dataset with over 2,000 clauses across 41 contract categories from 510 commercial contracts. CUAD enhances classification at the clause-level, useful for detailed contract analysis and extraction,
+    
+    \item \textbf{Contract NLI Dataset}: A resource for document-level contract classification and clause identification.
+\end{enumerate}
+
+These datasets provide rich, annotated data essential for training and benchmarking the state-of-the-art models in legal NER and contract classification.
+\subsection{Deduplication (Legal-SBERT + FAISS)}
+Large collections of international agreements often contain duplicate or near-duplicate documents originating from multiple sources, OCR rescans, multilingual versions, or slightly edited reissues. Removing such duplicates is essential for producing reliable statistics, including the percentage of agreements signed under the patronage of Sister Cities International and the identification of partners with whom agreements tend to be more detailed. To address this, the pipeline applies state-of-the-art sentence-embedding–based deduplication, combining Legal-SBERT for semantic encoding and FAISS for fast large-scale similarity search.
+\subsubsection{Legal-SBERT for semantic encoding}
+Legal-SBERT \cite{askari2024retrieval} is a domain-adapted variant of Sentence-BERT fine-tuned on large legal corpora, achieving significant improvements over standard BERT and SBERT in semantic similarity tasks involving contracts, statutes, and judicial documents. Reimers \& Gurevych’s SBERT architecture \cite{reimers2019sentence} enables fixed-size embeddings optimized for cosine-similarity retrieval, while legal-domain adaptations such as Legal-SBERT demonstrate state-of-the-art performance on legal sentence similarity benchmarks, with improvements of up to +7–10 points in Spearman correlation.
+Using Legal-SBERT ensures that semantically identical agreements—despite OCR noise, reformatting, or paraphrasing—receive nearly identical embeddings, enabling accurate duplicate detection.
+\subsubsection{FAISS for scalable similarity indexing}
+FAISS (Facebook AI Similarity Search) \cite{johnson2019billion} is the leading library for high-dimensional vector indexing and approximate nearest-neighbor search. It supports millions of embeddings with sub-second lookup times using optimized GPU/CPU indices such as HNSW and IVF-PQ. FAISS is widely used in legal NLP for clustering and deduplication in large corpora (e.g., EDGAR, global treaty databases).
+In this project, FAISS enables:
+\begin{itemize}
+    \item efficient retrieval of nearest neighbors for each agreement
+    \item identification of duplicate or near-duplicate records (e.g., cosine similarity $>$ 0.92)
+    \item removal of redundant documents prior to downstream analysis
+\end{itemize}
+
+This step is crucial for ensuring that downstream statistics—such as identifying detailed partnerships or calculating Sister Cities International patronage—are not distorted by duplicated agreements or OCR-generated copies.
+
+\subsection{Semantic Similarity Clustering (UMAP + HDBSCAN)}
+Beyond deduplication, semantic similarity clustering enables the discovery of latent patterns in the agreement corpus. This step directly supports tasks such as identifying partners associated with more detailed agreements, detecting coordination with other entities, and clustering agreements that reference other legal documents. These phenomena correspond to distinct semantic regions of the embedding space.
+\subsubsection{Dimensionality reduction with UMAP}
+Uniform Manifold Approximation and Projection (UMAP) \cite{mcinnes2018umap} is one of the most advanced nonlinear dimensionality-reduction algorithms for high-dimensional embeddings. Unlike PCA or t-SNE, UMAP preserves both local neighborhoods and global manifold structure, producing representations well suited for density-based clustering.
+Applied to Legal-SBERT embeddings, UMAP:
+\begin{itemize}
+    \item reduces 768-dimensional vectors to 10–50 dimensions
+    \item preserves semantic topology of legal texts
+    \item enhances density separation between agreement types, detailed vs. minimal agreements, references to external legal documents, and coordination clauses
+\end{itemize}
+
+UMAP has become a standard preprocessing step in legal and scientific document clustering because it maintains structural coherence while enabling more robust cluster detection.
+\subsection{Density-based clustering with HDBSCAN}
+HDBSCAN \cite{campello2013density} is the state-of-the-art clustering algorithm for noisy text datasets, outperforming k-means and DBSCAN in legal document grouping. It automatically identifies dense regions in the reduced embedding space and labels sparse regions as “noise,” which is ideal for heterogeneous legal corpora.
+
+For this project, HDBSCAN enables:
+\begin{itemize}
+    \item grouping agreements with similar structural complexity (to identify highly detailed partners)
+    \item detecting clusters of agreements that reference other legal documents
+    \item isolating agreements that mention coordination with external entities (e.g., federal agencies, NGOs, international organizations)
+    \item  discovering thematic clusters without requiring predefined labels
+\end{itemize}
+
+
+In combination, UMAP + HDBSCAN form a robust state-of-the-art pipeline for unsupervised legal document analysis, enabling empirical insight into agreement structure and recurring patterns relevant for social science research.
+
+
+\subsection{Determine Terms of Validity}
+
+Extracting and normalizing temporal expressions in contracts is essential to identify start and end dates, durations, and validity periods. Temporal information may be explicit or implicit, expressed via phrases such as "for the term of the project" or "until December 31, 2026". Accurate extraction supports contract interpretation, compliance, and automated reasoning.
+
+Rule-based systems such as \textbf{HeidelTime} remain a strong baseline, achieving high precision on legal corpora such as CUAD and LEDGAR by encoding patterns for dates, durations, and relative expressions~\cite{strotgen2010heideltime}. 
+
+Neural approaches, particularly LegalBERT fine-tuned for token classification, capture implicit temporal phrasing and domain-specific variations~\cite{survey2024hybrid}. ContractNLI verification further refines extraction, utilizing hybrid pipelines that combine rule-based normalization, neural token classification, and NLI verification, with F1 scores consistently above 0.85~\cite{koreeda2021contractnli}.
+
+\subsection{Determine Conditions for Extending the Agreement}
+
+Renewal and extension clauses define when a contract may be automatically renewed, mutually extended, or optionally extended. They often include nested conditions, notice periods, or triggers, making detection challenging.
+
+Transformer-based models such as LegalBERT and Longformer, fine-tuned on CUAD and LEDGAR, detect renewal clauses and distinguish automatic from optional extensions~\cite{survey2024hybrid}. 
+
+Hybrid pipelines combining neural span extraction, rule-based temporal/condition normalization, and NLI or QA verification improve precision and resolve cross-references~\cite{koreeda2021contractnli}, with F1 scores typically between 0.80 and 0.85. Simple rule-based or keyword approaches can supplement neural methods in less complex contracts.
+
+\subsection{Indicate Whether the Agreement Includes an Evaluation of Its Implementation}
+
+Evaluation clauses monitor compliance or performance, specifying assessment, reporting, or auditing duties. They are often sparse or implicit, with verbs like "review", "assess", or "audit", sometimes spanning multiple sections.
+
+Fine-tuned LegalBERT or LegalPro-BERT models detect evaluation clauses in CUAD and LEDGAR, while token-classification extracts roles and reporting frequency~\cite{survey2024hybrid}. NLI or QA verification captures implicit evaluation obligations, improving precision. 
+
+Hybrid pipelines, combining token-classification, rule-based heuristics, and NLI/QA verification, achieved F1 scores around 0.80–0.83, balancing recall and precision~\cite{koreeda2021contractnli}.
+
+\subsection{Metadata Reliability}
+Metadata for international agreements—such as dates, partner names, issuing authorities, agreement types, and references to Sister Cities International—are often inconsistent or incomplete due to variable formatting, or manual transcription. Ensuring metadata reliability is fundamental for tasks such as computing the percentage of agreements under Sister Cities International and systematically identifying coordination clauses, external references, and detailed agreements with specific partners.
+\subsubsection{Metadata normalization}
+Normalization consolidates metadata fields into standardized canonical forms. This includes:
+\begin{itemize}
+    \item organization name normalization (e.g., “Sister Cities International,” “Sister City Int’l,” “SCI”) using fuzzy matching and embedding-based similarity
+partner 
+    \item entity normalization using Wikidata cross-referencing and legal-NER outputs
+    \item date normalization using ISO-8601 standards
+    \item agreement type harmonization based on controlled vocabularies from international treaty databases
+\end{itemize}
+
+State-of-the-art metadata normalization relies on neural fuzzy-matching models such as Ditto \cite{li2020deep} and embedding-based entity alignment \cite{sun2020benchmarking}, which significantly outperform rule-based approaches by capturing semantic-level similarity across heterogeneous entity representations. However, transformer-based models such as Ditto require substantial computational resources—particularly GPU acceleration and fine-tuning on domain-specific datasets—making them less practical for smaller-scale projects or environments with limited hardware. Consequently, for this study, we adopt a fuzzy string matching approach using RapidFuzz \cite{ye2021rapidfuzz}. This method provides sufficient accuracy for canonicalizing entities such as variations of ‘Sister Cities International’ while remaining computationally lightweight and feasible within the available CPU resources and project timeline.
+\subsubsection{Consistency checks}
+After normalization, consistency checks detect contradictions or missing information. Typical checks include:
+\begin{itemize}
+    \item verifying that agreement dates are chronological
+    \item confirming that referenced legal documents exist in the database
+    \item ensuring that coordination entities (ministries, city councils, NGOs) match recognized NER categories
+    \item checking cross-document consistency for Sister Cities International attribution
+    \item validating that long agreements (as identified via clustering or word counts) correspond to expected partner categories
+\end{itemize}
+
+Such checks rely on techniques from information quality management \cite{batini2016data} and cross-document validation frequently applied in treaty and contract corpora. In addition to these traditional approaches, modern LLMs can assist in consistency verification by detecting anomalous or contradictory metadata patterns—such as misaligned partner names, unexpected absence of coordination clauses, or references that do not match the text—providing a hybrid methodology that ensures metadata is reliable, coherent, and robust across the entire corpus.
+\\[1.5em]
+Together, metadata normalization and consistency checks ensure that extracted insights—such as detailed agreement patterns or coordination with other entities—are based on validated and coherent metadata, increasing reliability for social science research.
+
+\newpage
+
+\section{Dataset}
+
+\subsection{Data collection and preprocessing}
+The raw data were initially acquired in two formats: \textbf{PDF} and \textbf{HTML}, with a distribution ratio of approximately 2:1. During the inspection phase, several critical preprocessing steps were taken:
+
+\begin{itemize}
+    \item \textbf{Format Filtering:} All HTML files were removed from the dataset. Inspections revealed that these files were low-quality extractions from PDFs, containing fragmented sentences and inconsistent formatting that would impede reliable mining.
+    \item \textbf{OCR Processing:} Optical Character Recognition (OCR) was applied to the remaining documents to generate two output types:
+    \begin{enumerate}
+        \item \texttt{.txt} files containing the raw agreement text.
+        \item \texttt{.json} files containing structured statistical summaries of the text.
+    \end{enumerate}
+    \item \textbf{Storage Structure:} The processed files are organized into 50 distinct directories, each named after a US state, stored within a central \texttt{OCR-output} directory.
+\end{itemize}
+
+\subsection{Dataset composition}
+The current dataset comprises a total of \textbf{298 agreements}. While the structure accounts for all 50 US states, the actual distribution of documents is as follows:
+
+\begin{itemize}
+    \item \textbf{States with Agreements:} 29 (58\% coverage).
+    \item \textbf{States without Agreements:} 21 (42\% coverage).
+    \item \textbf{Total Sample Size:} 298 documents.
+\end{itemize}
+
+\subsection{Statistical Analysis}
+The distribution of agreements per state is highly skewed, characterized by a few significant outliers and many states with minimal data.
+
+\begin{table}[h!]
+\centering
+\caption{Dataset Summary Statistics}
+\label{tab:stats}
+\begin{tabular}{ll}
+\toprule
+\textbf{Metric} & \textbf{Value} \\ \midrule
+Minimum agreements per state & 0 \\
+Maximum agreements per state & 116 \\
+Average agreements per state & 5.96 \\
+Median agreements per state & 1.0 \\
+Standard Deviation ($\sigma$) & 18.05 \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Geographical outliers}
+A small number of states contribute the vast majority of the dataset. The top 5 states by agreement count are shown in Table \ref{tab:top5}. Notably, \textbf{California} alone accounts for nearly 39\% of the total dataset.
+
+\begin{table}[h!]
+\centering
+\caption{Top 5 States by Document Count}
+\label{tab:top5}
+\begin{tabular}{llr}
+\toprule
+\textbf{Rank} & \textbf{State} & \textbf{Count} \\ \midrule
+1 & California & 116 \\
+2 & Texas & 54 \\
+3 & Utah & 22 \\
+4 & Arizona & 17 \\
+5 & Alaska & 12 \\ \bottomrule
+\end{tabular}
+\end{table}
+
+Conversely, many states, such as Missouri, Florida, Georgia, and New Mexico, currently contain zero recorded agreements in this specific project iteration.
+
+\subsection{Conclusion}
+The dataset is robust in its total document count (298) but exhibits significant geographical imbalance. Preprocessing has successfully filtered out noisy HTML data, ensuring that the remaining OCR-processed text is of high quality for subsequent legal mining and metadata normalization tasks.
+
+\newpage
+
+\section{Exploratory data analysis}
+
+This section presents the key findings of EDA conducted on the International Agreements Database. The dataset consists of OCR-processed agreement documents organized by U.S. state. The analysis focuses on the spatial distribution, document characteristics, and thematic content of these agreements.
+
+\subsection{Dataset overview and spatial distribution}
+The dataset comprises 298 agreements distributed across 50 directories, each corresponding to a U.S. state. The distribution is highly skewed, with only 29 states containing any agreement documents.
+
+\begin{itemize}
+    \item \textbf{Total Volume:} There are 298 agreements in total.
+    \item \textbf{Geographic Concentration:} The vast majority of agreements are concentrated in \textbf{California} (116 agreements) and \textbf{Texas} (54 agreements). \textbf{Utah} also holds a significant number (22), while many other states (e.g., Virginia, Illinois, New Hampshire) contain only a single document.
+    \item \textbf{Coverage:} 21 out of 50 states have no representation in the dataset.
+\end{itemize}
+
+
+\subsection{Document characteristics}
+An analysis of document length (page count and word count) reveals that most agreements are relatively concise.
+
+\begin{itemize}
+    \item \textbf{Page Count:} The agreements range from 1 to 21 pages in length. The distribution is heavily weighted towards shorter documents, with the majority having 5 pages or fewer.
+    \item \textbf{Word Count:} The total word count per document ranges from 94 to 7,368 words.
+    \item \textbf{Variation:} States with the highest volume of agreements (California and Texas) exhibit the widest variance in document length. Conversely, outliers such as Alaska and Vermont also contain documents reaching the maximum length of 21 pages.
+\end{itemize}
+
+
+\subsection{Thematic analysis and N-gram extraction}
+To identify key themes, frequentist analysis was performed on word tokens and bigrams after removing standard English stopwords and state names.
+
+\subsubsection{Top Words}
+The most frequent terms across the corpus highlight the administrative and cooperative nature of the texts. The top words include "state" (921 occurrences), "parties" (423), "information" (422), and "energy" (380). Terms like "participants", "supervisors", and "understanding" are also prominent.
+
+\subsubsection{Bigram analysis}
+Bigram analysis reveals specific areas of international cooperation. After filtering out generic phrases (e.g., "United States"), the following key themes emerged:
+\begin{itemize}
+    \item \textbf{Legal Frameworks:} The most common bigram is "memorandum understanding" (904 occurrences), indicating the primary legal instrument used.
+    \item \textbf{Environmental Issues:} A significant portion of the corpus focuses on climate and ecology, evidenced by bigrams such as "climate change" (326), "low carbon" (233), "forest fire" (180), "greenhouse gas" (156), and "clean energy" (144).
+    \item \textbf{Regional Partners:} Frequent references to "British Columbia" (200) and "Great Lakes" (138) suggest strong cross-border cooperation with Canada.
+\end{itemize}
+
+\subsubsection{State-Specific Topics}
+State-level analysis highlights distinct regional priorities:
+\begin{itemize}
+    \item \textbf{New Jersey:} Unique occurrences of "salud chihuahua" and "servicios salud" indicate specific health-related cooperation with the Mexican state of Chihuahua.
+    \item \textbf{Northern Border States:} Maine, Michigan, and Wisconsin frequently feature terms like "forest fire", "crossing agreement", and "great lakes", reflecting shared environmental and infrastructure interests with Canada.
+    \item \textbf{Western States:} California and Oregon are heavily associated with terms regarding "climate change" and "clean energy".
+\end{itemize}
+
+\newpage
+
+\section{Proof of concept}
+
+\input{POC_tasks_1_7_9}
+
+\subsection{Tasks 2, 3, 5}
+
+This section details the POC implementation for extracting agreements parties, agreement types, and identifying international organizations mantioned from the legal agreements corpus. The POC has been executed on the Alabama subdirectory of the parsed International Agreements Database.
+
+\subsubsection{Task 2: Extraction of Agreement Parties}
+Two distinct approaches were evaluated for the extraction of contracting parties from the legal texts: a Named Entity Recognition (NER) approach and a Large Language Model (LLM) prompting approach.
+
+\paragraph{Method 1: Legal NER}
+The initial attempt utilized a BERT-based model fine-tuned for legal Named Entity Recognition. The extraction logic involved tokenizing the input text, running inference to obtain labels, and aggregating tokens into entities based on the tagging scheme.
+
+The NER approach proved insufficient for this specific use case. The primary issues observed included:
+\begin{itemize}
+    \item \textbf{Complex Naming Structures:} Agreement parties often possess long, multi-word names containing embedded entities (e.g., "Ministry of Economics, Small and Medium Business, and Technology"). The NER model frequently fragmented these into separate entities rather than recognizing the single legal party.
+    \item \textbf{Model Availability:} Finding robust, publicly available NER models fine-tuned specifically for this type of legal document construction was difficult, with several candidate sources being broken or deprecated.
+\end{itemize}
+
+\paragraph{Method 2: Generative extraction (Mistral 7B Instruct)}
+Due to the limitations of the NER approach, the strategy shifted to using a quantized version of the Mistral 7B Instruct model. The model was prompted to act as a legal AI and return a JSON object containing the required information. The instruct-oriented fine-tuning of the Instruct varient of the Mistral model was supposed to ensure specifity of the answer. It could be interesting to compare if a model fine-tuned for legal purposes would do better in extraction than a model trained to consider exact instructions.
+
+The LLM approach yielded significantly better results. The model successfully identified complex party names and provided context regarding their roles. However, minor errors persisted in complex scenarios, such as occasionally misclassifying constituent members of a party as separate agreement parties.
+
+\subsubsection{Task 3: Agreement Type Classification}
+Two methods were implemented to categorize the agreements into types such as \textit{Memorandum of Understanding}, \textit{Trade Agreement}, or \textit{Partnership Agreement}.
+
+\paragraph{Method 1: Zero-Shot Classification (BART)}
+A BART-large model trained on the MNLI dataset was employed for zero-shot classification. The model classified texts against a predefined list of 13 agreement types.
+
+It was difficult to assess the outcome validity without an expert knowledge, but some of the agreements like \textit{Memoranda of Understanding} had this value written in the very first line, and for those, the classification worked. Some of the classified agreements had their confidence ratios for each type very close to each other, indicating that the predefined subset could not be accurate. 
+
+\paragraph{Method 2: Generative Extraction (Mistral 7B Instruct)}
+To allow for more flexibility, the Mistral 7B model was prompted to analyze the text and generate the agreement type and a brief description without being restricted to a fixed list. This approach allowed for the identification of nuanced agreement types that might not fit strictly into pre-set categories.
+
+Some of the agreements had their extracted type matching for both methods. Generative extraction yields better responses in the case of custom agreements -- the exact type of the agreement may not be stated explicitly.
+
+\subsubsection{Task 5: Extraction of International Organizations}
+Building on the findings from Task 2, the extraction of international organizations was performed using the Mistral 7B Instruct model rather than NER.
+
+\paragraph{Methodology}
+The model was instructed to extract organizations operating across national borders (e.g., intergovernmental bodies) while explicitly ignoring purely domestic agencies unless they were part of an international body. The output was structured as a JSON object containing the organization's name and a short context.
+
+\paragraph{Results}
+This method successfully filtered out local entities to focus on international actors, providing a cleaner list of relevant organizations involved in the agreements.
+
+\subsection{Tasks 6, 8, 11}
+
+\subsubsection{Determine Terms of Validity} 
+
+The proof-of-concept operationalizes state-of-the-art hybrid approaches for temporal information extraction in legal contracts. Rule-based temporal patterns, similar to those employed in systems such as HeidelTime, are first applied to retrieve candidate validity clauses from OCR-derived agreement text. This stage targets explicit dates, durations, and validity expressions while preserving page-level evidence. To capture implicit temporal phrasing typically handled by LegalBERT models fine-tuned on datasets such as CUAD and LEDGAR, the pipeline employs a zero-shot NLI classifier as a proxy semantic filter. This component fulfills a role analogous to ContractNLI-style verification by confirming whether candidate clauses entail contractual validity. Verified clauses are subsequently normalized into structured temporal representations, demonstrating a feasible instantiation of SOTA hybrid pipelines under limited supervision. 
+
+\subsubsection{Determine Conditions for Extending the Agreement}
+
+The proof-of-concept for identifying extension and renewal conditions follows SOTA methods for contract clause detection, commonly evaluated on CUAD and LEDGAR. Candidate renewal clauses are first retrieved using high-recall lexical and syntactic rules targeting renewal triggers, notice periods, and extension conditions in noisy OCR text. Semantic validation is then performed using a zero-shot NLI classifier, serving as a proxy for transformerbased models such as LegalBERT or Longformer used in prior work. Rule-based post-processing distinguishes automatic renewals from extensions requiring mutual agreement, reflecting the clausetype differentiation reported in the literature. This hybrid design demonstrates how SOTA renewal detection techniques can be approximated without task-specific fine-tuning. 
+
+\subsubsection{Indicate Whether the Agreement Includes an Evaluation of Its Implementation}
+
+The proof-of-concept for detecting evaluation clauses is informed by SOTA legal clause classification approaches developed on datasets such as CUAD and LEDGAR. High-recall lexical rules are first applied to identify candidate segments containing evaluation-related verbs and reporting terminology, accommodating OCR-induced variability. To approximate the semantic discrimination achieved by fine-tuned LegalBERT or LegalPro-BERT models, a zero-shot NLI classifier is used to verify whether candidate segments entail an obligation to evaluate or assess implementation. This verification step mirrors the function of ContractNLI-style reasoning in hybrid pipelines. The resulting binary indicator and evidence extraction operationalize SOTA evaluationclause detection in a reproducible proof-of-concept. 
+
+\subsection{Tasks 4, 10, 12, 13}
+
+\subsubsection{Introduction}
+The objective of this Proof of Concept (POC) is to develop a system for the automated analysis of legal agreements. The project focuses on leveraging State-of-the-Art (SOTA) Natural Language Processing (NLP) techniques to handle deduplication, semantic clustering, and metadata normalization for a dataset of approximately 30 legal documents.
+
+\subsubsection{Methodology and SOTA Tasks}
+
+\paragraph{Semantic Embeddings}
+To capture the nuances of legal language, we utilized \texttt{Legal-SBERT} (based on \textit{paraphrase-multilingual-MiniLM-L12-v2}). This model transforms raw text into high-dimensional dense vectors, preserving semantic relationships between documents.
+
+\paragraph{Deduplication (SOTA)}
+We implemented a deduplication pipeline using:
+\begin{itemize}
+    \item \textbf{Cosine Similarity Matrix:} To compute pair-wise similarity between all documents.
+    \item \textbf{FAISS (Facebook AI Similarity Search):} For efficient indexing and retrieval of near-duplicate documents.
+\end{itemize}
+A similarity threshold of $0.85$ was applied to identify redundant agreements.
+
+\paragraph{Semantic Similarity Clustering}
+For document discovery and categorization, we combined:
+\begin{itemize}
+    \item \textbf{UMAP (Uniform Manifold Approximation and Projection):} To reduce dimensionality while preserving global structure.
+    \item \textbf{HDBSCAN (Hierarchical Density-Based Spatial Clustering of Applications with Noise):} To automatically detect clusters of agreements based on their content without pre-defining the number of clusters.
+\end{itemize}
+
+\paragraph{Metadata Normalization \& Consistency Check}
+We addressed the inconsistency in extracted data (e.g., "NYC" vs "New York City") using:
+\begin{itemize}
+    \item \textbf{RapidFuzz:} Fuzzy matching to merge variations of the same entity.
+    \item \textbf{LLM-Assisted Normalization:} Standardizing noisy fields (dates, organization names) into a uniform format (e.g., YYYY-MM-DD).
+    \item \textbf{Consistency Checks:} Rule-based verification to ensure the extracted metadata is reliable and present in the source text.
+\end{itemize}
+
+\subsubsection{POC Results and Project Tasks}
+
+\begin{table}[h]
+\centering
+\caption{Fulfillment of Specific Project Tasks}
+\begin{tabular}{lp{10cm}}
+\toprule
+\textbf{Task ID} & \textbf{Description and Result} \\ \midrule
+\textbf{(4)} & \textbf{Sister Cities International \%:} Automated regex and semantic search identified the percentage of documents falling under this category. \\
+\textbf{(10)} & \textbf{Detailed Agreements:} Identification of partners with more detailed agreements based on average word count and clause density. \\
+\textbf{(12)} & \textbf{Coordination Detection:} Implementation of flags to identify whether agreements mention coordination with other entities. \\
+\textbf{(13)} & \textbf{Legal References:} Automated detection of references to other legal documents and statutes. \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\newpage
+
+\bibliographystyle{plain}
+\bibliography{refs}
+
+
+\end{document}
