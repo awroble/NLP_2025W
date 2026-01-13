@@ -3,6 +3,7 @@ from typing import Sequence
 import numpy as np
 import torch
 from numpy.typing import NDArray
+
 class TestedModel:
     def predict(self,texts:NDArray[str])->float:
         pass
@@ -22,19 +23,30 @@ class ClassicalModel(TestedModel):
 
 class BertModel(TestedModel):
 
-    def __init__(self,model,tokenizer,name):
-        self.model=model
-        self.tokenizer=tokenizer
-        self.name=name
+    def __init__(self, model, tokenizer, name: str):
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.model = model.to(self.device)
+        self.tokenizer = tokenizer
+        self.name = name
 
-    def predict(self,texts:NDArray[str])->Sequence[int]:
-        t_vec=self.tokenizer(texts.tolist(),
-                            return_tensors = "pt",
-                            truncation = True,
-                            padding = True,
-                            )
+        self.model.eval()
+
+    def predict(self, texts: NDArray[str]) -> Sequence[int]:
+        inputs = self.tokenizer(
+            texts.tolist(),
+            return_tensors="pt",
+            truncation=True,
+            padding=True,
+        )
+
+        inputs = {k: v.to(self.device) for k, v in inputs.items()}
+
         with torch.no_grad():
-            result=self.model(**t_vec)
-        return torch.argmax(result.logits, dim=1).detach().numpy()
-    def get_name(self)->str:
+            outputs = self.model(**inputs)
+
+        preds = torch.argmax(outputs.logits, dim=1)
+
+        return preds.cpu().numpy()
+
+    def get_name(self) -> str:
         return self.name
