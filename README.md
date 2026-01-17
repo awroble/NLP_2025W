@@ -10,3 +10,9 @@ Repository contains source codes for comparison of different methodologies for S
 - Training directory contains scripts and notebooks used to train ML models
 - Models directory contains serialized models
 - Tester directory contains scripts and notebooks used to tested previously trained models
+
+
+### Reproducibility
+- To reproduce models training, execute ipynb files, located in Training directory.Final models will be saved to Models directory.
+- To reproduce models evaluation, execute ipynb file located in Tester directory
+- more information regarding models acquisition can be found in dedicated README file, located in Models directory
