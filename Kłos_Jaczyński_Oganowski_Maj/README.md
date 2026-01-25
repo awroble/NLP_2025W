@@ -1,3 +1,13 @@
+# Repository structure
+In our repository, you will find the following key directories and files:
+- 'images/': Contains visualizations and plots generated from our benchmarking results.
+- 'Artifacts/': Includes csv files with results and json file with prompts. 
+- 'reproducibility_checklist.pdf': A checklist to ensure reproducibility of our experiments.
+- 'Kłos_Oganowski_Maj_Jaczyński_report.pdf': The main report detailing our methodology, experiments, and findings.
+- 'Final_Project_NLP_Jaczyński_Kłos_Maj_Oganowski.ipynb': A Jupyter notebook that contains the code used for our experiments, allowing for easy replication and understanding of our work. Single run version.
+- 'Final_Project_NLP_MULTIPLE_TRIALS_Jaczyński_Kłos_Maj_Oganowski.ipynb': A Jupyter notebook that contains the code used for our experiments, allowing for easy replication and understanding of our work. Multiple trials version.
+- 'PoC_NLP_Jaczyński_Kłos_Maj_Oganowski.ipynb': A proof-of-concept notebook demonstrating key aspects of our project.
+
 # Safety Benchmarking of Lightweight LLMs (NLP Project 2025)
 
 This project benchmarks **safety vs usability** of lightweight open-source LLMs using a **hybrid prompt dataset** (manual + synthetic). We evaluate how often models:
