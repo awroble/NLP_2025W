@@ -12,13 +12,6 @@ This repository contains a comprehensive Natural Language Processing (NLP) study
 * **`Poland_Statements_Analysing.ipynb`**: Focused study of Poland's image using Zero-shot classification and "Enemy" image clustering (S-BERT + UMAP + DBSCAN).
 * **`Report_Putins_Talks.pdf`**: Final comprehensive report detailing methodological findings and rhetorical insights.
 
-## 🛠️ Key Methodologies
-
-* **Topic Discovery**: BERTopic with c-TF-IDF for granular and temporal theme analysis.
-* **Enemy Construction**: Dimensionality reduction (UMAP) and clustering (DBSCAN) on S-BERT embeddings to map hostile rhetoric.
-* **Contextual Classification**: Zero-shot categorization of bilateral relations (Partner, Ally, Neighbor, Enemy).
-* **LLM-as-a-Judge**: Utilizing high-tier models to evaluate the effectiveness and hallucinations of smaller open-source LLMs.
-
 ## 📊 Dataset
 The analysis is based on the **Putin Corpus (1999–2025)**, primarily sourced from official transcripts at kremlin.ru.
 
