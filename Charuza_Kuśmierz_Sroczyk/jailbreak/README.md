@@ -99,8 +99,8 @@ The subset od prompt we used is in file `vscbench_subset.csv`.
 
 ## Results
 
-Graded model responses with full analysis are available on Google Drive:
-https://drive.google.com/file/d/1tzN47viXCIkPT2i2TVWi05KpqehabogA/view?usp=sharing
+Graded model responses are available on Google Drive:
+https://drive.google.com/file/d/1xoO-WVASBrEvlJGN6YTAX2akUjT5hrIg/view?usp=sharing
 
 ## Notes
 
