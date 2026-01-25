@@ -1,0 +1,325 @@
+[
+  {
+    "filename": "Arizona_1.txt",
+    "predicted_type": "Sister State Agreement",
+    "confidence": 0.14797887206077576,
+    "top_3": [
+      [
+        "Sister State Agreement",
+        0.14797887206077576
+      ],
+      [
+        "Development Cooperation Agreement",
+        0.10999073088169098
+      ],
+      [
+        "Memorandum of Understanding (MOU)",
+        0.1023344174027443
+      ]
+    ]
+  },
+  {
+    "filename": "Arizona_10.txt",
+    "predicted_type": "Partnership Agreement",
+    "confidence": 0.3492962718009949,
+    "top_3": [
+      [
+        "Partnership Agreement",
+        0.3492962718009949
+      ],
+      [
+        "Memorandum of Understanding (MOU)",
+        0.14104871451854706
+      ],
+      [
+        "Sister State Agreement",
+        0.11271822452545166
+      ]
+    ]
+  },
+  {
+    "filename": "Arizona_11.txt",
+    "predicted_type": "Memorandum of Understanding (MOU)",
+    "confidence": 0.39018380641937256,
+    "top_3": [
+      [
+        "Memorandum of Understanding (MOU)",
+        0.39018380641937256
+      ],
+      [
+        "Economic Cooperation Agreement",
+        0.1600310206413269
+      ],
+      [
+        "Partnership Agreement",
+        0.08997101336717606
+      ]
+    ]
+  },
+  {
+    "filename": "Arizona_12.txt",
+    "predicted_type": "Memorandum of Understanding (MOU)",
+    "confidence": 0.4570576846599579,
+    "top_3": [
+      [
+        "Memorandum of Understanding (MOU)",
+        0.4570576846599579
+      ],
+      [
+        "Sister State Agreement",
+        0.12987498939037323
+      ],
+      [
+        "Partnership Agreement",
+        0.09762567281723022
+      ]
+    ]
+  },
+  {
+    "filename": "Arizona_13.txt",
+    "predicted_type": "Memorandum of Understanding (MOU)",
+    "confidence": 0.4570576846599579,
+    "top_3": [
+      [
+        "Memorandum of Understanding (MOU)",
+        0.4570576846599579
+      ],
+      [
+        "Sister State Agreement",
+        0.12987498939037323
+      ],
+      [
+        "Partnership Agreement",
+        0.09762567281723022
+      ]
+    ]
+  },
+  {
+    "filename": "Arizona_14.txt",
+    "predicted_type": "Memorandum of Understanding (MOU)",
+    "confidence": 0.39012786746025085,
+    "top_3": [
+      [
+        "Memorandum of Understanding (MOU)",
+        0.39012786746025085
+      ],
+      [
+        "Partnership Agreement",
+        0.3735111653804779
+      ],
+      [
+        "Development Cooperation Agreement",
+        0.03930952399969101
+      ]
+    ]
+  },
+  {
+    "filename": "Arizona_15.txt",
+    "predicted_type": "Memorandum of Understanding (MOU)",
+    "confidence": 0.33134883642196655,
+    "top_3": [
+      [
+        "Memorandum of Understanding (MOU)",
+        0.33134883642196655
+      ],
+      [
+        "Partnership Agreement",
+        0.18017400801181793
+      ],
+      [
+        "Sister State Agreement",
+        0.10733393579721451
+      ]
+    ]
+  },
+  {
+    "filename": "Arizona_16.txt",
+    "predicted_type": "Partnership Agreement",
+    "confidence": 0.3719668686389923,
+    "top_3": [
+      [
+        "Partnership Agreement",
+        0.3719668686389923
+      ],
+      [
+        "Memorandum of Understanding (MOU)",
+        0.20798535645008087
+      ],
+      [
+        "Sister State Agreement",
+        0.0935656800866127
+      ]
+    ]
+  },
+  {
+    "filename": "Arizona_17.txt",
+    "predicted_type": "Memorandum of Understanding (MOU)",
+    "confidence": 0.43960055708885193,
+    "top_3": [
+      [
+        "Memorandum of Understanding (MOU)",
+        0.43960055708885193
+      ],
+      [
+        "Sister State Agreement",
+        0.08543823659420013
+      ],
+      [
+        "Development Cooperation Agreement",
+        0.08218469470739365
+      ]
+    ]
+  },
+  {
+    "filename": "Arizona_2.txt",
+    "predicted_type": "Partnership Agreement",
+    "confidence": 0.5706291794776917,
+    "top_3": [
+      [
+        "Partnership Agreement",
+        0.5706291794776917
+      ],
+      [
+        "Sister State Agreement",
+        0.08659452944993973
+      ],
+      [
+        "Sister City Agreement",
+        0.0734010860323906
+      ]
+    ]
+  },
+  {
+    "filename": "Arizona_3.txt",
+    "predicted_type": "Partnership Agreement",
+    "confidence": 0.30342215299606323,
+    "top_3": [
+      [
+        "Partnership Agreement",
+        0.30342215299606323
+      ],
+      [
+        "Sister State Agreement",
+        0.12284552305936813
+      ],
+      [
+        "Sister City Agreement",
+        0.0899464339017868
+      ]
+    ]
+  },
+  {
+    "filename": "Arizona_4.txt",
+    "predicted_type": "Development Cooperation Agreement",
+    "confidence": 0.13697439432144165,
+    "top_3": [
+      [
+        "Development Cooperation Agreement",
+        0.13697439432144165
+      ],
+      [
+        "Sister State Agreement",
+        0.1304042637348175
+      ],
+      [
+        "Memorandum of Understanding (MOU)",
+        0.10816815495491028
+      ]
+    ]
+  },
+  {
+    "filename": "Arizona_5.txt",
+    "predicted_type": "Sister State Agreement",
+    "confidence": 0.22600769996643066,
+    "top_3": [
+      [
+        "Sister State Agreement",
+        0.22600769996643066
+      ],
+      [
+        "Development Cooperation Agreement",
+        0.15286920964717865
+      ],
+      [
+        "Partnership Agreement",
+        0.11978176236152649
+      ]
+    ]
+  },
+  {
+    "filename": "Arizona_6.txt",
+    "predicted_type": "Economic Cooperation Agreement",
+    "confidence": 0.30068060755729675,
+    "top_3": [
+      [
+        "Economic Cooperation Agreement",
+        0.30068060755729675
+      ],
+      [
+        "Development Cooperation Agreement",
+        0.22877129912376404
+      ],
+      [
+        "Partnership Agreement",
+        0.10121962428092957
+      ]
+    ]
+  },
+  {
+    "filename": "Arizona_7.txt",
+    "predicted_type": "Development Cooperation Agreement",
+    "confidence": 0.35098227858543396,
+    "top_3": [
+      [
+        "Development Cooperation Agreement",
+        0.35098227858543396
+      ],
+      [
+        "Partnership Agreement",
+        0.28133320808410645
+      ],
+      [
+        "Sister State Agreement",
+        0.07212089002132416
+      ]
+    ]
+  },
+  {
+    "filename": "Arizona_8.txt",
+    "predicted_type": "Interstate Compact",
+    "confidence": 0.15358814597129822,
+    "top_3": [
+      [
+        "Interstate Compact",
+        0.15358814597129822
+      ],
+      [
+        "Partnership Agreement",
+        0.13226968050003052
+      ],
+      [
+        "Sister State Agreement",
+        0.1003875657916069
+      ]
+    ]
+  },
+  {
+    "filename": "Arizona_9.txt",
+    "predicted_type": "Partnership Agreement",
+    "confidence": 0.218254953622818,
+    "top_3": [
+      [
+        "Partnership Agreement",
+        0.218254953622818
+      ],
+      [
+        "Sister State Agreement",
+        0.13395613431930542
+      ],
+      [
+        "Memorandum of Understanding (MOU)",
+        0.10479647666215897
+      ]
+    ]
+  }
+]

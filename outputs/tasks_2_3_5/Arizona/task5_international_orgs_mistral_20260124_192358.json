@@ -1,0 +1,166 @@
+[
+  {
+    "filename": "Arizona_1.txt",
+    "extraction": " {\n\"international_organizations\": [\n{\n\"name\": \"International Association of Insurance Supervisors (IAIS)\",\n\"type\": \"international organization\"\n}\n]\n}",
+    "parsed": {
+      "international_organizations": [
+        {
+          "name": "International Association of Insurance Supervisors (IAIS)",
+          "type": "international organization"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Arizona_10.txt",
+    "extraction": " {\n\"international_organizations\": [\n{\n\"name\": \"International Border Conference\",\n\"type\": \"intergovernmental commission\"\n}\n]\n}",
+    "parsed": {
+      "international_organizations": [
+        {
+          "name": "International Border Conference",
+          "type": "intergovernmental commission"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Arizona_11.txt",
+    "extraction": " {\n\"international_organizations\": [\n]\n}\n\nBased on the provided text, there are no explicit mentions of international organizations. Therefore, the \"international_organizations\" list in the JSON object remains empty.",
+    "parsed": {
+      "international_organizations": []
+    }
+  },
+  {
+    "filename": "Arizona_12.txt",
+    "extraction": " {\n\"international_organizations\": [\n]\n}\n\nBased on the provided text, there are no explicit mentions of international organizations. Therefore, the \"international_organizations\" list in the JSON object remains empty.",
+    "parsed": {
+      "international_organizations": []
+    }
+  },
+  {
+    "filename": "Arizona_13.txt",
+    "extraction": " {\n\"international_organizations\": [\n]\n}\n\nBased on the provided text, there are no explicit mentions of international organizations. Therefore, the \"international_organizations\" list in the JSON object remains empty.",
+    "parsed": {
+      "international_organizations": []
+    }
+  },
+  {
+    "filename": "Arizona_14.txt",
+    "extraction": " {\n\"international_organizations\": [\n]\n}\n\nBased on the provided text, there are no explicit mentions of international organizations. However, there are references to international cooperation between the states of Arizona and Sonora. If we assume that CEDES and CEA are international organizations based on their names and functions, here's the updated JSON object:\n\n{\n\"international_organizations\": [\n{\n\"name\": \"Ecology and Sustainable Development Commission (CEDES)\",\n\"type\": \"international organization\"\n},\n{\n\"name\": \"State of Sonora Water Commission (CEA)\",\n\"type\": \"international organization\"\n}\n]\n}\n\nPlease note that without further context or official information, the assumption that CEDES and CEA are international organizations may not be accurate.",
+    "parsed": null
+  },
+  {
+    "filename": "Arizona_15.txt",
+    "extraction": " {\n\"international_organizations\": [\n{\n\"name\": \"The Ministry of Communications and Transport of the United Mexican States\",\n\"type\": \"governmental agency of an international organization\"\n}\n]\n}",
+    "parsed": {
+      "international_organizations": [
+        {
+          "name": "The Ministry of Communications and Transport of the United Mexican States",
+          "type": "governmental agency of an international organization"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Arizona_16.txt",
+    "extraction": " {\n\"international_organizations\": []\n}\n\nThere are no international organizations mentioned in the text. The organizations listed are all local or state entities from Mexico and the United States.",
+    "parsed": {
+      "international_organizations": []
+    }
+  },
+  {
+    "filename": "Arizona_17.txt",
+    "extraction": " {\n\"international_organizations\": [\n{\n\"name\": \"Customs and Border Protection (CBP)\",\n\"type\": \"international organization\"\n}\n]\n}",
+    "parsed": {
+      "international_organizations": [
+        {
+          "name": "Customs and Border Protection (CBP)",
+          "type": "international organization"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Arizona_2.txt",
+    "extraction": " {\n\"international_organizations\": []\n}\n\nThis text does not mention any international organizations. It only defines terms related to the cooperation agreement between the Financial Supervisory Commission of Taiwan and the Office of the Arizona Attorney General.",
+    "parsed": {
+      "international_organizations": []
+    }
+  },
+  {
+    "filename": "Arizona_3.txt",
+    "extraction": " {\n\"international_organizations\": [\n]\n}\n\nGiven the text provided, there are no explicit mentions of international organizations.",
+    "parsed": {
+      "international_organizations": []
+    }
+  },
+  {
+    "filename": "Arizona_4.txt",
+    "extraction": " {\n\"international_organizations\": [\n]\n}\n\nBased on the provided text, no international organizations have been mentioned. The text primarily discusses the cooperation between the governments of the States of Arizona and Sonora.",
+    "parsed": {
+      "international_organizations": []
+    }
+  },
+  {
+    "filename": "Arizona_5.txt",
+    "extraction": " {\n\"international_organizations\": []\n}\n\nNo international organizations mentioned in the text.",
+    "parsed": {
+      "international_organizations": []
+    }
+  },
+  {
+    "filename": "Arizona_6.txt",
+    "extraction": " {\n\"international_organizations\": []\n}\n\nThis text does not mention any international organizations. It is a bilateral cooperation agreement between the States of Sonora, Mexico, and Arizona, USA.",
+    "parsed": {
+      "international_organizations": []
+    }
+  },
+  {
+    "filename": "Arizona_7.txt",
+    "extraction": " {\n\"international_organizations\": [\n{\n\"name\": \"Arizona-Mexico Commission\",\n\"type\": \"intergovernmental commission\"\n},\n{\n\"name\": \"Comision Sonora-Arizona\",\n\"type\": \"intergovernmental commission\"\n}\n]\n}",
+    "parsed": {
+      "international_organizations": [
+        {
+          "name": "Arizona-Mexico Commission",
+          "type": "intergovernmental commission"
+        },
+        {
+          "name": "Comision Sonora-Arizona",
+          "type": "intergovernmental commission"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Arizona_8.txt",
+    "extraction": " {\n\"international_organizations\": [\n{\n\"name\": \"Border Governors Conference\",\n\"type\": \"international organization\"\n}\n]\n}",
+    "parsed": {
+      "international_organizations": [
+        {
+          "name": "Border Governors Conference",
+          "type": "international organization"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Arizona_9.txt",
+    "extraction": " {\n\"international_organizations\": [\n{\n\"name\": \"The U.S. Fish and Wildlife Service of the United States of America\",\n\"type\": \"international organization\"\n},\n{\n\"name\": \"National Commission for Natural Protected Areas (Mexico)\",\n\"type\": \"international organization\"\n},\n{\n\"name\": \"Mexico's Action Program for the Conservation of Species: Mexican Wolf (PACE Lobo Mexicano)\",\n\"type\": \"intergovernmental commission\"\n}\n]\n}",
+    "parsed": {
+      "international_organizations": [
+        {
+          "name": "The U.S. Fish and Wildlife Service of the United States of America",
+          "type": "international organization"
+        },
+        {
+          "name": "National Commission for Natural Protected Areas (Mexico)",
+          "type": "international organization"
+        },
+        {
+          "name": "Mexico's Action Program for the Conservation of Species: Mexican Wolf (PACE Lobo Mexicano)",
+          "type": "intergovernmental commission"
+        }
+      ]
+    }
+  }
+]

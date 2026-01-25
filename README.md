@@ -30,3 +30,5 @@ Preprocessed data needed to reproduce the results can be found at [this](https:/
 **POC_tasks_x_y_z.ipynb**: Jupyter Notebooks containing source code addressing tasks x, y, and z of the assigned project.
 
 **EDA.ipynb**: Jupyter Notebook containing the source code of conducted exploratory data analysis.
+
+**outputs/**: Directory containing some cached results from long-running tasks.

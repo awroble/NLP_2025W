@@ -1,0 +1,91 @@
+[
+  {
+    "filename": "Alabama_1.txt",
+    "extraction": " Based on the provided text, there are no explicit mentions of international organizations. Therefore, the JSON object will be an empty list:\n\n```json\n{\n  \"international_organizations\": []\n}\n```",
+    "parsed": {
+      "international_organizations": []
+    }
+  },
+  {
+    "filename": "Alabama_10.txt",
+    "extraction": " {\n\"international_organizations\": [\n{\n\"name\": \"North American Association of States and Provinces (SEUS or CP Alliance)\",\n\"type\": \"international organization\"\n}\n]\n}\n\nNote: The text does not mention any specific international organizations other than the SEUS or CP Alliance itself, which is a regional intergovernmental body. Therefore, the output above reflects the only international organization identified in the text.",
+    "parsed": {
+      "international_organizations": [
+        {
+          "name": "North American Association of States and Provinces (SEUS or CP Alliance)",
+          "type": "international organization"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alabama_2.txt",
+    "extraction": " {\n\"international_organizations\": [\n]\n}\n\nThere are no explicit mentions of international organizations in the text.",
+    "parsed": {
+      "international_organizations": []
+    }
+  },
+  {
+    "filename": "Alabama_3.txt",
+    "extraction": " {\n\"international_organizations\": [\n{\n\"name\": \"The Ministry of Industry and Trade of the State of Israel\",\n\"type\": \"international organization\"\n}\n]\n}",
+    "parsed": {
+      "international_organizations": [
+        {
+          "name": "The Ministry of Industry and Trade of the State of Israel",
+          "type": "international organization"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alabama_4.txt",
+    "extraction": " {\n\"international_organizations\": [\n]\n}\n\nBased on the provided text, there are no explicit mentions of international organizations. Therefore, the \"international_organizations\" list in the JSON object remains empty.",
+    "parsed": {
+      "international_organizations": []
+    }
+  },
+  {
+    "filename": "Alabama_5.txt",
+    "extraction": " {\n\"international_organizations\": [\n]\n}\n\nBased on the provided text, there are no explicit mentions of international organizations. Therefore, the \"international_organizations\" list in the JSON object remains empty.",
+    "parsed": {
+      "international_organizations": []
+    }
+  },
+  {
+    "filename": "Alabama_6.txt",
+    "extraction": " {\n\"international_organizations\": [\n{\n\"name\": \"Government of the Republic of Peru\",\n\"type\": \"international organization\"\n},\n{\n\"name\": \"Government of the State of Alabama\",\n\"type\": \"international organization\"\n}\n]\n}",
+    "parsed": {
+      "international_organizations": [
+        {
+          "name": "Government of the Republic of Peru",
+          "type": "international organization"
+        },
+        {
+          "name": "Government of the State of Alabama",
+          "type": "international organization"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alabama_7.txt",
+    "extraction": " {\n\"international_organizations\": []\n}\n\nThis text does not mention any international organizations. It is a Memorandum of Understanding between the State of Alabama, USA, and the Province of Hubei, P.R.C.",
+    "parsed": {
+      "international_organizations": []
+    }
+  },
+  {
+    "filename": "Alabama_8.txt",
+    "extraction": " {\n\"international_organizations\": [\n]\n}\n\nThis text does not mention any international organizations directly. However, it does mention several instances of cooperation between the State of Alabama (USA) and Jiangsu Province (China). While not explicitly stated, it is implied that these entities may engage with international organizations in the context of their cooperation. Some potential international organizations that could be involved include:\n\n1. World Trade Organization (WTO) - Given the focus on trade between Alabama and Jiangsu.\n2. United Nations Industrial Development Organization (UNIDO) - As both parties have agreed to cooperate in advanced manufacturing and technology transfer.\n3. World Health Organization (WHO) - Since life sciences, including biotechnology and bio medicine, are a focus of the agreement.\n4. International Energy Agency (IEA) - Energy is one of the agreed areas of cooperation.\n5. International Monetary Fund (IMF) or World Bank - Financial services fall under the tertiary industry category.\n\nThese are just a few possibilities, and it's essential to note that there is no definitive mention of any international organization in the text. If more context or specific information becomes available, the list of potential organizations may change.",
+    "parsed": {
+      "international_organizations": []
+    }
+  },
+  {
+    "filename": "Alabama_9.txt",
+    "extraction": " {\n\"international_organizations\": []\n}\n\nThis text does not mention any international organizations. It is a partnership agreement between the States of Alabama and Abia, Nigeria.",
+    "parsed": {
+      "international_organizations": []
+    }
+  }
+]
