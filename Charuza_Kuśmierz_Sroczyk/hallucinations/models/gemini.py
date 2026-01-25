@@ -17,13 +17,4 @@ class GeminiFlash2_5Adapter(LLMProvider):
         return response.text
 
     def generate_batch(self, prompts: List[str]) -> List[str]:
-        async def _generate_one(prompt: str):
-            response = await self.model.generate_content_async(contents=prompt)
-            return response.text
-
-        async def _generate_batch():
-            tasks = [_generate_one(p) for p in prompts]
-            results = await asyncio.gather(*tasks)
-            return results
-
-        return asyncio.run(_generate_batch())
+        return super().generate_batch(prompts)

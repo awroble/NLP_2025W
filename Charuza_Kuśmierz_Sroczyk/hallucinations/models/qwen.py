@@ -1,4 +1,5 @@
 import os
+from typing import List
 from .base import LLMProvider
 from huggingface_hub import InferenceClient
 from .factory import LLMFactory
@@ -15,3 +16,6 @@ class QwenAdapter(LLMProvider):
             messages=[{"role": "user", "content": prompt}]
         )
         return completion.choices[0].message.content
+
+    def generate_batch(self, prompts: List[str]) -> List[str]:
+        return super().generate_batch(prompts)
