@@ -6,7 +6,7 @@ NLP
 
 ```bash
 -- nlp
-   |
+   |-- cultural               # Files about cultural part of the project
    |-- POC/                   # Proof of concept code and results
    |-- safety-bench/          # Safety benchmark code and data
    |-- safety-bench/results-analysis/  # Full analysis of safety benchmark results
