@@ -25,9 +25,9 @@ Preprocessed data needed to reproduce the results can be found at [this](https:/
 
 **report_source/**: A directory containing **LaTeX** project source code used to render the report.
 
-**preliminary_report.pdf**: A compiled document representing the Milestone 2 report.
+**final_report.pdf**: A compiled document representing the Milestone 2 report.
 
-**POC_tasks_x_y_z.ipynb**: Jupyter Notebooks containing source code addressing tasks x, y, and z of the assigned project.
+**tasks_x_y_z.ipynb**: Jupyter Notebooks containing source code addressing tasks x, y, and z of the assigned project.
 
 **EDA.ipynb**: Jupyter Notebook containing the source code of conducted exploratory data analysis.
 
