@@ -27,8 +27,10 @@ Preprocessed data needed to reproduce the results can be found at [this](https:/
 
 **final_report.pdf**: A compiled document representing the Milestone 2 report.
 
-**tasks_x_y_z.ipynb**: Jupyter Notebooks containing source code addressing tasks x, y, and z of the assigned project.
+**tasks_x_y_z**: Jupyter Notebooks / directories containing source code addressing tasks x, y, and z of the assigned project.
 
 **EDA.ipynb**: Jupyter Notebook containing the source code of conducted exploratory data analysis.
 
-**outputs/**: Directory containing some cached results from long-running tasks.
+**outputs/**: Directory containing cached results.
+
+**extraction.ipynb**: OCR utility.
