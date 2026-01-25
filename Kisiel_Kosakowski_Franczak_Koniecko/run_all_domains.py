@@ -20,6 +20,7 @@ import argparse
 import subprocess
 import sys
 import os
+import time
 from datetime import datetime
 
 def run_unified_evaluation(model_name, files, output_dir, extra_args):
@@ -54,12 +55,25 @@ def run_unified_evaluation(model_name, files, output_dir, extra_args):
     
     # Add any extra arguments
     cmd.extend(extra_args)
+
+    # Wrap with /usr/bin/time for memory measurement on macOS/Linux
+    if sys.platform == 'darwin':  # macOS
+        cmd = ["/usr/bin/time", "-l"] + cmd
+    elif sys.platform == 'linux':  # Linux
+        cmd = ["/usr/bin/time", "-v"] + cmd
     
     print(f"\nCommand: {' '.join(cmd)}")
     print()
     
+    start_time = time.time()
     # Run the evaluation
     result = subprocess.run(cmd)
+    end_time = time.time()
+
+    duration = end_time - start_time
+    minutes = int(duration // 60)
+    seconds = int(duration % 60)
+    print(f"\n⏱️  Total Wall Clock Time: {minutes}m {seconds}s ({duration:.2f}s)")
     
     if result.returncode != 0:
         print(f"\n❌ Error evaluating {model_name}")

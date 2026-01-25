@@ -168,9 +168,9 @@ This creates a **unified evaluation** across all three domains in a single run, 
 **Multiple Models - Each Evaluated on All Domains:**
 ```bash
 python run_all_domains.py \
-    --models "Qwen/Qwen2.5-0.5B-Instruct" \
-             "Qwen/Qwen2.5-1.5B-Instruct" \
-             "Qwen/Qwen2.5-3B-Instruct"
+    --models "meta-llama/Llama-3.2-1B-Instruct" \
+             "nvidia/OpenMath-Nemotron-1.5B" \
+             "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 ```
 
 **With Custom Options:**
