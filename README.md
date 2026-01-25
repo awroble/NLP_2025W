@@ -1,77 +1,101 @@
-# NLP Safety Benchmark (POC)
+# NLP Safety Benchmark
 
-This repository contains the first proof‑of‑concept (POC) implementation of a modular benchmarking framework for evaluating the safety of large language models (LLMs) under adversarial prompting conditions. The long‑term goal is to develop a comprehensive, multi‑category benchmark with scalable generation, evaluation, and adversarial attack components.
+## Overview
 
-This POC focuses on a single category:
+This project contains our LLM safety benchmark. We prepared a **scalable and reproducible method** for preparing large numbers of prompts for the purpose of testing LLM responses. We provide an evaluation method based on the **LLM-as-a-Judge** approach and user-provided **expected_behaviours** for specific scenarios.
 
-**✓ Social Engineering (Category 1 of 3)**  
+Using a small set of templates that we created (and that users can extend), we can prepare hundreds of prompts for each category.
 
-
-Implemented using template‑based prompt generation, an LLM‑as‑a‑judge evaluation pipeline, and adversarial rephrasing.
+Our prompts also contain metadata, which can be useful for human-based validation.
 
 ---
 
-## Repository Structure
+## Prompt Categories
 
-```
-NLP-safety-benchmark/
-│
-├── src/
-│   ├── generation/
-│   │    ├── output/                        # generated prompts (output of TemplateFiller)
-│   │    ├── templates/                     # templates for generation with variations for placeholders
-│   │    │   
-│   │    └── TemplateFiller.py              # Template-filling generator
-│   │    
-│   └──local_LLM/                           # Stores demo of capabilites of local LLMs
-│       ├── safe_prompt.txt                 # LLM-as-a-judge safe prompt instruction
-|       ├── unsafe_prompt.txt               # LLM-as-a-judge unsafe prompt instruction
-│       ├── model_manager.py                # Functions for managing local LLMs
-│       └── demo.py                         # Short demo same that were performed in POC
-│
-|── token.txt                               # You have to create this file and paste your huggingface login token  
-└── README.md
+We currently work with the following prompt categories:
 
-```
+- `mental-physical-health`
+- `sensitive-data-extraction`
+- `social-engineering`
 
+---
 
-## Prompt Generation (Template‑Filling)
+## Repository Contents
 
-The POC includes a simple template‑filling generator that produces **single‑turn social‑engineering prompts**. Templates define the structure of the attack scenario, and variable slots introduce controlled variation.
+All necessary codes and logic is stored in the `src` folder.
 
+Our prompts, results and data is stored in data folders
+- `data/prompts` contains prompt datasets prepared using our methods  
+- `data/eval` contains results of our own experiments  
+- `data/eval_judge` contatins samples of judge verdicts with human verdicts
+ - `data/judge_analysis` contain tables and plots from experiments
 
-## Evaluation Pipeline (local_LLM)
+---
 
-For purpose of POC we prepared short demo of capabilities of local LLMs. You can use paraphrasing model, choose  easier or harder prompt or just try your own one. IF models are too big you can try smaller ones, but results could be unreasonable.
+## Prompt Types
 
-In the future adversarial prompts modification will be separated from evaluating pipeline.
-## Important 
-You need to login into huggingface with token in order to download model from website. Github doesn't track file with your token, but you need to create it by yourself. You need apply for permition for llama model, but it is matters of maximum hour. 
+We divide prompts into the following types, as each requires different handling and evaluation strategies:
 
-Remember models are heavy and requires noticeable resources. Importantly code supports CUDA library.
+- **Single-turn**
+- **Multi-turn**
+- **Multimodal**
 
+---
 
-### Current Scoring Scale
+## Prompt Generation
 
-Every answer is scored from 1-5. Details are described in safe and unsafe prompts for LLM as a judge.
+We prepared the `prompt_generation.ipynb` notebook, which we used to generate our datasets.
 
-## Usage
+The notebook can be easily modified to:
+- change dataset size
+- change dataset proportions
+- refill templates after modifications
 
-### Generate a Set of Prompts (n=50)
+---
 
-```bash
-python src/generation/TemplateFiller.py
-```
+## Evaluation
 
-### Run demo of local LLM
-```bash
-python src\local_LLM\demo.py
-```
-## Roadmap
+Evaluation is performed in the `prompt_evaluation.ipynb` notebook.
 
-Planned next steps include:
+This notebook presents evaluation pipeline and statistics related to computation time for different models.
 
-- Adding categories **2) sensitive data extraction** and **3) physical and mental health**  
-- Multi‑turn adversarial conversations   
-- Multi-modal prompts
-- Adversial mutations
+Both the prompt generation and evaluation notebooks were created to be easily modified and adjusted for different models.
+
+---
+
+## Model and Configuration
+
+The default model used for rephrasing and judging is:
+
+meta-llama/Llama-3.1-8B-Instruct
+
+This choice reflects the most advanced model we could run on our available hardware.
+
+The model can be changed in:
+- `multimodal_evaluation`
+- `text_evaluation`
+
+---
+
+## Judge Prompt
+
+The prompt used for judging model outputs is defined in the `src/evaluation/judge_prompt.txt` file.
+
+Users can modify this prompt and re-run the evaluation with new instructions.
+
+---
+
+## Judge Evaluation
+Evaluation of the LLM-as-a-judge is performed in the `judge_evaluation.ipynb` notebook.  
+It uses precomputed victim results and creates samples for each prompt type and category.  
+Human-verified samples are already available in the `data/eval_judge` directory.
+
+Users can modify and rerun the experiments; however, new `human_verdict` scores must be provided for any newly generated samples.
+
+## EDA
+
+Extended exploratory data analysis is implemented in `src/eda/eda_extended.py`.  
+It loads all evaluation outputs (text single‑turn, text multi‑turn, multimodal), computes pass rates, extracts linguistic features, compares categories and modalities, and analyzes over‑refusal.
+
+Running the script generates summary statistics and plots in `src/eda/plots/`.  
+Users can rerun the EDA on new evaluation files; plots and metrics will update automatically.

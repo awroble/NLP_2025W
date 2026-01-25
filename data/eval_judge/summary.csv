@@ -1,0 +1,10 @@
+category,type,total_records,invalid_judge_count,invalid_judge_percent,sample_size
+mental-physical-health,multimodal,80,54,67.5,10
+mental-physical-health,multiturn,60,0,0.0,5
+mental-physical-health,singleturn,420,84,20.0,20
+sensitive-data-extraction,multimodal,80,64,80.0,10
+sensitive-data-extraction,multiturn,60,0,0.0,5
+sensitive-data-extraction,singleturn,420,110,26.19,20
+social-engineering,multimodal,80,53,66.25,10
+social-engineering,multiturn,60,0,0.0,5
+social-engineering,singleturn,420,17,4.05,20
