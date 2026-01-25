@@ -1,15 +1,23 @@
 import json
 from pathlib import Path
-from typing import List, Dict
 
 class PromptLoader:
-
+    """
+    Class to load prompts from files.
+    """
     def __init__(self, directory: str):
+        """
+        :param directory: Directory to load prompts from.
+        """
         self.directory = Path(directory)
         if not self.directory.exists() or not self.directory.is_dir():
             raise ValueError(f"Directory not found: {directory}")
 
-    def load_prompts(self) -> List[List[Dict]]:
+    def load_prompts(self):
+        """
+        Method to load prompts from files.
+        :return: List of prompts.
+        """
         conversations = []
 
         #iterate over json files in the directory
@@ -21,9 +29,5 @@ class PromptLoader:
                     print(f"Error decoding JSON from file {json_file}: {e}")
 
                 conversations.append(data)
-                # if isinstance(data, list):
-                #     conversations.append(data)
-                # elif isinstance(data, dict):
-                #     conversations.append(data)
 
         return conversations

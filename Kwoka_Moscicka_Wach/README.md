@@ -10,11 +10,14 @@ Using this dataset, we test LLM responses, identify vulnerabilities, and analyze
 ```
 config/                  # YAML configuration files for models and settings
 data/
-├─ img/                  # Example images for multimodal prompts
-├─ prompts/              # Organized prompts (bias, jailbreak, multiturn)
+├─ img/                  # Images for multimodal prompts
+├─ prompts/              # Organized prompts (bias, jailbreak, multiturn) with detailed description in logic_prompts.txt
 data_generation/         # Scripts and notebooks for generating prompts
+evaluations/             # Files used to process results, scores, time and memory measurements
+judge_prompts/           # Judge prompts generation
 results/                 # Model outputs organized by model
 src/
+├─ judge/                # Judge model class
 ├─ loaders/              # Model and prompt loading utilities
 ├─ runners/              # Execution scripts for running generation
 ├─ utils/                # Utility functions

@@ -1,24 +1,26 @@
+# models used for response generation
 models:
-#  - name: llama3.1-8b-instruct
-#    checkpoint: meta-llama/Meta-Llama-3.1-8B-Instruct
-#    type: text
-#
-#  - name: llama3.2-11b-vision-instruct
-#    checkpoint: meta-llama/Llama-3.2-11B-Vision-Instruct
-#    type: multimodal
-
-  - name: smolvlm
-    checkpoint: HuggingFaceTB/SmolVLM-Instruct
-    type: multimodal
-
-  - name: qwen2-vl-7b-instruct
+  - name: qwen
     checkpoint: Qwen/Qwen2-VL-7B-Instruct
     type: multimodal
+    multimodal:
+      format: messages
+      image_token: null
 
-  - name: llava-v1.5-7b
+  - name: llava
     checkpoint: llava-hf/llava-1.5-7b-hf
     type: multimodal
+    multimodal:
+      format: image_token
+      image_token: "<image>"
 
-#  - name: gpt2
-#    checkpoint: openai-community/gpt2
-#    type: text
+# judge model for classifying the responses
+judge:
+    name: judge
+    checkpoint: mistralai/Mistral-7B-Instruct-v0.1
+    type: text
+
+# how many messages to keep in history (for user and assistant)
+max_history:
+  single_turn: 1 # doesn't keep history for single turn
+  multi_turn: 5
