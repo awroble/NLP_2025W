@@ -679,13 +679,13 @@ agreements. The project focuses on leveraging State-of-the-Art (SOTA) Natural La
 (NLP) techniques to handle deduplication, semantic clustering, and metadata normalization for a
 dataset of approximately 30 legal documents.
 
-\subsubsection{Methodology and SOTA Tasks}
+\subsubsection{Methodology and SOTA Implementation}
 
 Semantic Embeddings To capture the nuances of legal language, we utilized Legal-SBERT (based
 on paraphrase-multilingual-MiniLM-L12-v2 ). This model transforms raw text into high-dimensional
 dense vectors, preserving semantic relationships between documents.
 
-Deduplication (SOTA) We implemented a deduplication pipeline using:
+We implemented a deduplication pipeline using:
 
 \begin{itemize}
 \item \textbf{Cosine Similarity Matrix}: To compute pair-wise similarity between all documents.
@@ -693,7 +693,7 @@ Deduplication (SOTA) We implemented a deduplication pipeline using:
 duplicate documents.
 \end{itemize}
 
-A similarity threshold of 0.85 was applied to identify redundant agreements.
+A similarity threshold of 0.85 was applied to identify redundant agreements (\ref{tab:deduplication}).
 
 Semantic Similarity Clustering For document discovery and categorization, we combined:
 
@@ -838,7 +838,9 @@ Mistral usually extracted 2 parties only (Figure \ref{fig:n_parties}i), which is
 
 \subsubsection{Task 2 time and memory efficiency}
 
-\begin{table}[ht]
+Tables \ref{tab:profile_task2_ner_single} and \ref{tab:profile_task2_parties_mistral} show technical metrics of Task 2 implementation.
+
+\begin{table}[H]
 \centering
 \caption{NER profiling summary}
 \label{tab:profile_task2_ner_single}
@@ -897,6 +899,8 @@ As visible on Figure \ref{fig:type_n} BART spreads predictions across several la
 Confidence from Figure \ref{fig:conf} is moderate overall (many scores ~0.2–0.6), which is expected for zero-shot on OCR text. The higher-confidence predictions tend to be for common classes (MOU/Partnership). Rare classes are less stable.
 
 \subsubsection{Task 3 time and memory efficiency}
+
+Table \ref{tab:profile_task3_type_bart} shows technical metrics for running BART zero-shot model used for solving Task 3.
 
 \begin{table}[ht]
 \centering
@@ -964,10 +968,15 @@ We evaluated the complete dataset of 298 U.S. state-level agreements for Tasks~8
 These results demonstrate that the proposed pipeline scales reliably to several hundred long-form legal agreements and can be executed efficiently in a single-pass setting, making it suitable for large-scale agreement mining without repeated recomputation for performance analysis.
 
 \subsection{Task 6: Term of Validity}
-The following table reports end-to-end runtime and memory consumption for TreeTagger-based HeidelTime validity extraction on the full evaluation corpus.
+The following tables summarize runtime/memory consumption and representative extracted agreement validity periods for TreeTagger-based HeidelTime validity extraction on the full evaluation corpus.
 
-\begin{center}
+% =========================
+% Table 17: Runtime & Memory
+% =========================
+\begin{table}[!ht]
 \small
+\centering
+\setlength{\tabcolsep}{6pt}
 \begin{tabular}{lr}
 \toprule
 \textbf{Metric} & \textbf{Value} \\
@@ -981,14 +990,18 @@ Median time per document (s) & 2.55 \\
 Peak Python memory (MB) & 2.16 \\
 \bottomrule
 \end{tabular}
-\captionof{table}{Runtime and memory profile for TreeTagger-based HeidelTime validity extraction on the full dataset.}
+\caption{Runtime and memory profile for TreeTagger-based HeidelTime validity extraction on the full dataset.}
 \label{tab:full_runtime_memory}
-\end{center}
+\end{table}
 
-Table 12 summarizes the computational cost of running the TreeTagger-based HeidelTime validity extraction pipeline on the full dataset of 298 agreements. All documents are processed regardless of extraction outcome, and runtime and memory usage reflect end-to-end temporal normalization and clause-level analysis.
-
-\begin{center}
+ Table ~\ref{tab:full_runtime_memory} summarizes the computational cost of running the TreeTagger-based HeidelTime validity extraction pipeline on the full dataset of 298 agreements. All documents are processed regardless of extraction outcome, and runtime and memory usage reflect end-to-end temporal normalization and clause-level analysis. 
+% =========================
+% Table 18: End date sources
+% =========================
+\begin{table}[!ht]
 \small
+\centering
+\setlength{\tabcolsep}{6pt}
 \begin{tabular}{lr}
 \toprule
 \textbf{End date source} & \textbf{Agreements} \\
@@ -998,45 +1011,51 @@ Implicit / inferred & 161 \\
 Not available & 109 \\
 \bottomrule
 \end{tabular}
-\captionof{table}{Source of extracted end dates across agreements. Explicit end dates are directly stated in the text, while implicit end dates are inferred from temporal context.}
+\caption{Source of extracted end dates across agreements. Explicit end dates are directly stated in the text, while implicit end dates are inferred from temporal context.}
 \label{tab:end_date_source}
-\end{center}
+\end{table}
 
-Table 13 reports the availability and source of agreement end dates identified by the system. While all agreements are processed, only a subset explicitly states an end date, with additional cases inferred via heuristic fallback rules, and the remainder lacking sufficient temporal information.
 
-\begin{center}
-\small
-\setlength{\tabcolsep}{3pt}
-\captionsetup{type=table}
-\caption{Extracted agreement validity periods with document evidence.}
-\label{tab:task6_top_examples_verified}
+ \\
+ Table \ref{tab:end_date_source} reports the availability and source of agreement end dates identified by the system. While all agreements are processed, only a subset explicitly states an end date, with additional cases inferred via heuristic fallback rules, and the remainder lacking sufficient temporal information.
 
-\begin{tabularx}{\columnwidth}{p{0.25\columnwidth} p{0.14\columnwidth} p{0.14\columnwidth} p{0.14\columnwidth} X}
+% =========================
+% Table 19: Examples with evidence
+% (single-column float to avoid two-column float whitespace)
+% =========================
+\begin{table}[!ht]
+\footnotesize
+\centering
+\setlength{\tabcolsep}{2.5pt}
+\renewcommand{\arraystretch}{0.92}
+\begin{tabularx}{\columnwidth}{p{0.18\columnwidth} p{0.11\columnwidth} p{0.11\columnwidth} p{0.10\columnwidth} X}
 \toprule
-\textbf{Document} & \textbf{Start Date} & \textbf{End Date} & \textbf{Duration} & \textbf{Extracted Evidence} \\
+\textbf{Doc} & \textbf{Start} & \textbf{End} & \textbf{Dur.} & \textbf{Evidence (excerpt)} \\
 \midrule
-
 Texas\_48 & 2019-09-27 & 2021-08-31 & -- &
-``This Statement of Mutual Cooperation is intended to be in place until August 31, 2021.'' \\
-
+``... intended to be in place until August 31, 2021.'' \\
 Texas\_50 & 2023-04-27 & 2025-03-31 & -- &
-``DURATION OF OPERATION ... applied from April 27, 2023, until March 31, 2025 ...'' \\
-
-NewJersey\_9 & 2008-05-07 & 2010-09-30 & -- &
+``... from April 27, 2023, until March 31, 2025 ...'' \\
+NewJer.\_9 & 2008-05-07 & 2010-09-30 & -- &
 ``... will terminate on September 30, 2010 ...'' \\
-
-Alabama\_3 & -- & -- & three years &
-``This Memorandum of Intent shall enter into effect upon signature and shall remain in force for a period of three years.'' \\
-
-
-Arkansas\_6 & 2018-01-01 & -- & five years &
-``This Agreement shall be in full force and effective for a period of 5 years.'' \\
-
+Alabama\_3 & -- & -- & 3 years &
+``... shall remain in force for a period of three years.'' \\
+Arkansas\_6 & 2018-01-01 & -- & 5 years &
+``... in full force and effective for a period of 5 years.'' \\
 \bottomrule
 \end{tabularx}
-\end{center}
+\caption{Representative high-confidence validity periods with short supporting excerpts.}
+\label{tab:task6_top_examples_verified}
+\end{table}
 
-Table 14 presents representative high-confidence agreement validity periods extracted by the system, including start dates, end dates, or explicitly stated durations, along with the supporting textual evidence. These examples illustrate cases where temporal validity is expressed using clear legal force language, such as effective dates, termination clauses, or fixed-term durations.
+
+Table~\ref{tab:task6_top_examples_verified} presents representative high-confidence agreement validity periods extracted by the system, including start dates, end dates, or explicitly stated durations, along with the supporting textual evidence. These examples illustrate cases where temporal validity is expressed using clear legal force language, such as effective dates, termination clauses, or fixed-term durations.
+
+% =========================
+% CRITICAL: stop Task-6 floats from drifting into Task-8
+% Put this IMMEDIATELY before the next subsection.
+% =========================
+\FloatBarrier
 
 
 
@@ -1185,6 +1204,37 @@ Present & 106 & 35.570000 \\
 
 As reported in Table 13, explicit clauses requiring evaluation, monitoring, or review of implementation are present in approximately one third of the agreements. The majority of documents do not include such provisions, suggesting that implementation oversight is not systematically formalized in state-level agreements and is often left implicit or to informal coordination mechanisms.
 
+\begin{center}
+\small
+\setlength{\tabcolsep}{3pt}
+\captionsetup{type=table}
+\caption{Representative examples of clauses indicating evaluation or review of implementation automatically extracted by the system (Task~11).}
+\label{tab:task11_top_examples}
+
+\begin{tabularx}{\columnwidth}{p{0.3\columnwidth} p{0.24\columnwidth} X}
+\toprule
+\textbf{Document} & \textbf{Eval. Status} & \textbf{Extracted Evidence} \\
+\midrule
+
+Alaska\_7 & Present &
+``The Parties shall hold an annual meeting to review the terms of this Agreement and its implementation.'' \\
+
+California\_1July5 & Present &
+``This report will evaluate the implementation of the program and suggest proposals for improvement.'' \\
+
+Alaska\_9 & Present &
+``The parties shall review the status and progress made under this Memorandum of Understanding at the end of the first year.'' \\
+
+Arkansas\_1 & Present &
+``The Parties shall regularly review the execution of the Action Plan developed under this Agreement.'' \\
+
+Utah\_14 & Present &
+``Representatives of the Parties will evaluate the activities and results related to program development and implementation.'' \\
+
+
+\bottomrule
+\end{tabularx}
+\end{center}
 
 % -------------------------------------------------------------------------
 % TASK 4: Sister Cities
@@ -1196,7 +1246,6 @@ The objective of this task was to quantify the percentage of agreements that exp
 \subsubsection{Methodology}
 We applied a baseline exact match searched for the full string ``Sister Cities International''. An optimized SOTA regex solution was then implemented to account for common abbreviations and variations, such as ``SCI'' or ``Sister Cities Int.''.
 
-\subsubsection{Results}
 The analysis indicates that SCI agreements constitute a small minority of the state-level dataset:
 \begin{itemize}
     \item \textbf{Exact Match (Baseline):} Only \textbf{1.01\%} (3 agreements) contained the full unmodified string.
@@ -1209,8 +1258,7 @@ The analysis indicates that SCI agreements constitute a small minority of the st
 % -------------------------------------------------------------------------
 \subsection{Task 10: Analysis of Agreement Depth and Detail}
 
-The purpose of this task was to analyze the depth of the agreements based on word counts to identify which partners provide the most detailed documentation
-Results:
+The purpose of this task was to analyze the depth of agreements by examining word counts, with the aim of identifying which partners provide the most detailed documentation (Figure \ref{fig:txt}). The results are as follows:
 \begin{itemize}
     \item \textbf{High Complexity}: The most detailed "documents" are actually Appendices (e.g., "Appendix I to the MOU"), which often exceed 7,000 words. This suggests that the core technical details are stored in attachments rather than the main agreement text.
     \item \textbf{Institutional Level}: Agreements signed by State Governors or the State of Alaska generally range between 700 and 800 words.
@@ -1220,13 +1268,13 @@ Results:
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{images/Zrzut ekranu 2026-01-25 o 23.57.32.png}
-    {TOP 10 partners by average agreement length}
-    \label{fig:clause_freq}
+    \caption{Top 10 partners by average agreement length}
+    \label{fig:txt}
 \end{figure}
 
-We also categorized agreements into seven semantic clusters (e.g., ``Technology, Science \& Innovation'', ``Economic, Trade \& Investment'') based on our HDBSCAN clustering examination to contextualize the verbosity.
+We also categorized agreements into seven semantic clusters (Table \ref{tab:agreement_categories}) based on our HDBSCAN clustering examination to contextualize the verbosity.
 
-]\begin{table}[H]
+\begin{table}[H]
 \centering
 \small
 \caption{Taxonomy of of Potential Cooperation Areas and Semantic Keywords}
@@ -1261,12 +1309,30 @@ disaster relief, law enforcement, public health, emergency response, security co
 \end{table}
 
 
+
+Here is the breakdown of the visible categories (Figure \ref{fig:tab2}):
+\begin{itemize}
+    \item \textbf{Uncategorized (172)}: The significant majority of agreements did not fall into a clear semantic cluster, it usually means one of: missing text (no content to embed), very generic legal text	(“Agreement between the State of X…”), falls outside your label set	(e.g. environmental, administrative), threshold too high	(conservative assignment)
+    \item \textbf{Sister Cities \& Cultural Exchange (60)}: The most frequent specific category.
+    \item \textbf{Technology, Science \& Innovation (35)}: This cluster includes agreements focused on high-tech sectors, such as biotechnology, startups, digital economy, and general R\&D.
+    \item \textbf{Environmental \& Climate Action (28)}: This group pertains to sustainability efforts, including renewable energy, water management, conservation, and emissions reduction.
+    \item \textbf{Administrative, Legal \& Regulatory (3}): The least frequent visible category, involving formal frameworks, confidentiality, information sharing, and enforcement cooperation.
+    
+\end{itemize}
+
+
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\linewidth]{images/TAB.png}
-    {Final results of document categorization}
-    \label{fig:tab}
+    \includegraphics[width=0.96\linewidth]{images/TAB.png}
+    \caption{Final results of document categorization}
+    \label{fig:tab2}
 \end{figure}
+
+
+
+
+
+
 
 % -------------------------------------------------------------------------
 % TASKS 12 & 13: Coordination & Legal References
@@ -1288,6 +1354,7 @@ The quantitative results, summarized in Table~\ref{tab:operational_flags}, sugge
 \centering
 \caption{Prevalence of Operational and Legal Clauses ($N=298$)}
 \label{tab:operational_flags}
+\resizebox{\columnwidth}{!}{%
 \begin{tabular}{lrr}
 \toprule
 \textbf{Feature Detected} & \textbf{Count} & \textbf{Percentage} \\
@@ -1296,47 +1363,20 @@ Task 12: Coordination with Entities & 27 & 9.1\% \\
 Task 13: Legal References & 133 & 44.6\% \\
 \bottomrule
 \end{tabular}
+}
 \end{table}
+
 
 \paragraph{Interpretation of Task 12 (Coordination):}
 Most agreements returned \texttt{False} (90.9\%). This indicates that the documents are primarily \textbf{bilateral}, focusing on the direct relationship between the two signatories rather than establishing a complex network of coordination with third-party entities or agencies.
-
 \paragraph{Interpretation of Task 13 (Legal References):}
 Conversely, nearly half of the agreements (44.6\%) returned \texttt{True} for legal references. The frequent use of phrases like ``pursuant to'' proves that these are not merely ``handshake deals'' but are formally anchored in existing legal codes or prior legislative documents.
 
 
 
-\begin{center}
-\small
-\setlength{\tabcolsep}{3pt}
-\captionsetup{type=table}
-\caption{Representative examples of clauses indicating evaluation or review of implementation automatically extracted by the system (Task~11).}
-\label{tab:task11_top_examples}
-
-\begin{tabularx}{\columnwidth}{p{0.3\columnwidth} p{0.24\columnwidth} X}
-\toprule
-\textbf{Document} & \textbf{Eval. Status} & \textbf{Extracted Evidence} \\
-\midrule
-
-Alaska\_7 & Present &
-``The Parties shall hold an annual meeting to review the terms of this Agreement and its implementation.'' \\
-
-California\_1July5 & Present &
-``This report will evaluate the implementation of the program and suggest proposals for improvement.'' \\
-
-Alaska\_9 & Present &
-``The parties shall review the status and progress made under this Memorandum of Understanding at the end of the first year.'' \\
-
-Arkansas\_1 & Present &
-``The Parties shall regularly review the execution of the Action Plan developed under this Agreement.'' \\
-
-Utah\_14 & Present &
-``Representatives of the Parties will evaluate the activities and results related to program development and implementation.'' \\
 
 
-\bottomrule
-\end{tabularx}
-\end{center}
+
 
 \section{Work distribution}
 
@@ -1373,6 +1413,44 @@ Combining deliverables & 3 & Mateusz Zagórski \\
 \end{tabular}
 \caption{Project responsibilities divided among all team members}
 \label{tab:tasks}
+\end{table}
+
+\section{Appendix - Shortcuts of States}
+Here, we attach a table with shortcuts of states that are used in some charts.
+
+\begin{table}[H]
+\centering
+\caption{Two-Letter State and Territory Abbreviations}
+\label{tab:state_abbreviations}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}ll ll ll@{}}
+\toprule
+\textbf{State} & \textbf{Abbr.} &
+\textbf{State} & \textbf{Abbr.} &
+\textbf{State} & \textbf{Abbr.} \\
+\midrule
+Alabama & AL & Kentucky & KY & Ohio & OH \\
+Alaska & AK & Louisiana & LA & Oklahoma & OK \\
+Arizona & AZ & Maine & ME & Oregon & OR \\
+Arkansas & AR & Maryland & MD & Pennsylvania & PA \\
+American Samoa & AS & Massachusetts & MA & Puerto Rico & PR \\
+California & CA & Michigan & MI & Rhode Island & RI \\
+Colorado & CO & Minnesota & MN & South Carolina & SC \\
+Connecticut & CT & Mississippi & MS & South Dakota & SD \\
+Delaware & DE & Missouri & MO & Tennessee & TN \\
+District of Columbia & DC & Montana & MT & Texas & TX \\
+Florida & FL & Nebraska & NE & Trust Territories & TT \\
+Georgia & GA & Nevada & NV & Utah & UT \\
+Guam & GU & New Hampshire & NH & Vermont & VT \\
+Hawaii & HI & New Jersey & NJ & Virginia & VA \\
+Idaho & ID & New Mexico & NM & Virgin Islands & VI \\
+Illinois & IL & New York & NY & Washington & WA \\
+Indiana & IN & North Carolina & NC & West Virginia & WV \\
+Iowa & IA & North Dakota & ND & Wisconsin & WI \\
+Kansas & KS & Northern Mariana Is. & MP & Wyoming & WY \\
+\bottomrule
+\end{tabular}%
+}
 \end{table}
 
 \bibliographystyle{acl_natbib}

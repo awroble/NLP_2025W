@@ -25,7 +25,7 @@ Preprocessed data needed to reproduce the results can be found at [this](https:/
 
 **report_source/**: A directory containing **LaTeX** project source code used to render the report.
 
-**final_report.pdf**: A compiled document representing the Milestone 2 report.
+**final_report.pdf**: A compiled document representing the final report.
 
 **tasks_x_y_z**: Jupyter Notebooks / directories containing source code addressing tasks x, y, and z of the assigned project.
 
