@@ -1,0 +1,82 @@
+[
+  {
+    "filename": "Arkansas_1.txt",
+    "extraction": " {\n\"agreement_type\": \"Memorandum of Understanding\",\n\"description\": \"This is a Memorandum of Understanding (MOU) between The State of Arkansas, USA and Dong Nai Province People's Committee, Vietnam, for the period 2015-2020. The MOU aims to promote economic cooperation in various fields including trade, high-tech agriculture, services, healthcare, education, science and technology, industrial production, tourism, culture exchange, and people-to-people relations.\"\n}",
+    "parsed": {
+      "agreement_type": "Memorandum of Understanding",
+      "description": "This is a Memorandum of Understanding (MOU) between The State of Arkansas, USA and Dong Nai Province People's Committee, Vietnam, for the period 2015-2020. The MOU aims to promote economic cooperation in various fields including trade, high-tech agriculture, services, healthcare, education, science and technology, industrial production, tourism, culture exchange, and people-to-people relations."
+    }
+  },
+  {
+    "filename": "Arkansas_10.txt",
+    "extraction": " {\n\"agreement_type\": \"Reciprocal Agreement\",\n\"description\": \"An informal Reciprocal Agreement between the State of Arkansas and French Authorities to facilitate the exchange of drivers licenses for citizens residing in each other's countries, without requiring additional tests or education.\"\n}",
+    "parsed": {
+      "agreement_type": "Reciprocal Agreement",
+      "description": "An informal Reciprocal Agreement between the State of Arkansas and French Authorities to facilitate the exchange of drivers licenses for citizens residing in each other's countries, without requiring additional tests or education."
+    }
+  },
+  {
+    "filename": "Arkansas_2.txt",
+    "extraction": " {\n\"agreement_type\": \"Reciprocal Agreement\",\n\"description\": \"An agreement between the State of Arkansas and the Federal Ministry of Transport of Germany, allowing the recognition and exchange of drivers' licenses between German citizens in Arkansas and US citizens in Germany.\"\n}",
+    "parsed": {
+      "agreement_type": "Reciprocal Agreement",
+      "description": "An agreement between the State of Arkansas and the Federal Ministry of Transport of Germany, allowing the recognition and exchange of drivers' licenses between German citizens in Arkansas and US citizens in Germany."
+    }
+  },
+  {
+    "filename": "Arkansas_3.txt",
+    "extraction": " {\n\"agreement_type\": \"Memorandum of Understanding\",\n\"description\": \"A Memorandum of Understanding (MoU) between Dong Nai Province of Vietnam and the State of Arkansas of the United States, aiming to enhance diplomatic relations, cultural and historic understanding, and promote economic development and international trade in various fields including trade and economic cooperation, agriculture, manufacturing, education, culture, science, health and technology.\"\n}",
+    "parsed": {
+      "agreement_type": "Memorandum of Understanding",
+      "description": "A Memorandum of Understanding (MoU) between Dong Nai Province of Vietnam and the State of Arkansas of the United States, aiming to enhance diplomatic relations, cultural and historic understanding, and promote economic development and international trade in various fields including trade and economic cooperation, agriculture, manufacturing, education, culture, science, health and technology."
+    }
+  },
+  {
+    "filename": "Arkansas_4.txt",
+    "extraction": " {\n\"agreement_type\": \"Memorandum of Understanding\",\n\"description\": \"This Memorandum of Understanding (MOU) is between the Arkansas Department of Finance & Administration and the National Police Agency of the Republic of Korea regarding the mutual recognition of driver's licenses. The MOU sets out the principles and procedures for exchanging valid, unexpired driver's licenses between individuals from Arkansas living in the Republic of Korea and vice versa, without requiring them to undergo driving skills tests or knowledge tests in the new jurisdiction.\"\n}",
+    "parsed": {
+      "agreement_type": "Memorandum of Understanding",
+      "description": "This Memorandum of Understanding (MOU) is between the Arkansas Department of Finance & Administration and the National Police Agency of the Republic of Korea regarding the mutual recognition of driver's licenses. The MOU sets out the principles and procedures for exchanging valid, unexpired driver's licenses between individuals from Arkansas living in the Republic of Korea and vice versa, without requiring them to undergo driving skills tests or knowledge tests in the new jurisdiction."
+    }
+  },
+  {
+    "filename": "Arkansas_5.txt",
+    "extraction": " {\n\"agreement_type\": \"Memorandum of Understanding\",\n\"description\": \"This Memorandum of Understanding (MOU) is between the Arkansas Department of Finance & Administration and the Republic of China (Taiwan) through the Ministry of Transportation and Communications, regarding the mutual recognition of driver's licenses between Taiwan and Arkansas.\"\n}",
+    "parsed": {
+      "agreement_type": "Memorandum of Understanding",
+      "description": "This Memorandum of Understanding (MOU) is between the Arkansas Department of Finance & Administration and the Republic of China (Taiwan) through the Ministry of Transportation and Communications, regarding the mutual recognition of driver's licenses between Taiwan and Arkansas."
+    }
+  },
+  {
+    "filename": "Arkansas_6.txt",
+    "extraction": " {\n\"agreement_type\": \"Memorandum of Understanding\",\n\"description\": \"A Memorandum of Understanding (MOU) between the Arkansas Agriculture Department of the USA and Ghana Ministry of Food and Agriculture of the Republic of Ghana, aiming to promote agricultural development, cooperation, and cultural exchanges between the two sides for a period of 5 years.\"\n}",
+    "parsed": {
+      "agreement_type": "Memorandum of Understanding",
+      "description": "A Memorandum of Understanding (MOU) between the Arkansas Agriculture Department of the USA and Ghana Ministry of Food and Agriculture of the Republic of Ghana, aiming to promote agricultural development, cooperation, and cultural exchanges between the two sides for a period of 5 years."
+    }
+  },
+  {
+    "filename": "Arkansas_7.txt",
+    "extraction": " {\n\"agreement_type\": \"Memorandum of Understanding\",\n\"description\": \"A Memorandum of Understanding (MOU) between the Arkansas Agriculture Department of the USA and Ghana Ministry of Food and Agriculture of the Republic of Ghana, aimed at promoting agricultural development, cooperation, and cultural exchanges between the two parties for a period of 5 years.\"\n}",
+    "parsed": {
+      "agreement_type": "Memorandum of Understanding",
+      "description": "A Memorandum of Understanding (MOU) between the Arkansas Agriculture Department of the USA and Ghana Ministry of Food and Agriculture of the Republic of Ghana, aimed at promoting agricultural development, cooperation, and cultural exchanges between the two parties for a period of 5 years."
+    }
+  },
+  {
+    "filename": "Arkansas_8.txt",
+    "extraction": " {\n\"agreement_type\": \"Memorandum of Understanding\",\n\"description\": \"A Memorandum of Understanding (MOU) between the Arkansas Agriculture Department of the USA and Ghana Ministry of Food and Agriculture of the Republic of Ghana, aimed at promoting agricultural development, cooperation, and cultural exchanges between the two parties for a period of 5 years.\"\n}",
+    "parsed": {
+      "agreement_type": "Memorandum of Understanding",
+      "description": "A Memorandum of Understanding (MOU) between the Arkansas Agriculture Department of the USA and Ghana Ministry of Food and Agriculture of the Republic of Ghana, aimed at promoting agricultural development, cooperation, and cultural exchanges between the two parties for a period of 5 years."
+    }
+  },
+  {
+    "filename": "Arkansas_9.txt",
+    "extraction": " {\n\"agreement_type\": \"Memorandum of Understanding\",\n\"description\": \"A Multilateral Memorandum of Understanding (MMOU) between the Supervisors of the Allied World Group of Companies, primarily the Bermuda Monetary Authority, for effective regulation and supervision of the Group's operations, incorporating confidentiality rules and IAIS principles.\"\n}",
+    "parsed": {
+      "agreement_type": "Memorandum of Understanding",
+      "description": "A Multilateral Memorandum of Understanding (MMOU) between the Supervisors of the Allied World Group of Companies, primarily the Bermuda Monetary Authority, for effective regulation and supervision of the Group's operations, incorporating confidentiality rules and IAIS principles."
+    }
+  }
+]
