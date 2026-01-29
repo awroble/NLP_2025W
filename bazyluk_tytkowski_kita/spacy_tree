@@ -1,0 +1,83 @@
+// Dependency Tree
+digraph {
+	rankdir=TB
+	node [fillcolor=lightgrey fontname=Helvetica fontsize=12 shape=ellipse style=filled]
+	edge [color=black fontname=Helvetica fontsize=10]
+	0 [label="He
+(nsubj)"]
+	1 -> 0
+	1 [label="said
+(ROOT)"]
+	2 [label="in
+(prep)"]
+	1 -> 2
+	3 [label="a
+(det)"]
+	5 -> 3
+	4 [label="video
+(compound)"]
+	5 -> 4
+	5 [label="message
+(pobj)"]
+	2 -> 5
+	6 [label="that
+(mark)"]
+	10 -> 6
+	7 [label="he
+(nsubj)"]
+	10 -> 7
+	8 [label="would
+(aux)"]
+	10 -> 8
+	9 [label="have
+(aux)"]
+	10 -> 9
+	10 [label="preferred
+(ccomp)"]
+	1 -> 10
+	11 [label="to
+(aux)"]
+	12 -> 11
+	12 [label="see
+(xcomp)"]
+	10 -> 12
+	13 [label="the
+(det)"]
+	14 -> 13
+	14 [label="process
+(dobj)"]
+	12 -> 14
+	15 [label="to
+(prep)"]
+	12 -> 15
+	16 [label="the
+(det)"]
+	17 -> 16
+	17 [label="end
+(pobj)"]
+	15 -> 17
+	18 [label=",
+(punct)"]
+	10 -> 18
+	19 [label="but
+(cc)"]
+	10 -> 19
+	20 [label="national
+(amod)"]
+	21 -> 20
+	21 [label="interest
+(nsubj)"]
+	23 -> 21
+	22 [label="\"
+(punct)"]
+	23 -> 22
+	23 [label="demanded
+(conj)"]
+	10 -> 23
+	24 [label="otherwise
+(advmod)"]
+	23 -> 24
+	25 [label="\"
+(punct)"]
+	1 -> 25
+}
