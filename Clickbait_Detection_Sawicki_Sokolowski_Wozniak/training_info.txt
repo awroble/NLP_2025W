@@ -1,0 +1,13 @@
+RF training (5 times): 8m 44s
+DistilBERT training (5 times): 15m 16s
+NN training (5 times): 5m 38s
+
+RF: 147.282 MB
+DistilBERT: 66955010 params, 255.41 MB
+NN: 17954 params, 0.068 MB
+
+full_df size: 3.79 MB
+final_df size (with handcrafted features): 5.38 MB
+data sizes for RF (sparse): 2.66 MB
+data sizes for DistilBERT: 18.70 MB
+data sizes for NN: 9.48 MB

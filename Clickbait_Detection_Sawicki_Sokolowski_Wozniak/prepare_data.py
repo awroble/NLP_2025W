@@ -75,7 +75,7 @@ def load_webis_corpus_2022(base_dir="data"):
     return final_df
 
 
-def prepare_english_data(base_dir="data", test_size=0.2):
+def prepare_english_data(base_dir="data", test_size=0.2, verbose=1):
     cb_2017 = load_webis_corpus_2017(base_dir)
     cb_2022 = load_webis_corpus_2022(base_dir)
 
@@ -91,13 +91,34 @@ def prepare_english_data(base_dir="data", test_size=0.2):
 
     train_df, val_df = train_test_split(clean_df, test_size=test_size, random_state=42, stratify=clean_df['label'])
 
-    print(f"Total Samples: {len(clean_df)}")
-    print(f"Training Set: {len(train_df)}")
-    print(f"Validation Set: {len(val_df)}")
-    print("\nClass Balance (Train):")
-    print(train_df['label'].value_counts())
+    if verbose > 0:
+        print(f"Total Samples: {len(clean_df)}")
+        print(f"Training Set: {len(train_df)}")
+        print(f"Validation Set: {len(val_df)}")
+        print("\nClass Balance (Train):")
+        print(train_df['label'].value_counts())
 
     return train_df, val_df
+
+def undersample_train_df(df, label_col="label", minority_label=1, majority_label=0, random_state=42):
+    # Separating classes
+    df_minority = df[df[label_col] == minority_label]
+    df_majority = df[df[label_col] == majority_label]
+
+    # Undersample majority
+    df_majority_downsampled = df_majority.sample(
+        n=len(df_minority),
+        random_state=random_state
+    )
+
+    # Merging and shuffling
+    df_balanced = (
+        pd.concat([df_minority, df_majority_downsampled])
+        .sample(frac=1, random_state=random_state)
+        .reset_index(drop=True)
+    )
+
+    return df_balanced
 
 
 def perform_feature_engineering_manually(headlines):
