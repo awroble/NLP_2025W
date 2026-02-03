@@ -1,0 +1,290 @@
+[
+  {
+    "filename": "Alaska_1.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Government of the State of Alaska\",\n\"role\": \"Signatory\"\n},\n{\n\"name\": \"Government of the State of Idaho\",\n\"role\": \"Signatory\"\n},\n{\n\"name\": \"Government of the State of Oregon\",\n\"role\": \"Signatory\"\n},\n{\n\"name\": \"Government of the State of Washington\",\n\"role\": \"Signatory\"\n},\n{\n\"name\": \"Province of British Columbia\",\n\"role\": \"Signatory\"\n},\n{\n\"name\": \"Yukon Government\",\n\"role\": \"Signatory\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Government of the State of Alaska",
+          "role": "Signatory"
+        },
+        {
+          "name": "Government of the State of Idaho",
+          "role": "Signatory"
+        },
+        {
+          "name": "Government of the State of Oregon",
+          "role": "Signatory"
+        },
+        {
+          "name": "Government of the State of Washington",
+          "role": "Signatory"
+        },
+        {
+          "name": "Province of British Columbia",
+          "role": "Signatory"
+        },
+        {
+          "name": "Yukon Government",
+          "role": "Signatory"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alaska_10.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Government Of The State of Alaska\",\n\"role\": \"Signatory\"\n},\n{\n\"name\": \"The Government Of The State of Idaho\",\n\"role\": \"Signatory\"\n},\n{\n\"name\": \"The Government Of The State of Oregon\",\n\"role\": \"Signatory\"\n},\n{\n\"name\": \"The Government Of The State of Washington\",\n\"role\": \"Signatory\"\n},\n{\n\"name\": \"The Government Of The Province of British Columbia\",\n\"role\": \"Signatory\"\n},\n{\n\"name\": \"The Government Of The Yukon Territory\",\n\"role\": \"Signatory\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Government Of The State of Alaska",
+          "role": "Signatory"
+        },
+        {
+          "name": "The Government Of The State of Idaho",
+          "role": "Signatory"
+        },
+        {
+          "name": "The Government Of The State of Oregon",
+          "role": "Signatory"
+        },
+        {
+          "name": "The Government Of The State of Washington",
+          "role": "Signatory"
+        },
+        {
+          "name": "The Government Of The Province of British Columbia",
+          "role": "Signatory"
+        },
+        {
+          "name": "The Government Of The Yukon Territory",
+          "role": "Signatory"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alaska_11.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Province of Alberta\",\n\"role\": \"Alberta\"\n},\n{\n\"name\": \"The State of Alaska\",\n\"role\": \"Alaska\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Province of Alberta",
+          "role": "Alberta"
+        },
+        {
+          "name": "The State of Alaska",
+          "role": "Alaska"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alaska_12.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The State of Alaska Departments of Environmental Conservation, Fish and Game and Natural Resources\",\n\"role\": \"Party from the State of Alaska\"\n},\n{\n\"name\": \"The Province of British Columbia Ministries of Environment, and Energy and Mines\",\n\"role\": \"Party from the Province of British Columbia\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The State of Alaska Departments of Environmental Conservation, Fish and Game and Natural Resources",
+          "role": "Party from the State of Alaska"
+        },
+        {
+          "name": "The Province of British Columbia Ministries of Environment, and Energy and Mines",
+          "role": "Party from the Province of British Columbia"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alaska_2.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"JAPAN BANK FOR INTERNATIONAL COOPERATION (JBIC)\",\n\"role\": \"From\"\n},\n{\n\"name\": \"THE DEPARTMENT OF NATURAL RESOURCES OF THE STATE OF ALASKA (Alaska DNR)\",\n\"role\": \"To\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "JAPAN BANK FOR INTERNATIONAL COOPERATION (JBIC)",
+          "role": "From"
+        },
+        {
+          "name": "THE DEPARTMENT OF NATURAL RESOURCES OF THE STATE OF ALASKA (Alaska DNR)",
+          "role": "To"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alaska_3.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Ministry of Economy, Trade and Industry, Japan\",\n\"role\": \"METI, Japan\"\n},\n{\n\"name\": \"The State of Alaska\",\n\"role\": \"Alaska\"\n},\n{\n\"name\": \"Department of Natural Resources, Alaska\",\n\"role\": \"Alaska DNR\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Ministry of Economy, Trade and Industry, Japan",
+          "role": "METI, Japan"
+        },
+        {
+          "name": "The State of Alaska",
+          "role": "Alaska"
+        },
+        {
+          "name": "Department of Natural Resources, Alaska",
+          "role": "Alaska DNR"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alaska_4.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Governor of Alaska\",\n\"role\": \"Representative of the State of Alaska\"\n},\n{\n\"name\": \"The Premier of British Columbia\",\n\"role\": \"Representative of the Province of British Columbia\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Governor of Alaska",
+          "role": "Representative of the State of Alaska"
+        },
+        {
+          "name": "The Premier of British Columbia",
+          "role": "Representative of the Province of British Columbia"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alaska_5.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Department of Natural Resources of the State of Alaska (Alaska DNR)\",\n\"role\": \"The State of Alaska\"\n},\n{\n\"name\": \"Japan Bank for International Cooperation (JBIC)\",\n\"role\": \"Japan Bank for International Cooperation\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Department of Natural Resources of the State of Alaska (Alaska DNR)",
+          "role": "The State of Alaska"
+        },
+        {
+          "name": "Japan Bank for International Cooperation (JBIC)",
+          "role": "Japan Bank for International Cooperation"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alaska_6.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Alaska International Airport System\",\n\"role\": \"Cooperating Party\"\n},\n{\n\"name\": \"Shanghai Airport Authority\",\n\"role\": \"Cooperating Party\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Alaska International Airport System",
+          "role": "Cooperating Party"
+        },
+        {
+          "name": "Shanghai Airport Authority",
+          "role": "Cooperating Party"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alaska_7.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"APOEUITANS\",\n\"role\": \"Text entity, unclear role in the agreement\"\n},\n{\n\"name\": \"GPO\",\n\"role\": \"Government Printing Office, not a party to the agreement\"\n},\n{\n\"name\": \"Congress of the United States of America\",\n\"role\": \"Grantor of consent and approval\"\n},\n{\n\"name\": \"State, Provincial, and Territorial wildland fire protection agencies\",\n\"role\": \"Contracting parties\"\n},\n{\n\"name\": \"State of Oregon\",\n\"role\": \"Contracting party\"\n},\n{\n\"name\": \"State of Washington\",\n\"role\": \"Contracting party\"\n},\n{\n\"name\": \"State of Alaska\",\n\"role\": \"Contracting party\"\n},\n{\n\"name\": \"State of Idaho\",\n\"role\": \"Contracting party\"\n},\n{\n\"name\": \"State of Montana\",\n\"role\": \"Contracting party\"\n},\n{\n\"name\": \"Yukon Territory\",\n\"role\": \"Contracting party\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "APOEUITANS",
+          "role": "Text entity, unclear role in the agreement"
+        },
+        {
+          "name": "GPO",
+          "role": "Government Printing Office, not a party to the agreement"
+        },
+        {
+          "name": "Congress of the United States of America",
+          "role": "Grantor of consent and approval"
+        },
+        {
+          "name": "State, Provincial, and Territorial wildland fire protection agencies",
+          "role": "Contracting parties"
+        },
+        {
+          "name": "State of Oregon",
+          "role": "Contracting party"
+        },
+        {
+          "name": "State of Washington",
+          "role": "Contracting party"
+        },
+        {
+          "name": "State of Alaska",
+          "role": "Contracting party"
+        },
+        {
+          "name": "State of Idaho",
+          "role": "Contracting party"
+        },
+        {
+          "name": "State of Montana",
+          "role": "Contracting party"
+        },
+        {
+          "name": "Yukon Territory",
+          "role": "Contracting party"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alaska_8.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Pacific States of Alaska, California, Hawaii, Oregon, and Washington\",\n\"role\": \"States\"\n},\n{\n\"name\": \"The Province of British Columbia\",\n\"role\": \"Province\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Pacific States of Alaska, California, Hawaii, Oregon, and Washington",
+          "role": "States"
+        },
+        {
+          "name": "The Province of British Columbia",
+          "role": "Province"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alaska_9.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Province of Alberta Ministry of Health and Wellness\",\n\"role\": \"Alberta\"\n},\n{\n\"name\": \"Province of British Columbia Ministry of Health Services\",\n\"role\": \"British Columbia\"\n},\n{\n\"name\": \"Province of Saskatchewan Ministry of Health\",\n\"role\": \"Saskatchewan\"\n},\n{\n\"name\": \"Yukon Department of Health and Social Services\",\n\"role\": \"Yukon\"\n},\n{\n\"name\": \"State of Alaska Department of Health and Social Services\",\n\"role\": \"Alaska\"\n},\n{\n\"name\": \"State of Idaho Department of Health and Welfare\",\n\"role\": \"Idaho\"\n},\n{\n\"name\": \"State of Montana Department of Public Health and Human Services\",\n\"role\": \"Montana\"\n},\n{\n\"name\": \"State of Oregon Department of Human Services\",\n\"role\": \"Oregon\"\n},\n{\n\"name\": \"State of Washington Department of Health\",\n\"role\": \"Washington\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Province of Alberta Ministry of Health and Wellness",
+          "role": "Alberta"
+        },
+        {
+          "name": "Province of British Columbia Ministry of Health Services",
+          "role": "British Columbia"
+        },
+        {
+          "name": "Province of Saskatchewan Ministry of Health",
+          "role": "Saskatchewan"
+        },
+        {
+          "name": "Yukon Department of Health and Social Services",
+          "role": "Yukon"
+        },
+        {
+          "name": "State of Alaska Department of Health and Social Services",
+          "role": "Alaska"
+        },
+        {
+          "name": "State of Idaho Department of Health and Welfare",
+          "role": "Idaho"
+        },
+        {
+          "name": "State of Montana Department of Public Health and Human Services",
+          "role": "Montana"
+        },
+        {
+          "name": "State of Oregon Department of Human Services",
+          "role": "Oregon"
+        },
+        {
+          "name": "State of Washington Department of Health",
+          "role": "Washington"
+        }
+      ]
+    }
+  }
+]

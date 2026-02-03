@@ -1,26 +1,14 @@
-# Core
-python-dotenv>=1.0.0
 
-# Data processing
-pandas>=2.0.0
-numpy>=1.24.0
+# ============================================================================
+# requirements.txt - WUT Administrative Chatbot PoC
+# ============================================================================
 
-# NLP & Embeddings
-sentence-transformers>=2.6.0
-torch>=2.0.0
+pandas==2.1.4
+numpy==1.24.3
+scikit-learn==1.3.2
+matplotlib==3.8.2
+seaborn==0.13.0
+jupyter==1.0.0
+ipython==8.18.1
 
-# Vector search
-faiss-cpu>=1.7.4
 
-# LLM API
-groq>=0.9.0
-
-# Evaluation & utilities
-scikit-learn>=1.3.0
-scipy>=1.11.0
-
-# EDA & visualization (notebooks)
-matplotlib>=3.7.0
-seaborn>=0.12.0
-jupyter>=1.0.0
-notebook>=7.0.0

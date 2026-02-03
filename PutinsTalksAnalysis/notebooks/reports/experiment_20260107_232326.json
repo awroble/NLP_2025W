@@ -1,0 +1,53 @@
+{
+    "timestamp": "2026-01-07T23:23:26.893235",
+    "operations": [
+        {
+            "name": "Sentence_Extraction",
+            "duration_sec": 258.94082474708557,
+            "memory_mb": 527.331287,
+            "metrics": {
+                "count": 361
+            }
+        },
+        {
+            "name": "Sentence_Extraction",
+            "duration_sec": 255.7311713695526,
+            "memory_mb": 525.704113,
+            "metrics": {
+                "count": 3488
+            }
+        },
+        {
+            "name": "Sentence_Extraction",
+            "duration_sec": 255.0165467262268,
+            "memory_mb": 525.837407,
+            "metrics": {
+                "count": 3478
+            }
+        },
+        {
+            "name": "Sentence_Extraction",
+            "duration_sec": 255.62711811065674,
+            "memory_mb": 525.718661,
+            "metrics": {
+                "count": 2721
+            }
+        },
+        {
+            "name": "Sentence_Extraction",
+            "duration_sec": 253.44028496742249,
+            "memory_mb": 536.378135,
+            "metrics": {
+                "count": 2213
+            }
+        },
+        {
+            "name": "Sentence_Extraction",
+            "duration_sec": 254.25164437294006,
+            "memory_mb": 526.757667,
+            "metrics": {
+                "count": 32359
+            }
+        }
+    ]
+}

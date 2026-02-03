@@ -1,0 +1,154 @@
+[
+  {
+    "filename": "Alaska_1.txt",
+    "extraction": " {\n\"international_organizations\": [\n{\n\"name\": \"Pacific Northwest Emergency Management Arrangement (PNEMA)\",\n\"type\": \"international organization\"\n}\n]\n}",
+    "parsed": {
+      "international_organizations": [
+        {
+          "name": "Pacific Northwest Emergency Management Arrangement (PNEMA)",
+          "type": "international organization"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alaska_10.txt",
+    "extraction": " {\n\"international_organizations\": [\n{\n\"name\": \"Consultative Group on Comprehensive Civil Emergency and Management\",\n\"type\": \"international organization\"\n}\n]\n}",
+    "parsed": {
+      "international_organizations": [
+        {
+          "name": "Consultative Group on Comprehensive Civil Emergency and Management",
+          "type": "international organization"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alaska_11.txt",
+    "extraction": " Based on the provided text, there are no international organizations mentioned. The text primarily deals with the cooperation between the Province of Alberta and the State of Alaska.",
+    "parsed": null
+  },
+  {
+    "filename": "Alaska_12.txt",
+    "extraction": " {\n\"international_organizations\": [\n// No international organizations mentioned in the text.\n]\n}",
+    "parsed": null
+  },
+  {
+    "filename": "Alaska_2.txt",
+    "extraction": " {\n\"international_organizations\": [\n{\n\"name\": \"JAPAN BANK FOR INTERNATIONAL COOPERATION (JBIC)\",\n\"type\": \"international organization\"\n}\n]\n}",
+    "parsed": {
+      "international_organizations": [
+        {
+          "name": "JAPAN BANK FOR INTERNATIONAL COOPERATION (JBIC)",
+          "type": "international organization"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alaska_3.txt",
+    "extraction": " {\n\"international_organizations\": [\n{\n\"name\": \"Ministry of Economy, Trade and Industry, Japan (METI)\",\n\"type\": \"international organization\"\n},\n{\n\"name\": \"The State of Alaska (SOA)\",\n\"type\": \"international organization (collectively with METI)\"\n}\n]\n}",
+    "parsed": {
+      "international_organizations": [
+        {
+          "name": "Ministry of Economy, Trade and Industry, Japan (METI)",
+          "type": "international organization"
+        },
+        {
+          "name": "The State of Alaska (SOA)",
+          "type": "international organization (collectively with METI)"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alaska_4.txt",
+    "extraction": " {\n\"international_organizations\": []\n}\n\nNo international organizations mentioned in the text.",
+    "parsed": {
+      "international_organizations": []
+    }
+  },
+  {
+    "filename": "Alaska_5.txt",
+    "extraction": " {\n\"international_organizations\": [\n{\n\"name\": \"United States Geological Survey\",\n\"type\": \"U.S. Federal Agency\"\n},\n{\n\"name\": \"Brookings Institution\",\n\"type\": \"International Policy Think Tank\"\n}\n]\n}\n\nPlease note that while the Brookings Institution is an international policy think tank, it is based in the United States. However, I have included it in the list as it is mentioned in the text and plays an international role.",
+    "parsed": {
+      "international_organizations": [
+        {
+          "name": "United States Geological Survey",
+          "type": "U.S. Federal Agency"
+        },
+        {
+          "name": "Brookings Institution",
+          "type": "International Policy Think Tank"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alaska_6.txt",
+    "extraction": " {\n\"international_organizations\": [\n{\n\"name\": \"Shanghai Airport Authority\",\n\"type\": \"international organization\"\n},\n{\n\"name\": \"Alaska International Airport System\",\n\"type\": \"international organization\"\n}\n]\n}",
+    "parsed": {
+      "international_organizations": [
+        {
+          "name": "Shanghai Airport Authority",
+          "type": "international organization"
+        },
+        {
+          "name": "Alaska International Airport System",
+          "type": "international organization"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alaska_7.txt",
+    "extraction": " {\n\"international_organizations\": [\n{\n\"name\": \"GPO (Government Publishing Office)\",\n\"type\": \"U.S. Federal Agency\"\n},\n{\n\"name\": \"United Nations (through implication, as the agreement involves the United States and Canada)\",\n\"type\": \"International Organization\"\n}\n]\n}\n\nPlease note that the United Nations is mentioned indirectly through the involvement of its member states, the United States and Canada.",
+    "parsed": {
+      "international_organizations": [
+        {
+          "name": "GPO (Government Publishing Office)",
+          "type": "U.S. Federal Agency"
+        },
+        {
+          "name": "United Nations (through implication, as the agreement involves the United States and Canada)",
+          "type": "International Organization"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alaska_8.txt",
+    "extraction": " {\n\"international_organizations\": [\n{\n\"name\": \"International Maritime Organization\",\n\"type\": \"international organization\"\n},\n{\n\"name\": \"International Oil Pollution Compensation Funds\",\n\"type\": \"international organization\"\n},\n{\n\"name\": \"International Association of Fire Fighters\",\n\"type\": \"international organization\"\n},\n{\n\"name\": \"International Association of Ports and Harbors\",\n\"type\": \"international organization\"\n},\n{\n\"name\": \"International Labour Organization\",\n\"type\": \"international organization\"\n}\n]\n}\n\n// Note: The text does not mention any specific UN bodies or other international organizations by name, but it does refer to \"internationally respected model of cooperation\", which could imply the involvement of the United Nations or other international organizations in past efforts. However, without explicit mention in the text, it is impossible to confirm this with certainty.",
+    "parsed": {
+      "international_organizations": [
+        {
+          "name": "International Maritime Organization",
+          "type": "international organization"
+        },
+        {
+          "name": "International Oil Pollution Compensation Funds",
+          "type": "international organization"
+        },
+        {
+          "name": "International Association of Fire Fighters",
+          "type": "international organization"
+        },
+        {
+          "name": "International Association of Ports and Harbors",
+          "type": "international organization"
+        },
+        {
+          "name": "International Labour Organization",
+          "type": "international organization"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alaska_9.txt",
+    "extraction": " {\n\"international_organizations\": []\n}\n\nThis text does not mention any international organizations. It only lists various governmental entities from different provinces and states.",
+    "parsed": {
+      "international_organizations": []
+    }
+  }
+]

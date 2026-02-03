@@ -1,0 +1,181 @@
+{
+    "timestamp": "2026-01-07T23:55:51.002053",
+    "operations": [
+        {
+            "name": "ZeroShot_Base",
+            "duration_sec": 47.39700245857239,
+            "memory_mb": 15.842651,
+            "metrics": {
+                "model": "facebook/bart-large-mnli",
+                "labels": [
+                    "partner",
+                    "enemy",
+                    "neutral"
+                ],
+                "hash": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce"
+            }
+        },
+        {
+            "name": "ZeroShot_Base",
+            "duration_sec": 45.89157176017761,
+            "memory_mb": 0.766799,
+            "metrics": {
+                "model": "facebook/bart-large-mnli",
+                "labels": [
+                    "partner",
+                    "enemy",
+                    "neutral"
+                ],
+                "hash": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce"
+            }
+        },
+        {
+            "name": "ZeroShot_Synonyms",
+            "duration_sec": 45.226667165756226,
+            "memory_mb": 0.35152,
+            "metrics": {
+                "model": "facebook/bart-large-mnli",
+                "labels": [
+                    "ally",
+                    "adversary",
+                    "unbiased"
+                ]
+            }
+        },
+        {
+            "name": "ZeroShot_Base",
+            "duration_sec": 415.3089246749878,
+            "memory_mb": 3.534686,
+            "metrics": {
+                "model": "facebook/bart-large-mnli",
+                "labels": [
+                    "partner",
+                    "enemy",
+                    "neutral"
+                ],
+                "hash": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce"
+            }
+        },
+        {
+            "name": "ZeroShot_Synonyms",
+            "duration_sec": 414.4274733066559,
+            "memory_mb": 3.360753,
+            "metrics": {
+                "model": "facebook/bart-large-mnli",
+                "labels": [
+                    "ally",
+                    "adversary",
+                    "unbiased"
+                ]
+            }
+        },
+        {
+            "name": "ZeroShot_Base",
+            "duration_sec": 412.3323655128479,
+            "memory_mb": 3.485123,
+            "metrics": {
+                "model": "facebook/bart-large-mnli",
+                "labels": [
+                    "partner",
+                    "enemy",
+                    "neutral"
+                ],
+                "hash": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce"
+            }
+        },
+        {
+            "name": "ZeroShot_Synonyms",
+            "duration_sec": 412.1402988433838,
+            "memory_mb": 3.349467,
+            "metrics": {
+                "model": "facebook/bart-large-mnli",
+                "labels": [
+                    "ally",
+                    "adversary",
+                    "unbiased"
+                ]
+            }
+        },
+        {
+            "name": "ZeroShot_Base",
+            "duration_sec": 321.7129805088043,
+            "memory_mb": 2.750038,
+            "metrics": {
+                "model": "facebook/bart-large-mnli",
+                "labels": [
+                    "partner",
+                    "enemy",
+                    "neutral"
+                ],
+                "hash": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce"
+            }
+        },
+        {
+            "name": "ZeroShot_Synonyms",
+            "duration_sec": 321.42358899116516,
+            "memory_mb": 2.622568,
+            "metrics": {
+                "model": "facebook/bart-large-mnli",
+                "labels": [
+                    "ally",
+                    "adversary",
+                    "unbiased"
+                ]
+            }
+        },
+        {
+            "name": "ZeroShot_Base",
+            "duration_sec": 263.4440381526947,
+            "memory_mb": 2.214979,
+            "metrics": {
+                "model": "facebook/bart-large-mnli",
+                "labels": [
+                    "partner",
+                    "enemy",
+                    "neutral"
+                ],
+                "hash": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce"
+            }
+        },
+        {
+            "name": "ZeroShot_Synonyms",
+            "duration_sec": 263.1235511302948,
+            "memory_mb": 2.138647,
+            "metrics": {
+                "model": "facebook/bart-large-mnli",
+                "labels": [
+                    "ally",
+                    "adversary",
+                    "unbiased"
+                ]
+            }
+        },
+        {
+            "name": "ZeroShot_Base",
+            "duration_sec": 3792.1597006320953,
+            "memory_mb": 33.497122,
+            "metrics": {
+                "model": "facebook/bart-large-mnli",
+                "labels": [
+                    "victim",
+                    "leader",
+                    "defender"
+                ],
+                "hash": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce"
+            }
+        },
+        {
+            "name": "ZeroShot_Synonyms",
+            "duration_sec": 3792.426777601242,
+            "memory_mb": 31.093911,
+            "metrics": {
+                "model": "facebook/bart-large-mnli",
+                "labels": [
+                    "casualty",
+                    "commander",
+                    "protector"
+                ]
+            }
+        }
+    ]
+}

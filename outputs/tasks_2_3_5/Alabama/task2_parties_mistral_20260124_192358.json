@@ -1,0 +1,174 @@
+[
+  {
+    "filename": "Alabama_1.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Alabama Development Office (ADO)\",\n\"role\": \"Party 1\"\n},\n{\n\"name\": \"The State of Brandenburg\",\n\"role\": \"Party 2\"\n},\n{\n\"name\": \"Ministry of Economics, Small and Medium Business, and Technology (MWMT)\",\n\"role\": \"Party 2\"\n}\n]\n}\n\nNote: The roles are defined based on the text provided, and it's important to understand that the roles might change depending on the context of the agreement. In this case, both parties seem to have equal roles and responsibilities.",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Alabama Development Office (ADO)",
+          "role": "Party 1"
+        },
+        {
+          "name": "The State of Brandenburg",
+          "role": "Party 2"
+        },
+        {
+          "name": "Ministry of Economics, Small and Medium Business, and Technology (MWMT)",
+          "role": "Party 2"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alabama_10.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Southeastern United States Alliance\",\n\"role\": \"Agreement Creator or Forum\"\n},\n{\n\"name\": \"Canadian Provinces\",\n\"role\": \"Party to the Agreement\"\n},\n{\n\"name\": \"Alabama, Georgia, Mississippi, North Carolina, South Carolina, Tennessee\",\n\"role\": \"States of the Southeastern United States, Parties to the Agreement\"\n},\n{\n\"name\": \"Manitoba, New Brunswick, Newfoundland and Labrador, Nova Scotia, Ontario, Prince Edward Island, Québec\",\n\"role\": \"Canadian Provinces, Parties to the Agreement\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Southeastern United States Alliance",
+          "role": "Agreement Creator or Forum"
+        },
+        {
+          "name": "Canadian Provinces",
+          "role": "Party to the Agreement"
+        },
+        {
+          "name": "Alabama, Georgia, Mississippi, North Carolina, South Carolina, Tennessee",
+          "role": "States of the Southeastern United States, Parties to the Agreement"
+        },
+        {
+          "name": "Manitoba, New Brunswick, Newfoundland and Labrador, Nova Scotia, Ontario, Prince Edward Island, Québec",
+          "role": "Canadian Provinces, Parties to the Agreement"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alabama_2.txt",
+    "parties": " {\n\"parties\": [\n{\"name\": \"Central and Eastern Canadian Provinces\", \"role\": \"Founding Members\"},\n{\"name\": \"Southeastern United States\", \"role\": \"Founding Members\"}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Central and Eastern Canadian Provinces",
+          "role": "Founding Members"
+        },
+        {
+          "name": "Southeastern United States",
+          "role": "Founding Members"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alabama_3.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The State of Alabama\",\n\"role\": \"through the Alabama Development Office\"\n},\n{\n\"name\": \"The State of Israel\",\n\"role\": \"through the Ministry of Industry and Trade\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The State of Alabama",
+          "role": "through the Alabama Development Office"
+        },
+        {
+          "name": "The State of Israel",
+          "role": "through the Ministry of Industry and Trade"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alabama_4.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Alabama Development Office (ADO)\",\n\"role\": \"Party 1\"\n},\n{\n\"name\": \"WirtschaftsfOrderung Brandenburg GmbH (WFB)\",\n\"role\": \"Party 2\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Alabama Development Office (ADO)",
+          "role": "Party 1"
+        },
+        {
+          "name": "WirtschaftsfOrderung Brandenburg GmbH (WFB)",
+          "role": "Party 2"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alabama_5.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Panama Canal Authority\",\n\"role\": \"Autonomous legal entity established by the Constitution of the Republic of Panama\"\n},\n{\n\"name\": \"Tennesse-Tombigbee Waterway Development Authority\",\n\"role\": \"Four-member interstate compact consisting of the States of Alabama, Kentucky, Mississippi, and Tennessee\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Panama Canal Authority",
+          "role": "Autonomous legal entity established by the Constitution of the Republic of Panama"
+        },
+        {
+          "name": "Tennesse-Tombigbee Waterway Development Authority",
+          "role": "Four-member interstate compact consisting of the States of Alabama, Kentucky, Mississippi, and Tennessee"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alabama_6.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Government of the Republic of Peru\",\n\"role\": \"Party\"\n},\n{\n\"name\": \"Government of the State of Alabama\",\n\"role\": \"Party\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Government of the Republic of Peru",
+          "role": "Party"
+        },
+        {
+          "name": "Government of the State of Alabama",
+          "role": "Party"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alabama_7.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The State of Alabama, USA\",\n\"role\": \"Party 1\"\n},\n{\n\"name\": \"The Province of Hubei, P.R.C.\",\n\"role\": \"Party 2\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The State of Alabama, USA",
+          "role": "Party 1"
+        },
+        {
+          "name": "The Province of Hubei, P.R.C.",
+          "role": "Party 2"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alabama_8.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"State of Alabama\",\n\"role\": \"Party\"\n},\n{\n\"name\": \"Jiangsu Province\",\n\"role\": \"Party\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "State of Alabama",
+          "role": "Party"
+        },
+        {
+          "name": "Jiangsu Province",
+          "role": "Party"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "Alabama_9.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The State of Alabama\",\n\"role\": \"Party 1\"\n},\n{\n\"name\": \"Abia State, Nigeria\",\n\"role\": \"Party 2\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The State of Alabama",
+          "role": "Party 1"
+        },
+        {
+          "name": "Abia State, Nigeria",
+          "role": "Party 2"
+        }
+      ]
+    }
+  }
+]

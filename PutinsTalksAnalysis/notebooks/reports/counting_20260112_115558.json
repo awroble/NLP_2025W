@@ -1,0 +1,29 @@
+{
+    "timestamp": "2026-01-12T11:55:58.987842",
+    "operations": [
+        {
+            "name": "LLM NATO Counting",
+            "duration_sec": 72.8656837940216,
+            "memory_mb": 0.406462,
+            "metrics": {
+                "speeches": 50
+            }
+        },
+        {
+            "name": "LLM NATO Counting",
+            "duration_sec": 18.818140745162964,
+            "memory_mb": 0.406353,
+            "metrics": {
+                "speeches": 50
+            }
+        },
+        {
+            "name": "LLM NATO Counting ALL",
+            "duration_sec": 3971.5720839500427,
+            "memory_mb": 2.160587,
+            "metrics": {
+                "speeches": 9335
+            }
+        }
+    ]
+}
