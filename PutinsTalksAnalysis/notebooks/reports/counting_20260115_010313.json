@@ -1,0 +1,21 @@
+{
+    "timestamp": "2026-01-15T01:03:13.279611",
+    "operations": [
+        {
+            "name": "Regex Democracy Counting",
+            "duration_sec": 7.996498107910156,
+            "memory_mb": 1.129407,
+            "metrics": {
+                "speeches": 5079
+            }
+        },
+        {
+            "name": "Regex NATO Counting",
+            "duration_sec": 13.822481393814087,
+            "memory_mb": 0.768193,
+            "metrics": {
+                "speeches": 9335
+            }
+        }
+    ]
+}

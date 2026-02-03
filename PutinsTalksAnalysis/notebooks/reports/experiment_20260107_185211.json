@@ -1,0 +1,17 @@
+{
+    "timestamp": "2026-01-07T18:52:11.130345",
+    "operations": [
+        {
+            "name": "BERT Extraction",
+            "duration_sec": 1346.785053730011,
+            "memory_mb": 15.338522,
+            "metrics": {}
+        },
+        {
+            "name": "BERT Extraction",
+            "duration_sec": 1.8227765560150146,
+            "memory_mb": 0.298068,
+            "metrics": {}
+        }
+    ]
+}
