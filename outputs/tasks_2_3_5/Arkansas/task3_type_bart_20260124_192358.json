@@ -1,0 +1,192 @@
+[
+  {
+    "filename": "Arkansas_1.txt",
+    "predicted_type": "Partnership Agreement",
+    "confidence": 0.42313194274902344,
+    "top_3": [
+      [
+        "Partnership Agreement",
+        0.42313194274902344
+      ],
+      [
+        "Economic Cooperation Agreement",
+        0.20662786066532135
+      ],
+      [
+        "Development Cooperation Agreement",
+        0.11687954515218735
+      ]
+    ]
+  },
+  {
+    "filename": "Arkansas_10.txt",
+    "predicted_type": "Partnership Agreement",
+    "confidence": 0.1998993307352066,
+    "top_3": [
+      [
+        "Partnership Agreement",
+        0.1998993307352066
+      ],
+      [
+        "Cultural Exchange Agreement",
+        0.13497942686080933
+      ],
+      [
+        "Sister State Agreement",
+        0.12025339156389236
+      ]
+    ]
+  },
+  {
+    "filename": "Arkansas_2.txt",
+    "predicted_type": "Sister State Agreement",
+    "confidence": 0.2119782567024231,
+    "top_3": [
+      [
+        "Sister State Agreement",
+        0.2119782567024231
+      ],
+      [
+        "Partnership Agreement",
+        0.18260557949543
+      ],
+      [
+        "Memorandum of Understanding (MOU)",
+        0.08357440680265427
+      ]
+    ]
+  },
+  {
+    "filename": "Arkansas_3.txt",
+    "predicted_type": "Sister State Agreement",
+    "confidence": 0.3435366749763489,
+    "top_3": [
+      [
+        "Sister State Agreement",
+        0.3435366749763489
+      ],
+      [
+        "Memorandum of Understanding (MOU)",
+        0.3232666552066803
+      ],
+      [
+        "Partnership Agreement",
+        0.06431075930595398
+      ]
+    ]
+  },
+  {
+    "filename": "Arkansas_4.txt",
+    "predicted_type": "Memorandum of Understanding (MOU)",
+    "confidence": 0.507326066493988,
+    "top_3": [
+      [
+        "Memorandum of Understanding (MOU)",
+        0.507326066493988
+      ],
+      [
+        "Sister State Agreement",
+        0.11928845942020416
+      ],
+      [
+        "Partnership Agreement",
+        0.06784305721521378
+      ]
+    ]
+  },
+  {
+    "filename": "Arkansas_5.txt",
+    "predicted_type": "Memorandum of Understanding (MOU)",
+    "confidence": 0.6014779210090637,
+    "top_3": [
+      [
+        "Memorandum of Understanding (MOU)",
+        0.6014779210090637
+      ],
+      [
+        "Sister State Agreement",
+        0.07130659371614456
+      ],
+      [
+        "Partnership Agreement",
+        0.06700705736875534
+      ]
+    ]
+  },
+  {
+    "filename": "Arkansas_6.txt",
+    "predicted_type": "Memorandum of Understanding (MOU)",
+    "confidence": 0.437941312789917,
+    "top_3": [
+      [
+        "Memorandum of Understanding (MOU)",
+        0.437941312789917
+      ],
+      [
+        "Partnership Agreement",
+        0.23369814455509186
+      ],
+      [
+        "Sister City Agreement",
+        0.09227699041366577
+      ]
+    ]
+  },
+  {
+    "filename": "Arkansas_7.txt",
+    "predicted_type": "Memorandum of Understanding (MOU)",
+    "confidence": 0.437941312789917,
+    "top_3": [
+      [
+        "Memorandum of Understanding (MOU)",
+        0.437941312789917
+      ],
+      [
+        "Partnership Agreement",
+        0.23369814455509186
+      ],
+      [
+        "Sister City Agreement",
+        0.09227699041366577
+      ]
+    ]
+  },
+  {
+    "filename": "Arkansas_8.txt",
+    "predicted_type": "Memorandum of Understanding (MOU)",
+    "confidence": 0.437941312789917,
+    "top_3": [
+      [
+        "Memorandum of Understanding (MOU)",
+        0.437941312789917
+      ],
+      [
+        "Partnership Agreement",
+        0.23369814455509186
+      ],
+      [
+        "Sister City Agreement",
+        0.09227699041366577
+      ]
+    ]
+  },
+  {
+    "filename": "Arkansas_9.txt",
+    "predicted_type": "Memorandum of Understanding (MOU)",
+    "confidence": 0.3920105993747711,
+    "top_3": [
+      [
+        "Memorandum of Understanding (MOU)",
+        0.3920105993747711
+      ],
+      [
+        "Sister State Agreement",
+        0.08267554640769958
+      ],
+      [
+        "Development Cooperation Agreement",
+        0.06821763515472412
+      ]
+    ]
+  }
+]

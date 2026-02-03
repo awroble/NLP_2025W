@@ -1,0 +1,230 @@
+[
+  {
+    "filename": "Alaska_1.txt",
+    "predicted_type": "Sister State Agreement",
+    "confidence": 0.13429711759090424,
+    "top_3": [
+      [
+        "Sister State Agreement",
+        0.13429711759090424
+      ],
+      [
+        "Memorandum of Understanding (MOU)",
+        0.1318565160036087
+      ],
+      [
+        "Partnership Agreement",
+        0.09636106342077255
+      ]
+    ]
+  },
+  {
+    "filename": "Alaska_10.txt",
+    "predicted_type": "Partnership Agreement",
+    "confidence": 0.25736525654792786,
+    "top_3": [
+      [
+        "Partnership Agreement",
+        0.25736525654792786
+      ],
+      [
+        "Sister State Agreement",
+        0.16060961782932281
+      ],
+      [
+        "Memorandum of Understanding (MOU)",
+        0.09019463509321213
+      ]
+    ]
+  },
+  {
+    "filename": "Alaska_11.txt",
+    "predicted_type": "Partnership Agreement",
+    "confidence": 0.2290051281452179,
+    "top_3": [
+      [
+        "Partnership Agreement",
+        0.2290051281452179
+      ],
+      [
+        "Economic Cooperation Agreement",
+        0.13068529963493347
+      ],
+      [
+        "Sister State Agreement",
+        0.0995841920375824
+      ]
+    ]
+  },
+  {
+    "filename": "Alaska_12.txt",
+    "predicted_type": "Memorandum of Understanding (MOU)",
+    "confidence": 0.49630826711654663,
+    "top_3": [
+      [
+        "Memorandum of Understanding (MOU)",
+        0.49630826711654663
+      ],
+      [
+        "Sister State Agreement",
+        0.14569774270057678
+      ],
+      [
+        "Partnership Agreement",
+        0.11220577359199524
+      ]
+    ]
+  },
+  {
+    "filename": "Alaska_2.txt",
+    "predicted_type": "Memorandum of Understanding (MOU)",
+    "confidence": 0.5144107341766357,
+    "top_3": [
+      [
+        "Memorandum of Understanding (MOU)",
+        0.5144107341766357
+      ],
+      [
+        "Sister State Agreement",
+        0.06920111924409866
+      ],
+      [
+        "Partnership Agreement",
+        0.05644841119647026
+      ]
+    ]
+  },
+  {
+    "filename": "Alaska_3.txt",
+    "predicted_type": "Economic Cooperation Agreement",
+    "confidence": 0.2192375361919403,
+    "top_3": [
+      [
+        "Economic Cooperation Agreement",
+        0.2192375361919403
+      ],
+      [
+        "Sister State Agreement",
+        0.19607263803482056
+      ],
+      [
+        "Memorandum of Understanding (MOU)",
+        0.09147799015045166
+      ]
+    ]
+  },
+  {
+    "filename": "Alaska_4.txt",
+    "predicted_type": "Memorandum of Understanding (MOU)",
+    "confidence": 0.5192609429359436,
+    "top_3": [
+      [
+        "Memorandum of Understanding (MOU)",
+        0.5192609429359436
+      ],
+      [
+        "Partnership Agreement",
+        0.10111800581216812
+      ],
+      [
+        "Sister State Agreement",
+        0.0840006098151207
+      ]
+    ]
+  },
+  {
+    "filename": "Alaska_5.txt",
+    "predicted_type": "Memorandum of Understanding (MOU)",
+    "confidence": 0.26672783493995667,
+    "top_3": [
+      [
+        "Memorandum of Understanding (MOU)",
+        0.26672783493995667
+      ],
+      [
+        "Economic Cooperation Agreement",
+        0.1475539207458496
+      ],
+      [
+        "Sister State Agreement",
+        0.12398885935544968
+      ]
+    ]
+  },
+  {
+    "filename": "Alaska_6.txt",
+    "predicted_type": "Memorandum of Understanding (MOU)",
+    "confidence": 0.5527491569519043,
+    "top_3": [
+      [
+        "Memorandum of Understanding (MOU)",
+        0.5527491569519043
+      ],
+      [
+        "Interstate Compact",
+        0.06740421801805496
+      ],
+      [
+        "Partnership Agreement",
+        0.06434989720582962
+      ]
+    ]
+  },
+  {
+    "filename": "Alaska_7.txt",
+    "predicted_type": "Interstate Compact",
+    "confidence": 0.35873180627822876,
+    "top_3": [
+      [
+        "Interstate Compact",
+        0.35873180627822876
+      ],
+      [
+        "Sister State Agreement",
+        0.11178544163703918
+      ],
+      [
+        "Partnership Agreement",
+        0.08269907534122467
+      ]
+    ]
+  },
+  {
+    "filename": "Alaska_8.txt",
+    "predicted_type": "Memorandum of Understanding (MOU)",
+    "confidence": 0.20009605586528778,
+    "top_3": [
+      [
+        "Memorandum of Understanding (MOU)",
+        0.20009605586528778
+      ],
+      [
+        "Partnership Agreement",
+        0.15262804925441742
+      ],
+      [
+        "Sister State Agreement",
+        0.1290600597858429
+      ]
+    ]
+  },
+  {
+    "filename": "Alaska_9.txt",
+    "predicted_type": "Memorandum of Understanding (MOU)",
+    "confidence": 0.22733141481876373,
+    "top_3": [
+      [
+        "Memorandum of Understanding (MOU)",
+        0.22733141481876373
+      ],
+      [
+        "Sister State Agreement",
+        0.194926917552948
+      ],
+      [
+        "Partnership Agreement",
+        0.14721901714801788
+      ]
+    ]
+  }
+]

@@ -1,0 +1,2002 @@
+[
+  {
+    "filename": "1 (5).txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"contracting States\",\n\"role\": \"Parties to the Agreement\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "contracting States",
+          "role": "Parties to the Agreement"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1 (CA - Chille).txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Republic of Chile\",\n\"role\": \"Country\"\n},\n{\n\"name\": \"Ms. Michelle Bachelet\",\n\"role\": \"President of the Republic of Chile\"\n},\n{\n\"name\": \"State of California\",\n\"role\": \"State\"\n},\n{\n\"name\": \"Mr. Edmund G. Brown Jr.\",\n\"role\": \"Governor of California\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Republic of Chile",
+          "role": "Country"
+        },
+        {
+          "name": "Ms. Michelle Bachelet",
+          "role": "President of the Republic of Chile"
+        },
+        {
+          "name": "State of California",
+          "role": "State"
+        },
+        {
+          "name": "Mr. Edmund G. Brown Jr.",
+          "role": "Governor of California"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "110242023.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Government of Guangdong Province\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"Government of the State of California\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Government of Guangdong Province",
+          "role": "Participant"
+        },
+        {
+          "name": "Government of the State of California",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "110252023.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The National Development and Reform Commission of the People's Republic of China\",\n\"role\": \"NDRC\"\n},\n{\n\"name\": \"The Government of the State of California of the United States of America\",\n\"role\": \"California\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The National Development and Reform Commission of the People's Republic of China",
+          "role": "NDRC"
+        },
+        {
+          "name": "The Government of the State of California of the United States of America",
+          "role": "California"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "110262023.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The California Air Resources Board\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"The Beijing Municipal Ecology and Environment Bureau\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The California Air Resources Board",
+          "role": "Participant"
+        },
+        {
+          "name": "The Beijing Municipal Ecology and Environment Bureau",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "110282023.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Government of the Jiangsu Province\",\n\"role\": \"Party\"\n},\n{\n\"name\": \"Government of the State of California\",\n\"role\": \"Party\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Government of the Jiangsu Province",
+          "role": "Party"
+        },
+        {
+          "name": "Government of the State of California",
+          "role": "Party"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "110292023.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Shanghai Municipal Bureau of Ecology and Environment\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"California Air Resources Board\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Shanghai Municipal Bureau of Ecology and Environment",
+          "role": "Participant"
+        },
+        {
+          "name": "California Air Resources Board",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "111102021.txt",
+    "parties": " {\n\"parties\": [\n{\"name\": \"International ZEV Alliance\", \"role\": \"Alliance\"},\n{\"name\": \"Baden-Wirttemberg\", \"role\": \"Participant\"},\n{\"name\": \"British Columbia\", \"role\": \"Participant\"},\n{\"name\": \"California\", \"role\": \"Participant\"},\n{\"name\": \"Canada\", \"role\": \"Host\"},\n{\"name\": \"Chile\", \"role\": \"International Goal Setter\"},\n{\"name\": \"Costa Rica\", \"role\": \"Participant\"},\n{\"name\": \"Germany\", \"role\": \"Participant\"},\n{\"name\": \"Maryland\", \"role\": \"Participant\"},\n{\"name\": \"Massachusetts\", \"role\": \"Participant\"},\n{\"name\": \"Netherlands\", \"role\": \"Participant\"},\n{\"name\": \"New Jersey\", \"role\": \"Participant\"},\n{\"name\": \"New York\", \"role\": \"Participant\"},\n{\"name\": \"Norway\", \"role\": \"Participant\"},\n{\"name\": \"Oregon\", \"role\": \"Participant\"},\n{\"name\": \"Québec\", \"role\": \"Participant\"},\n{\"name\": \"Rhode Island\", \"role\": \"Participant\"}\n",
+    "parsed": null
+  },
+  {
+    "filename": "11182021.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"THE EUROPEAN INSTITUTE OF INNOVATION. & TECHNOLOGY CLIMATE KNOWLEDGE AND INNOVATION COMMUNITY (EIT CLIMATE-KIC)\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"THE GOVERNOR'S OFFICE PLANNING AND RESEARCH (OPR) OF THE STATE OF CALIFORNIA\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "THE EUROPEAN INSTITUTE OF INNOVATION. & TECHNOLOGY CLIMATE KNOWLEDGE AND INNOVATION COMMUNITY (EIT CLIMATE-KIC)",
+          "role": "Participant"
+        },
+        {
+          "name": "THE GOVERNOR'S OFFICE PLANNING AND RESEARCH (OPR) OF THE STATE OF CALIFORNIA",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "11212021.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"MINISTRY OF FOOD, AGRICULTURE AND FISHERIES OF DENMARK\",\n\"role\": \"Ministry of Food, Agriculture and Fisheries of Denmark\"\n},\n{\n\"name\": \"THE CALIFORNIA DEPARTMENT OF FOOD AND AGRICULTURE\",\n\"role\": \"California Department of Food and Agriculture\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "MINISTRY OF FOOD, AGRICULTURE AND FISHERIES OF DENMARK",
+          "role": "Ministry of Food, Agriculture and Fisheries of Denmark"
+        },
+        {
+          "name": "THE CALIFORNIA DEPARTMENT OF FOOD AND AGRICULTURE",
+          "role": "California Department of Food and Agriculture"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "112122022.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The California Energy Commission\",\n\"role\": \"Party or Parties\"\n},\n{\n\"name\": \"The New Energy and Industrial Technology Development Organization\",\n\"role\": \"Party or Parties\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The California Energy Commission",
+          "role": "Party or Parties"
+        },
+        {
+          "name": "The New Energy and Industrial Technology Development Organization",
+          "role": "Party or Parties"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1282023 (1).txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Danish Energy Agency of the Kingdom of Denmark\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"The California Energy Commission of the State of California of the United States of America\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Danish Energy Agency of the Kingdom of Denmark",
+          "role": "Participant"
+        },
+        {
+          "name": "The California Energy Commission of the State of California of the United States of America",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1282023.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Danish Energy Agency of the Kingdom of Denmark\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"The California Energy Commission of the State of California of the United States of America\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Danish Energy Agency of the Kingdom of Denmark",
+          "role": "Participant"
+        },
+        {
+          "name": "The California Energy Commission of the State of California of the United States of America",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "13112022.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Department of Agriculture of the Province of the Western Cape of South Africa\",\n\"role\": \"Western Cape Department of Agriculture\"\n},\n{\n\"name\": \"The Department of Food and Agriculture of the State of California of the United States of America\",\n\"role\": \"California Department of Food and Agriculture\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Department of Agriculture of the Province of the Western Cape of South Africa",
+          "role": "Western Cape Department of Agriculture"
+        },
+        {
+          "name": "The Department of Food and Agriculture of the State of California of the United States of America",
+          "role": "California Department of Food and Agriculture"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "13142023.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Ministry of Land, Infrastructure, Transport and Tourism of Japan\",\n\"role\": \"The Ministry\"\n},\n{\n\"name\": \"The State of California\",\n\"role\": \"California\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Ministry of Land, Infrastructure, Transport and Tourism of Japan",
+          "role": "The Ministry"
+        },
+        {
+          "name": "The State of California",
+          "role": "California"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "13212022.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Government of Japan\",\n\"role\": \"Japanese side\"\n},\n{\n\"name\": \"The State of California, The United States of America\",\n\"role\": \"Californian side\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Government of Japan",
+          "role": "Japanese side"
+        },
+        {
+          "name": "The State of California, The United States of America",
+          "role": "Californian side"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1352021.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"California Governor's Office of Business and Economic Development (GO-Biz)\",\n\"role\": \"Representing the State of California\"\n},\n{\n\"name\": \"Japan Bank for International Cooperation (JBIC)\",\n\"role\": \"Representing Japan\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "California Governor's Office of Business and Economic Development (GO-Biz)",
+          "role": "Representing the State of California"
+        },
+        {
+          "name": "Japan Bank for International Cooperation (JBIC)",
+          "role": "Representing Japan"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1392021.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Danish Ministry of Environment\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"The California Environmental Agency\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"The California Natural Resources Agency of the State of California of the United States of America\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Danish Ministry of Environment",
+          "role": "Participant"
+        },
+        {
+          "name": "The California Environmental Agency",
+          "role": "Participant"
+        },
+        {
+          "name": "The California Natural Resources Agency of the State of California of the United States of America",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1392022.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Government of the State of Jalisco of the United Mexican States\",\n\"role\": \"Jalisco\"\n},\n{\n\"name\": \"Energy Resources Conservation and Development Commission of the State of California of the United States of America\",\n\"role\": \"California Energy Commission\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Government of the State of Jalisco of the United Mexican States",
+          "role": "Jalisco"
+        },
+        {
+          "name": "Energy Resources Conservation and Development Commission of the State of California of the United States of America",
+          "role": "California Energy Commission"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "14182022.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Ministry of Ecology and Environment of the People's Republic of China\",\n\"role\": \"MEE\"\n},\n{\n\"name\": \"The State of California of the United States of America\",\n\"role\": \"California\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Ministry of Ecology and Environment of the People's Republic of China",
+          "role": "MEE"
+        },
+        {
+          "name": "The State of California of the United States of America",
+          "role": "California"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "14212023.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Secretariat of the Environment of the Government of Mexico City of the United Mexican States (SEDEMA)\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"The Government of the State of California of the United States of America\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Secretariat of the Environment of the Government of Mexico City of the United Mexican States (SEDEMA)",
+          "role": "Participant"
+        },
+        {
+          "name": "The Government of the State of California of the United States of America",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "14282021.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Innovation Norway\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"The Governor's Office of Business and Economic Development of The State of California\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Innovation Norway",
+          "role": "Participant"
+        },
+        {
+          "name": "The Governor's Office of Business and Economic Development of The State of California",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "15272022.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"New Zealand Government\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"The Environmental Protection Agency of the State of California\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "New Zealand Government",
+          "role": "Participant"
+        },
+        {
+          "name": "The Environmental Protection Agency of the State of California",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1692022.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Government of the State of California\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"The Government of Canada\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Government of the State of California",
+          "role": "Participant"
+        },
+        {
+          "name": "The Government of Canada",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "18122021.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"LHANGJIAKOU CITY ENERGY BUREAU OF LHANGJIAKOU MUNICIPAL PEOPLE'S GOVERNMENT\",\n\"role\": \"LHANGJIAKOU City Energy Bureau\"\n},\n{\n\"name\": \"CALIFORNIA ENERGY COMMISSION OF THE STATE OF CALIFORNIA OF THE UNITED STATES OF AMERICA\",\n\"role\": \"California Energy Commission\"\n}\n],\n{\n\"name\": \"ZHANGJIAKOU CITY ENERGY BUREAU OF ZHANGJIAKOU MUNICIPAL PEOPLE'S GOVERNMENT\",\n\"role\": \"Zhangjiakou City Energy Bureau\"\n},\n{\n\"name\": \"CALIFORNIA ENERGY COMMISSION OF THE STATE OF CALIFORNIA OF THE UNITED STATES OF AMERICA\",\n\"role\": \"California Energy Commission\"\n}\n]\n}\n\nBoth memorandums of understanding involve the same two parties: LHANGJIAKOU City Energy Bureau and the California Energy Commission.",
+    "parsed": null
+  },
+  {
+    "filename": "1962022.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Ministry of Infrastructure and Water Management of the Netherlands\",\n\"role\": \"Netherlands\"\n},\n{\n\"name\": \"The Environmental Protection Agency of the State of California\",\n\"role\": \"California\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Ministry of Infrastructure and Water Management of the Netherlands",
+          "role": "Netherlands"
+        },
+        {
+          "name": "The Environmental Protection Agency of the State of California",
+          "role": "California"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1April10 ( CA - China Provinces).txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The State of California of the United States\",\n\"role\": \"California\"\n},\n{\n\"name\": \"The Ministry of Commerce and relevant provinces of the People's Republic of China\",\n\"role\": \"China\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The State of California of the United States",
+          "role": "California"
+        },
+        {
+          "name": "The Ministry of Commerce and relevant provinces of the People's Republic of China",
+          "role": "China"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1April14.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The State of California, United States of America\",\n\"role\": \"Party 1\"\n},\n{\n\"name\": \"Jiangsu Province, People's Republic of China\",\n\"role\": \"Party 2\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The State of California, United States of America",
+          "role": "Party 1"
+        },
+        {
+          "name": "Jiangsu Province, People's Republic of China",
+          "role": "Party 2"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1April15.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The State of California of the United States of America\",\n\"role\": \"Party\"\n},\n{\n\"name\": \"Guangdong Province of the People's Republic of China\",\n\"role\": \"Party\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The State of California of the United States of America",
+          "role": "Party"
+        },
+        {
+          "name": "Guangdong Province of the People's Republic of China",
+          "role": "Party"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1April17.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"THE GOVERNMENT OF CALIFORNIA\",\n\"role\": \"Founder of the Under2 MOU\"\n},\n{\n\"name\": \"THE GOVERNMENT OF SCOTLAND\",\n\"role\": \"\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "THE GOVERNMENT OF CALIFORNIA",
+          "role": "Founder of the Under2 MOU"
+        },
+        {
+          "name": "THE GOVERNMENT OF SCOTLAND",
+          "role": ""
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1April19.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"THE MINISTRY OF THE ENVIRONMENT AND ENERGY OF THE KINGDOM OF SWEDEN\",\n\"role\": \"Sweden\"\n},\n{\n\"name\": \"THE STATE OF CALIFORNIA\",\n\"role\": \"California\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "THE MINISTRY OF THE ENVIRONMENT AND ENERGY OF THE KINGDOM OF SWEDEN",
+          "role": "Sweden"
+        },
+        {
+          "name": "THE STATE OF CALIFORNIA",
+          "role": "California"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1April30.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"THE GOVERNMENT OF DENMARK\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"THE CALIFORNIA ENERGY COMMISSION\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "THE GOVERNMENT OF DENMARK",
+          "role": "Participant"
+        },
+        {
+          "name": "THE CALIFORNIA ENERGY COMMISSION",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1April6 (CA - Catalonia).txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Government of Catalonia (Catalunya)\",\n\"role\": \"represented by the President of Generalitat de Catalunya\"\n},\n{\n\"name\": \"The Government of the State of California (California)\",\n\"role\": \"represented by the Governor\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Government of Catalonia (Catalunya)",
+          "role": "represented by the President of Generalitat de Catalunya"
+        },
+        {
+          "name": "The Government of the State of California (California)",
+          "role": "represented by the Governor"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1August11.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Governors' Climate & Forests Task Force (GCF)\",\n\"role\": \"Collaboration of subnational governments\"\n}\n]\n}\n\nThe text does not explicitly mention any direct contracting parties, only the members of the Governors' Climate & Forests Task Force.",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Governors' Climate & Forests Task Force (GCF)",
+          "role": "Collaboration of subnational governments"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1August23.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Secretariat of Agriculture Development of the State of Baja California in the United Mexican States\",\n\"role\": \"Party 1\"\n},\n{\n\"name\": \"The California Department of Food and Agriculture of the United States of America\",\n\"role\": \"Party 2\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Secretariat of Agriculture Development of the State of Baja California in the United Mexican States",
+          "role": "Party 1"
+        },
+        {
+          "name": "The California Department of Food and Agriculture of the United States of America",
+          "role": "Party 2"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1August26.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Secretariat of Tourism of the United Mexican States (SECTUR)\",\n\"role\": \"The Secretariat of Tourism of the United Mexican States\"\n},\n{\n\"name\": \"The Government of California of the United States of America\",\n\"role\": \"The Government of California\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Secretariat of Tourism of the United Mexican States (SECTUR)",
+          "role": "The Secretariat of Tourism of the United Mexican States"
+        },
+        {
+          "name": "The Government of California of the United States of America",
+          "role": "The Government of California"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1December10.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Department of Food and Agriculture of the State of California of the United States\",\n\"role\": \"California Department\"\n},\n{\n\"name\": \"The Ministry of Economic Affairs of the Netherlands\",\n\"role\": \"Netherlands Ministry\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Department of Food and Agriculture of the State of California of the United States",
+          "role": "California Department"
+        },
+        {
+          "name": "The Ministry of Economic Affairs of the Netherlands",
+          "role": "Netherlands Ministry"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1December18.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"CALIFORNIA\",\n\"role\": \"Signatory\"\n},\n{\n\"name\": \"WASHINGTON STATE DEPT OF\",\n\"role\": \"Signatory\"\n},\n{\n\"name\": \"ORGANIZATION OF THE JORDAN VALLEY AUTHORITY\",\n\"role\": \"Signatory\"\n},\n{\n\"name\": \"MINISTRY OF\",\n\"role\": \"Signatory\"\n},\n{\n\"name\": \"OREGON\",\n\"role\": \"Signatory\"\n},\n{\n\"name\": \"NATURAL RESOURCES\",\n\"role\": \"Signatory\"\n},\n{\n\"name\": \"DEPARTMENT OF RESOURCES\",\n\"role\": \"Signatory\"\n},\n{\n\"name\": \"RESOURCES\",\n\"role\": \"Signatory\"\n},\n{\n\"name\": \"BRITISH Resource Operations FORESTRY AGENCY\",\n\"role\": \"Signatory\"\n},\n{\n\"name\": \"COLUMBIA and Rural Development\",\n\"role\": \"Signatory\"\n}\n]\n}\n\nPlease note that the text contained some inconsistencies and missing words, so I assumed the names mentioned in the text are the contract",
+    "parsed": {
+      "parties": [
+        {
+          "name": "CALIFORNIA",
+          "role": "Signatory"
+        },
+        {
+          "name": "WASHINGTON STATE DEPT OF",
+          "role": "Signatory"
+        },
+        {
+          "name": "ORGANIZATION OF THE JORDAN VALLEY AUTHORITY",
+          "role": "Signatory"
+        },
+        {
+          "name": "MINISTRY OF",
+          "role": "Signatory"
+        },
+        {
+          "name": "OREGON",
+          "role": "Signatory"
+        },
+        {
+          "name": "NATURAL RESOURCES",
+          "role": "Signatory"
+        },
+        {
+          "name": "DEPARTMENT OF RESOURCES",
+          "role": "Signatory"
+        },
+        {
+          "name": "RESOURCES",
+          "role": "Signatory"
+        },
+        {
+          "name": "BRITISH Resource Operations FORESTRY AGENCY",
+          "role": "Signatory"
+        },
+        {
+          "name": "COLUMBIA and Rural Development",
+          "role": "Signatory"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1December21.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Government of Scotland\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"The California Energy Commission\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Government of Scotland",
+          "role": "Participant"
+        },
+        {
+          "name": "The California Energy Commission",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1December4.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Government of the State of California of the United States of America\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"Government of the States of Baja California\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"Government of the Baja California Sur of the United Mexican States\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Government of the State of California of the United States of America",
+          "role": "Participant"
+        },
+        {
+          "name": "Government of the States of Baja California",
+          "role": "Participant"
+        },
+        {
+          "name": "Government of the Baja California Sur of the United Mexican States",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1December7 (1).txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"California Air Resources Board\",\n\"role\": \"State of California\"\n},\n{\n\"name\": \"Municipality of Mexicali\",\n\"role\": \"Local Government\"\n},\n{\n\"name\": \"Senior Officer of the 22nd City Council of Mexicali\",\n\"role\": \"Representative of the Municipality\"\n},\n{\n\"name\": \"Director of the Environmental Protection Department for the Municipality of Mexicali\",\n\"role\": \"Representative of the Municipality\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "California Air Resources Board",
+          "role": "State of California"
+        },
+        {
+          "name": "Municipality of Mexicali",
+          "role": "Local Government"
+        },
+        {
+          "name": "Senior Officer of the 22nd City Council of Mexicali",
+          "role": "Representative of the Municipality"
+        },
+        {
+          "name": "Director of the Environmental Protection Department for the Municipality of Mexicali",
+          "role": "Representative of the Municipality"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1December7 (2).txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Zhenjiang Municipal People's Government, China\",\n\"role\": \"Party 1\"\n},\n{\n\"name\": \"State Government of California, United States of America\",\n\"role\": \"Party 2\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Zhenjiang Municipal People's Government, China",
+          "role": "Party 1"
+        },
+        {
+          "name": "State Government of California, United States of America",
+          "role": "Party 2"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1December7.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Government of the French Republic\",\n\"role\": \"France\"\n},\n{\n\"name\": \"The State of California of the United States of America\",\n\"role\": \"California\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Government of the French Republic",
+          "role": "France"
+        },
+        {
+          "name": "The State of California of the United States of America",
+          "role": "California"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1February14.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Department of Food and Agriculture of the State of California of the United States\",\n\"role\": \"California Department\"\n},\n{\n\"name\": \"The Ministry of Economic Affairs of the Netherlands\",\n\"role\": \"Netherlands Ministry\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Department of Food and Agriculture of the State of California of the United States",
+          "role": "California Department"
+        },
+        {
+          "name": "The Ministry of Economic Affairs of the Netherlands",
+          "role": "Netherlands Ministry"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1February26.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Government of the Republic of Peru\",\n\"role\": \"Party\"\n},\n{\n\"name\": \"State of California\",\n\"role\": \"Party\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Government of the Republic of Peru",
+          "role": "Party"
+        },
+        {
+          "name": "State of California",
+          "role": "Party"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1January30.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The State of Aguascalientes\",\n\"role\": \"of the United Mexican States\"\n},\n{\n\"name\": \"California Energy Resources Conservation and Development Commission\",\n\"role\": \"the Energy Commission\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The State of Aguascalientes",
+          "role": "of the United Mexican States"
+        },
+        {
+          "name": "California Energy Resources Conservation and Development Commission",
+          "role": "the Energy Commission"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1January9.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The State of California\",\n\"role\": \"represented by the Director of the Governor's Office of Business and Economic Development, Panorea Avdis\"\n},\n{\n\"name\": \"The Government of the Kingdom of the Netherlands\",\n\"role\": \"represented by Minister of Economic Affairs Henk Kamp\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The State of California",
+          "role": "represented by the Director of the Governor's Office of Business and Economic Development, Panorea Avdis"
+        },
+        {
+          "name": "The Government of the Kingdom of the Netherlands",
+          "role": "represented by Minister of Economic Affairs Henk Kamp"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1July12.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Government of the State of California, United States of America\",\n\"role\": \"Signatory and Supporter\"\n},\n{\n\"name\": \"The Government of the State of Mexico, United States of Mexico\",\n\"role\": \"Signatory and Committer\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Government of the State of California, United States of America",
+          "role": "Signatory and Supporter"
+        },
+        {
+          "name": "The Government of the State of Mexico, United States of Mexico",
+          "role": "Signatory and Committer"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1July29.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Ministry of Energy of the United Mexican States\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"The Government of the State of California of the United States of America\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Ministry of Energy of the United Mexican States",
+          "role": "Participant"
+        },
+        {
+          "name": "The Government of the State of California of the United States of America",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1July30 (1).txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Ministry of Economy of the United Mexican States\",\n\"role\": \"Ministry of Economy of Mexico\"\n},\n{\n\"name\": \"The Government of the State of California of the United States of America\",\n\"role\": \"Government of California\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Ministry of Economy of the United Mexican States",
+          "role": "Ministry of Economy of Mexico"
+        },
+        {
+          "name": "The Government of the State of California of the United States of America",
+          "role": "Government of California"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1July30.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Government of the State of California\",\n\"role\": \"Cooperating Party\"\n},\n{\n\"name\": \"The Mexican Ministry of Labor and Social Welfare\",\n\"role\": \"Cooperating Party\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Government of the State of California",
+          "role": "Cooperating Party"
+        },
+        {
+          "name": "The Mexican Ministry of Labor and Social Welfare",
+          "role": "Cooperating Party"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1July5.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"California Department of Education\",\n\"role\": \"Party 1\"\n},\n{\n\"name\": \"Ministry of Education, Culture and Sport of Spain\",\n\"role\": \"Party 2\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "California Department of Education",
+          "role": "Party 1"
+        },
+        {
+          "name": "Ministry of Education, Culture and Sport of Spain",
+          "role": "Party 2"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1June1 (1).txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Pacific North America\",\n\"role\": \"Region\"\n},\n{\n\"name\": \"Collaborative-British Columbia\",\n\"role\": \"Jurisdiction\"\n},\n{\n\"name\": \"California\",\n\"role\": \"Jurisdiction\"\n},\n{\n\"name\": \"Oregon\",\n\"role\": \"Jurisdiction\"\n},\n{\n\"name\": \"Washington\",\n\"role\": \"Jurisdiction\"\n},\n{\n\"name\": \"City of Oakland\",\n\"role\": \"City\"\n},\n{\n\"name\": \"City of Los Angeles\",\n\"role\": \"City\"\n},\n{\n\"name\": \"City of San Francisco\",\n\"role\": \"City\"\n},\n{\n\"name\": \"City of Seattle\",\n\"role\": \"City\"\n},\n{\n\"name\": \"City of Vancouver\",\n\"role\": \"City\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Pacific North America",
+          "role": "Region"
+        },
+        {
+          "name": "Collaborative-British Columbia",
+          "role": "Jurisdiction"
+        },
+        {
+          "name": "California",
+          "role": "Jurisdiction"
+        },
+        {
+          "name": "Oregon",
+          "role": "Jurisdiction"
+        },
+        {
+          "name": "Washington",
+          "role": "Jurisdiction"
+        },
+        {
+          "name": "City of Oakland",
+          "role": "City"
+        },
+        {
+          "name": "City of Los Angeles",
+          "role": "City"
+        },
+        {
+          "name": "City of San Francisco",
+          "role": "City"
+        },
+        {
+          "name": "City of Seattle",
+          "role": "City"
+        },
+        {
+          "name": "City of Vancouver",
+          "role": "City"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1June1.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"British Columbia\",\n\"role\": \"Signatory\"\n},\n{\n\"name\": \"California\",\n\"role\": \"Signatory\"\n},\n{\n\"name\": \"Oregon\",\n\"role\": \"Signatory\"\n},\n{\n\"name\": \"Washington\",\n\"role\": \"Signatory\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "British Columbia",
+          "role": "Signatory"
+        },
+        {
+          "name": "California",
+          "role": "Signatory"
+        },
+        {
+          "name": "Oregon",
+          "role": "Signatory"
+        },
+        {
+          "name": "Washington",
+          "role": "Signatory"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1June14.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Governors and High Representatives of the State of California\",\n\"role\": \"Representing California\"\n},\n{\n\"name\": \"Emilia-Romagna Region\",\n\"role\": \"Representing Emilia-Romagna Region\"\n},\n{\n\"name\": \"Province of Gauteng\",\n\"role\": \"Representing Gauteng Province\"\n},\n{\n\"name\": \"Province of Guangdong\",\n\"role\": \"Representing Guangdong Province\"\n},\n{\n\"name\": \"Land Hessen\",\n\"role\": \"Representing Hessen\"\n},\n{\n\"name\": \"Nouvelle-Aquitaine Region\",\n\"role\": \"Representing Nouvelle-Aquitaine Region\"\n},\n{\n\"name\": \"Commonwealth of Pennsylvania\",\n\"role\": \"Representing Commonwealth of Pennsylvania\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Governors and High Representatives of the State of California",
+          "role": "Representing California"
+        },
+        {
+          "name": "Emilia-Romagna Region",
+          "role": "Representing Emilia-Romagna Region"
+        },
+        {
+          "name": "Province of Gauteng",
+          "role": "Representing Gauteng Province"
+        },
+        {
+          "name": "Province of Guangdong",
+          "role": "Representing Guangdong Province"
+        },
+        {
+          "name": "Land Hessen",
+          "role": "Representing Hessen"
+        },
+        {
+          "name": "Nouvelle-Aquitaine Region",
+          "role": "Representing Nouvelle-Aquitaine Region"
+        },
+        {
+          "name": "Commonwealth of Pennsylvania",
+          "role": "Representing Commonwealth of Pennsylvania"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1June24 (1).txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Secretariat of Agriculture, Livestock, Rural Development, Fisheries and Food (SAGARPA) of the United Mexican States\",\n\"role\": \"Mexican Party\"\n},\n{\n\"name\": \"The Department of Food and Agriculture (CDFA) of the State of California\",\n\"role\": \"Californian Party\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Secretariat of Agriculture, Livestock, Rural Development, Fisheries and Food (SAGARPA) of the United Mexican States",
+          "role": "Mexican Party"
+        },
+        {
+          "name": "The Department of Food and Agriculture (CDFA) of the State of California",
+          "role": "Californian Party"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1June26.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"THE CALIFORNIA. AIR RESOURCES BOARD, OF THE STATE OF CALIFORNIA\",\n\"role\": \"CARB\"\n},\n{\n\"name\": \"ENVIRONMENT AND CLIMATE CHANGE CANADA, OF THE GOVERNMENT OF CANADA\",\n\"role\": \"ECCC\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "THE CALIFORNIA. AIR RESOURCES BOARD, OF THE STATE OF CALIFORNIA",
+          "role": "CARB"
+        },
+        {
+          "name": "ENVIRONMENT AND CLIMATE CHANGE CANADA, OF THE GOVERNMENT OF CANADA",
+          "role": "ECCC"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1June5.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"State of California\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"Province of Jiangsu\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "State of California",
+          "role": "Participant"
+        },
+        {
+          "name": "Province of Jiangsu",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1June6.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Government of California, of the United States of America\",\n\"role\": \"California\"\n},\n{\n\"name\": \"The Ministry of Science and Technology of the People's Republic of China\",\n\"role\": \"China\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Government of California, of the United States of America",
+          "role": "California"
+        },
+        {
+          "name": "The Ministry of Science and Technology of the People's Republic of China",
+          "role": "China"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1June7 (1).txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"California Environmental Protection Agency (CalEPA)\",\n\"role\": \"Party\"\n},\n{\n\"name\": \"Beijing Municipal Environmental Protection Bureau (Beijing EPB)\",\n\"role\": \"Party\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "California Environmental Protection Agency (CalEPA)",
+          "role": "Party"
+        },
+        {
+          "name": "Beijing Municipal Environmental Protection Bureau (Beijing EPB)",
+          "role": "Party"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1June7 (2).txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Beijing Municipal Commission of Development and Reform\",\n\"role\": \"Participant 1\"\n},\n{\n\"name\": \"California Governor's Office\",\n\"role\": \"Participant 2\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Beijing Municipal Commission of Development and Reform",
+          "role": "Participant 1"
+        },
+        {
+          "name": "California Governor's Office",
+          "role": "Participant 2"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1June7.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"HAIDIAN DISTRICT OF BEIJING OF THE PEOPLE'S REPUBLIC OF CHINA\",\n\"role\": \"Party 1\"\n},\n{\n\"name\": \"THE CALIFORNIA ENERGY RESOURCES CONSERVATION AND DEVELOPMENT COMMISSION\",\n\"role\": \"Party 2\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "HAIDIAN DISTRICT OF BEIJING OF THE PEOPLE'S REPUBLIC OF CHINA",
+          "role": "Party 1"
+        },
+        {
+          "name": "THE CALIFORNIA ENERGY RESOURCES CONSERVATION AND DEVELOPMENT COMMISSION",
+          "role": "Party 2"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1June9.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"China Huadian Green Energy Co.,Ltd of the People's Republic of China\",\n\"role\": \"CG\"\n},\n{\n\"name\": \"California Energy Resources Conservation and Development Commission\",\n\"role\": \"Energy Commission\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "China Huadian Green Energy Co.,Ltd of the People's Republic of China",
+          "role": "CG"
+        },
+        {
+          "name": "California Energy Resources Conservation and Development Commission",
+          "role": "Energy Commission"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1March11.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"California\",\n\"role\": \"State\"\n},\n{\n\"name\": \"The Netherlands\",\n\"role\": \"State\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "California",
+          "role": "State"
+        },
+        {
+          "name": "The Netherlands",
+          "role": "State"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1March15.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Bermuda Monetary Authority\",\n\"role\": \"Group Supervisor and Signatory to IAIS MMOU\"\n},\n{\n\"name\": \"Supervisors of the Enstar Group Limited\",\n\"role\": \"Relevant supervisory authorities\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Bermuda Monetary Authority",
+          "role": "Group Supervisor and Signatory to IAIS MMOU"
+        },
+        {
+          "name": "Supervisors of the Enstar Group Limited",
+          "role": "Relevant supervisory authorities"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1March28.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Regents of the University of California\",\n\"role\": \"manager and operator of Lawrence Berkeley National Laboratory\"\n},\n{\n\"name\": \"The California Energy Commission\",\n\"role\": \"California Government entity\"\n},\n{\n\"name\": \"The California Public Utilities Commission\",\n\"role\": \"California Government entity\"\n},\n{\n\"name\": \"The Forum of Regulators, India\",\n\"role\": \"Indian regulatory body\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Regents of the University of California",
+          "role": "manager and operator of Lawrence Berkeley National Laboratory"
+        },
+        {
+          "name": "The California Energy Commission",
+          "role": "California Government entity"
+        },
+        {
+          "name": "The California Public Utilities Commission",
+          "role": "California Government entity"
+        },
+        {
+          "name": "The Forum of Regulators, India",
+          "role": "Indian regulatory body"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1March5.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Government of the State of Israel\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"The Government of the State of California\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Government of the State of Israel",
+          "role": "Participant"
+        },
+        {
+          "name": "The Government of the State of California",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1May11.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The State of California, United States of America\",\n\"role\": \"California\"\n},\n{\n\"name\": \"Osaka Prefecture, Japan\",\n\"role\": \"Osaka Prefecture\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The State of California, United States of America",
+          "role": "California"
+        },
+        {
+          "name": "Osaka Prefecture, Japan",
+          "role": "Osaka Prefecture"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1May24.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Environmental Protection Agency of the State of California\",\n\"role\": \"California\"\n},\n{\n\"name\": \"The Ministry of Infrastructure and the Environment of the Kingdom of the Netherlands\",\n\"role\": \"Netherlands\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Environmental Protection Agency of the State of California",
+          "role": "California"
+        },
+        {
+          "name": "The Ministry of Infrastructure and the Environment of the Kingdom of the Netherlands",
+          "role": "Netherlands"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1May25.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Department of Food and Agriculture of the State of California\",\n\"role\": \"California\"\n},\n{\n\"name\": \"The Ministry of Agriculture and Rural Development of the State of Israel\",\n\"role\": \"Israel\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Department of Food and Agriculture of the State of California",
+          "role": "California"
+        },
+        {
+          "name": "The Ministry of Agriculture and Rural Development of the State of Israel",
+          "role": "Israel"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1November11.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"State of California\",\n\"role\": \"California\"\n},\n{\n\"name\": \"International Bank for Reconstruction and Development (IBRD)\",\n\"role\": \"World Bank\"\n},\n{\n\"name\": \"International Development Association (IDA)\",\n\"role\": \"World Bank\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "State of California",
+          "role": "California"
+        },
+        {
+          "name": "International Bank for Reconstruction and Development (IBRD)",
+          "role": "World Bank"
+        },
+        {
+          "name": "International Development Association (IDA)",
+          "role": "World Bank"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1November12.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Netherlands Vehicle and Driving Licence Registration Authority (RDW)\",\n\"role\": \"Party One\"\n},\n{\n\"name\": \"Californial Department of Motor Vehicles (DMV)\",\n\"role\": \"Party Two\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Netherlands Vehicle and Driving Licence Registration Authority (RDW)",
+          "role": "Party One"
+        },
+        {
+          "name": "Californial Department of Motor Vehicles (DMV)",
+          "role": "Party Two"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1November13.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The State of California, United States of America\",\n\"role\": \"California\"\n},\n{\n\"name\": \"The Kingdom of the Netherlands\",\n\"role\": \"Netherlands\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The State of California, United States of America",
+          "role": "California"
+        },
+        {
+          "name": "The Kingdom of the Netherlands",
+          "role": "Netherlands"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1November2 (1).txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Government of Shenzhen, Guangdong Province of the People's Republic of China\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"The Government of the State of California, the United States of America\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Government of Shenzhen, Guangdong Province of the People's Republic of China",
+          "role": "Participant"
+        },
+        {
+          "name": "The Government of the State of California, the United States of America",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1November2.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"California Energy Commission\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"Shenzhen State High-tech Industrial Innovation Centre\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"Shenzhen International Low-carbon and Clean Tech Innovation Centre\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "California Energy Commission",
+          "role": "Participant"
+        },
+        {
+          "name": "Shenzhen State High-tech Industrial Innovation Centre",
+          "role": "Participant"
+        },
+        {
+          "name": "Shenzhen International Low-carbon and Clean Tech Innovation Centre",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1November7.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Department of Food and Agriculture of the State of California of the United States\",\n\"role\": \"California Department\"\n},\n{\n\"name\": \"The Ministry of Agriculture, Nature and Food Quality of the Kingdom of the Netherlands\",\n\"role\": \"Dutch Ministry\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Department of Food and Agriculture of the State of California of the United States",
+          "role": "California Department"
+        },
+        {
+          "name": "The Ministry of Agriculture, Nature and Food Quality of the Kingdom of the Netherlands",
+          "role": "Dutch Ministry"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1November8.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Ministry of Ecology and Environment of the People's Republic of China\",\n\"role\": \"MEE\"\n},\n{\n\"name\": \"State of California of the United States of America\",\n\"role\": \"California\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Ministry of Ecology and Environment of the People's Republic of China",
+          "role": "MEE"
+        },
+        {
+          "name": "State of California of the United States of America",
+          "role": "California"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1November9.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"California Governor's Office of Emergency Services (Cal OES)\",\n\"role\": \"Partner\"\n},\n{\n\"name\": \"La Oficina Nacional de Emergencia del Ministerio del Interior y Seguridad Publica (ONEMI)\",\n\"role\": \"Partner\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "California Governor's Office of Emergency Services (Cal OES)",
+          "role": "Partner"
+        },
+        {
+          "name": "La Oficina Nacional de Emergencia del Ministerio del Interior y Seguridad Publica (ONEMI)",
+          "role": "Partner"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1October14.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Inner Mongolia Autonomous Region of China\",\n\"role\": \"Party from China\"\n},\n{\n\"name\": \"The State of California of the USA\",\n\"role\": \"Party from USA\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Inner Mongolia Autonomous Region of China",
+          "role": "Party from China"
+        },
+        {
+          "name": "The State of California of the USA",
+          "role": "Party from USA"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1October2 (1).txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Government of the Kingdom of Denmark\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"Government of the State of California\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Government of the Kingdom of Denmark",
+          "role": "Participant"
+        },
+        {
+          "name": "Government of the State of California",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1October2.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Secretariat of the Environment of Mexico City of the United Mexican States (SEDEMA)\",\n\"role\": \"Signatory\"\n},\n{\n\"name\": \"The Government of the State of California\",\n\"role\": \"Signatory\"\n},\n{\n\"name\": \"California Energy Commission (CEC)\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"California Environmental Protection Agency (CalEPA)\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Secretariat of the Environment of Mexico City of the United Mexican States (SEDEMA)",
+          "role": "Signatory"
+        },
+        {
+          "name": "The Government of the State of California",
+          "role": "Signatory"
+        },
+        {
+          "name": "California Energy Commission (CEC)",
+          "role": "Participant"
+        },
+        {
+          "name": "California Environmental Protection Agency (CalEPA)",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1October28 (1).txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Governments of California, British Columbia, Oregon and Washington\"\n},\n{\n\"name\": \"California\", \"role\": \"Signatory\" },\n{\n\"name\": \"British Columbia\", \"role\": \"Signatory\" },\n{\n\"name\": \"Oregon\", \"role\": \"Signatory\" },\n{\n\"name\": \"Washington\", \"role\": \"Signatory\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Governments of California, British Columbia, Oregon and Washington"
+        },
+        {
+          "name": "California",
+          "role": "Signatory"
+        },
+        {
+          "name": "British Columbia",
+          "role": "Signatory"
+        },
+        {
+          "name": "Oregon",
+          "role": "Signatory"
+        },
+        {
+          "name": "Washington",
+          "role": "Signatory"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1October28.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"THE STATE OF CALIFORNIA, UNITED STATES OF AMERICA\",\n\"role\": \"California\"\n},\n{\n\"name\": \"JIANGSU PROVINCE, PEOPLE'S REPUBLIC OF CHINA\",\n\"role\": \"Jiangsu\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "THE STATE OF CALIFORNIA, UNITED STATES OF AMERICA",
+          "role": "California"
+        },
+        {
+          "name": "JIANGSU PROVINCE, PEOPLE'S REPUBLIC OF CHINA",
+          "role": "Jiangsu"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1October3.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Border Governors Conference\",\n\"role\": \"Organization\"\n},\n{\n\"name\": \"Governors of the States of Arizona, California, New Mexico, Texas, Baja California, Chihuahua, Coahuila, Nuevo Leon, Sonora, Tamaulipas\",\n\"role\": \"Participating Governors\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Border Governors Conference",
+          "role": "Organization"
+        },
+        {
+          "name": "Governors of the States of Arizona, California, New Mexico, Texas, Baja California, Chihuahua, Coahuila, Nuevo Leon, Sonora, Tamaulipas",
+          "role": "Participating Governors"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1October31.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Center of Science and Technology & Industrialization Development of Ministry of Housing and Urban-Rural Development of the P. R. China\",\n\"role\": \"Chinese Party\"\n},\n{\n\"name\": \"The California Energy Resources Conservation and Development Commission of the State of California of the United States of America\",\n\"role\": \"American Party\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Center of Science and Technology & Industrialization Development of Ministry of Housing and Urban-Rural Development of the P. R. China",
+          "role": "Chinese Party"
+        },
+        {
+          "name": "The California Energy Resources Conservation and Development Commission of the State of California of the United States of America",
+          "role": "American Party"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1October4 (1).txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Ministry of Economy of the United Mexican States\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"The Government of the State of California of the United States of America\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Ministry of Economy of the United Mexican States",
+          "role": "Participant"
+        },
+        {
+          "name": "The Government of the State of California of the United States of America",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1October4.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Ministry of Agriculture and Rural Development of the United Mexican States (SADER)\",\n\"role\": \"Participant from the United Mexican States\"\n},\n{\n\"name\": \"Department of Food and Agriculture of the State of California of the United States of America (CDFA)\",\n\"role\": \"Participant from the State of California, USA\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Ministry of Agriculture and Rural Development of the United Mexican States (SADER)",
+          "role": "Participant from the United Mexican States"
+        },
+        {
+          "name": "Department of Food and Agriculture of the State of California of the United States of America (CDFA)",
+          "role": "Participant from the State of California, USA"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1October5.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Provincial Government of Jiangsu of the People's Republic of China\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"The Government of the State of California of the United States of America\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Provincial Government of Jiangsu of the People's Republic of China",
+          "role": "Participant"
+        },
+        {
+          "name": "The Government of the State of California of the United States of America",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1September10 (1).txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The New Energy and Industrial Technology Development Organization of Japan\",\n\"role\": \"NEDO\"\n},\n{\n\"name\": \"The California Governor's Office of Business and Economic Development\",\n\"role\": \"GO-BIZ\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The New Energy and Industrial Technology Development Organization of Japan",
+          "role": "NEDO"
+        },
+        {
+          "name": "The California Governor's Office of Business and Economic Development",
+          "role": "GO-BIZ"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1September10.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The New Energy and Industrial Technology Development Organization of Japan\",\n\"role\": \"NEDO\"\n},\n{\n\"name\": \"The California Governor's Office of Business and Economic Development\",\n\"role\": \"GO-BIZ\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The New Energy and Industrial Technology Development Organization of Japan",
+          "role": "NEDO"
+        },
+        {
+          "name": "The California Governor's Office of Business and Economic Development",
+          "role": "GO-BIZ"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1September12.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"State of California\",\n\"role\": \"California\"\n},\n{\n\"name\": \"Chinese People's Association for Friendship with Foreign Countries\",\n\"role\": \"China\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "State of California",
+          "role": "California"
+        },
+        {
+          "name": "Chinese People's Association for Friendship with Foreign Countries",
+          "role": "China"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1September15 (1).txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"National Development and Reform Commission of the People's Republic of China\",\n\"role\": \"NDRC\"\n},\n{\n\"name\": \"The State of California of the United States of America\",\n\"role\": \"California\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "National Development and Reform Commission of the People's Republic of China",
+          "role": "NDRC"
+        },
+        {
+          "name": "The State of California of the United States of America",
+          "role": "California"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1September15 (2).txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The State of California, United States of America\",\n\"role\": \"California\"\n},\n{\n\"name\": \"The Land Baden-Wurttemberg, Federal Republic of Germany\",\n\"role\": \"Baden-Wurttemberg\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The State of California, United States of America",
+          "role": "California"
+        },
+        {
+          "name": "The Land Baden-Wurttemberg, Federal Republic of Germany",
+          "role": "Baden-Wurttemberg"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1September15.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Municipal Government of Zhenjiang of the People's Republic of China\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"The Government of the State of California of the United States of America\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Municipal Government of Zhenjiang of the People's Republic of China",
+          "role": "Participant"
+        },
+        {
+          "name": "The Government of the State of California of the United States of America",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1September19.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Government of the Kingdom of Denmark\",\n\"role\": \"Represented by the Danish Ministry of Environment and Food, the Embassy of Denmark in Washington D.C., the Danish Water Technology Alliance in Palo Alto and Chicago\"\n},\n{\n\"name\": \"The Government of California\",\n\"role\": \"Represented by the Governor's Office, the State Water Boards, and Department of Water Resources\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Government of the Kingdom of Denmark",
+          "role": "Represented by the Danish Ministry of Environment and Food, the Embassy of Denmark in Washington D.C., the Danish Water Technology Alliance in Palo Alto and Chicago"
+        },
+        {
+          "name": "The Government of California",
+          "role": "Represented by the Governor's Office, the State Water Boards, and Department of Water Resources"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1September22 (1).txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Government of the State of California, of the United States of America\",\n\"role\": \"Party\"\n},\n{\n\"name\": \"Sichuan Provincial People's Government of P.R.C.\",\n\"role\": \"Party\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Government of the State of California, of the United States of America",
+          "role": "Party"
+        },
+        {
+          "name": "Sichuan Provincial People's Government of P.R.C.",
+          "role": "Party"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1September22 (2).txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The United States of America\",\n\"role\": \"Party 1\"\n},\n{\n\"name\": \"The People's Republic of China\",\n\"role\": \"Party 2\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The United States of America",
+          "role": "Party 1"
+        },
+        {
+          "name": "The People's Republic of China",
+          "role": "Party 2"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1September29.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The State of California\",\n\"role\": \"Initiator and Lead Party\"\n}\n]\n}\n\nPlease note that based on the text provided, it appears that \"The State of California\" is the party initiating the formation of the International Zero-Emission Vehicle Alliance (ZEV Alliance) and leading the cooperation among the participating jurisdictions. However, it is not explicitly stated that all other jurisdictions are contracting parties. Therefore, the list of parties provided is based on the information given in the text and may not be exhaustive. If more information becomes available, the list of parties may need to be updated accordingly.",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The State of California",
+          "role": "Initiator and Lead Party"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1Undated (1).txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"California Department of Education (CDE)\",\n\"role\": \"State agency under the management and direction of the State Superintendent of Public Instruction\"\n},\n{\n\"name\": \"Regents of the University of California (UC)\",\n\"role\": \"Governing body of the University of California\"\n},\n{\n\"name\": \"Secretaria de Educacion Publica (SEP)\",\n\"role\": \"Interested party from the United States of Mexico\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "California Department of Education (CDE)",
+          "role": "State agency under the management and direction of the State Superintendent of Public Instruction"
+        },
+        {
+          "name": "Regents of the University of California (UC)",
+          "role": "Governing body of the University of California"
+        },
+        {
+          "name": "Secretaria de Educacion Publica (SEP)",
+          "role": "Interested party from the United States of Mexico"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "1Undated.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The State of California\",\n\"role\": \"Party\"\n},\n{\n\"name\": \"The Province of British Columbia\",\n\"role\": \"Party\"\n},\n{\n\"name\": \"California.Air Resources Board\",\n\"role\": \"Party (representing The State of California)\"\n},\n{\n\"name\": \"British Columbia Ministry of Environment\",\n\"role\": \"Party (representing The Province of British Columbia)\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The State of California",
+          "role": "Party"
+        },
+        {
+          "name": "The Province of British Columbia",
+          "role": "Party"
+        },
+        {
+          "name": "California.Air Resources Board",
+          "role": "Party (representing The State of California)"
+        },
+        {
+          "name": "British Columbia Ministry of Environment",
+          "role": "Party (representing The Province of British Columbia)"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "California_1.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The State of California, United States of America\",\n\"role\": \"Party\"\n},\n{\n\"name\": \"The Government of Japan\",\n\"role\": \"Party\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The State of California, United States of America",
+          "role": "Party"
+        },
+        {
+          "name": "The Government of Japan",
+          "role": "Party"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "California_10.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Gouvernement du Québec\",\n\"role\": \"Represented by the Minister of Sustainable Development, Environment and the Fight against Climate Change\"\n},\n{\n\"name\": \"The California Air Resources Board\",\n\"role\": \"Represented by its Executive Officer\"\n},\n{\n\"name\": \"Her Majesty the Queen in Right of the Province of Nova Scotia\",\n\"role\": \"Represented by its Minister of the Environment\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Gouvernement du Québec",
+          "role": "Represented by the Minister of Sustainable Development, Environment and the Fight against Climate Change"
+        },
+        {
+          "name": "The California Air Resources Board",
+          "role": "Represented by its Executive Officer"
+        },
+        {
+          "name": "Her Majesty the Queen in Right of the Province of Nova Scotia",
+          "role": "Represented by its Minister of the Environment"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "California_11.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Jiangsu Science and Technology Department (JSTD)\",\n\"role\": \"Participant\"\n},\n{\n\"name\": \"The Energy Resources Conservation and Development Commission of the State of California\",\n\"role\": \"Participant\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Jiangsu Science and Technology Department (JSTD)",
+          "role": "Participant"
+        },
+        {
+          "name": "The Energy Resources Conservation and Development Commission of the State of California",
+          "role": "Participant"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "California_12.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Ministry of Climate and Environment Norway\",\n\"role\": \"Representing Norway\"\n},\n{\n\"name\": \"California\",\n\"role\": \"Representing California through Environmental Protection Agency\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Ministry of Climate and Environment Norway",
+          "role": "Representing Norway"
+        },
+        {
+          "name": "California",
+          "role": "Representing California through Environmental Protection Agency"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "California_13.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"Ministry of Climate and Environment Norway\",\n\"role\": \"Representing Norway\"\n},\n{\n\"name\": \"California Environmental Protection Agency\",\n\"role\": \"Representing California\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Ministry of Climate and Environment Norway",
+          "role": "Representing Norway"
+        },
+        {
+          "name": "California Environmental Protection Agency",
+          "role": "Representing California"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "California_14.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"THE GOVERNMENT OF THE STATE OF CALIFORNIA\",\n\"role\": \"California Government\"\n},\n{\n\"name\": \"THE GOVERNMENT OF THE REPUBLIC OF ARMENIA\",\n\"role\": \"Armenian Government\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "THE GOVERNMENT OF THE STATE OF CALIFORNIA",
+          "role": "California Government"
+        },
+        {
+          "name": "THE GOVERNMENT OF THE REPUBLIC OF ARMENIA",
+          "role": "Armenian Government"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "California_15.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"SOULHFALTA GLOBAL\",\n\"role\": \"Organizer of The Global Soil Health Challenge\"\n},\n{\n\"name\": \"France\",\n\"role\": \"Initiator of '4 per 1000' initiative at Paris climate conference in 2015\"\n},\n{\n\"name\": \"California\",\n\"role\": \"Leader of Healthy Soils Initiative in the US\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "SOULHFALTA GLOBAL",
+          "role": "Organizer of The Global Soil Health Challenge"
+        },
+        {
+          "name": "France",
+          "role": "Initiator of '4 per 1000' initiative at Paris climate conference in 2015"
+        },
+        {
+          "name": "California",
+          "role": "Leader of Healthy Soils Initiative in the US"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "California_16.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"International Association of Insurance Supervisors (IAIS)\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "International Association of Insurance Supervisors (IAIS)"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "California_2.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"California Department of Forestry and Fire Protection (CAL FIRE)\",\n\"role\": \"Partner\"\n},\n{\n\"name\": \"la Corporacion Nacional Forestal (CONAF)\",\n\"role\": \"Partner\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "California Department of Forestry and Fire Protection (CAL FIRE)",
+          "role": "Partner"
+        },
+        {
+          "name": "la Corporacion Nacional Forestal (CONAF)",
+          "role": "Partner"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "California_3.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The State of Acre of the Federative Republic of Brazil\",\n\"role\": \"Party\"\n},\n{\n\"name\": \"The State of Chiapas of the United Mexican States\",\n\"role\": \"Party\"\n},\n{\n\"name\": \"The State of California of the United States of America\",\n\"role\": \"Party\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The State of Acre of the Federative Republic of Brazil",
+          "role": "Party"
+        },
+        {
+          "name": "The State of Chiapas of the United Mexican States",
+          "role": "Party"
+        },
+        {
+          "name": "The State of California of the United States of America",
+          "role": "Party"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "California_4.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Pacific States of Alaska, California, Hawaii, Oregon, and Washington\",\n\"role\": \"States\"\n},\n{\n\"name\": \"The Province of British Columbia\",\n\"role\": \"Province\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Pacific States of Alaska, California, Hawaii, Oregon, and Washington",
+          "role": "States"
+        },
+        {
+          "name": "The Province of British Columbia",
+          "role": "Province"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "California_5.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"California\",\n\"role\": \"Party\"\n},\n{\n\"name\": \"Ontario\",\n\"role\": \"Party\"\n},\n{\n\"name\": \"Québec\",\n\"role\": \"Party\"\n},\n{\n\"name\": \"CAL ORNIA\",\n\"role\": \"Party\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "California",
+          "role": "Party"
+        },
+        {
+          "name": "Ontario",
+          "role": "Party"
+        },
+        {
+          "name": "Québec",
+          "role": "Party"
+        },
+        {
+          "name": "CAL ORNIA",
+          "role": "Party"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "California_6.txt",
+    "parties": " Israel and the California Science Center, an entity of the Government of The State of California, are the direct contracting parties.\n\nJSON object:\n{\n\"parties\": [\n{\n\"name\": \"Government of The State of Israel\",\n\"role\": \"Israel\"\n},\n{\n\"name\": \"California Science Center\",\n\"role\": \"California\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "Government of The State of Israel",
+          "role": "Israel"
+        },
+        {
+          "name": "California Science Center",
+          "role": "California"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "California_7.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Government of the State of California of the United States of America\",\n\"role\": \"California State Government, USA\"\n},\n{\n\"name\": \"Sichuan Provincial People's Government of the People's Republic of China\",\n\"role\": \"Sichuan Provincial Government, China\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Government of the State of California of the United States of America",
+          "role": "California State Government, USA"
+        },
+        {
+          "name": "Sichuan Provincial People's Government of the People's Republic of China",
+          "role": "Sichuan Provincial Government, China"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "California_8.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The Secretary of Public Education, of the United States of Mexico (Secretaria de Educacion Publica, SEP)\",\n\"role\": \"Mexican Party\"\n},\n{\n\"name\": \"The California Department of Education, of the United States of America\",\n\"role\": \"American Party\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The Secretary of Public Education, of the United States of Mexico (Secretaria de Educacion Publica, SEP)",
+          "role": "Mexican Party"
+        },
+        {
+          "name": "The California Department of Education, of the United States of America",
+          "role": "American Party"
+        }
+      ]
+    }
+  },
+  {
+    "filename": "California_9.txt",
+    "parties": " {\n\"parties\": [\n{\n\"name\": \"The State of California of the United States of America\",\n\"role\": \"State\"\n},\n{\n\"name\": \"Guangdong Province of the People's Republic of China\",\n\"role\": \"Province\"\n}\n]\n}",
+    "parsed": {
+      "parties": [
+        {
+          "name": "The State of California of the United States of America",
+          "role": "State"
+        },
+        {
+          "name": "Guangdong Province of the People's Republic of China",
+          "role": "Province"
+        }
+      ]
+    }
+  }
+]

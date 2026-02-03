@@ -1,0 +1,135 @@
+[
+  {
+    "filename": "Arizona_1.txt",
+    "extraction": " {\n\"agreement_type\": \"Confidentiality Agreement\",\n\"description\": \"This agreement is a Confidentiality Agreement between the Missouri Department of Commerce and Insurance (DCI) and the listed Authorities for exchanging confidential supervisory information pertaining to Reinsurance Group of America, Incorporated (RGA) and its affiliates during the 2020 meetings and conference calls of the College of RGA Supervisors. The information shared remains the property of the providing party and is not a waiver of any privilege or claim of confidentiality.\"\n}",
+    "parsed": {
+      "agreement_type": "Confidentiality Agreement",
+      "description": "This agreement is a Confidentiality Agreement between the Missouri Department of Commerce and Insurance (DCI) and the listed Authorities for exchanging confidential supervisory information pertaining to Reinsurance Group of America, Incorporated (RGA) and its affiliates during the 2020 meetings and conference calls of the College of RGA Supervisors. The information shared remains the property of the providing party and is not a waiver of any privilege or claim of confidentiality."
+    }
+  },
+  {
+    "filename": "Arizona_10.txt",
+    "extraction": " {\n\"agreement_type\": \"Memorandum of Understanding\",\n\"description\": \"A Memorandum of Understanding (MoU) between the Office of the Attorney General of the Republic of Mexico and the Office of the Attorney General of the State of Arizona, aimed at increasing the efficiency of investigation and prosecution of crimes, enhancing binational cooperation, and fighting transnational criminal organizations.\"\n}",
+    "parsed": {
+      "agreement_type": "Memorandum of Understanding",
+      "description": "A Memorandum of Understanding (MoU) between the Office of the Attorney General of the Republic of Mexico and the Office of the Attorney General of the State of Arizona, aimed at increasing the efficiency of investigation and prosecution of crimes, enhancing binational cooperation, and fighting transnational criminal organizations."
+    }
+  },
+  {
+    "filename": "Arizona_11.txt",
+    "extraction": " {\n\"agreement_type\": \"Memorandum of Understanding\",\n\"description\": \"This is a Memorandum of Understanding (MoU) between the Arizona Commerce Authority of the State of Arizona, USA and the Secretariat of the Economy of the State of Sonora of the United Mexican States. The MoU aims to foster a vibrant innovation network to support entrepreneurs and technology generators in the Arizona-Sonora region.\"\n}",
+    "parsed": {
+      "agreement_type": "Memorandum of Understanding",
+      "description": "This is a Memorandum of Understanding (MoU) between the Arizona Commerce Authority of the State of Arizona, USA and the Secretariat of the Economy of the State of Sonora of the United Mexican States. The MoU aims to foster a vibrant innovation network to support entrepreneurs and technology generators in the Arizona-Sonora region."
+    }
+  },
+  {
+    "filename": "Arizona_12.txt",
+    "extraction": " {\n\"agreement_type\": \"Memorandum of Understanding\",\n\"description\": \"A Memorandum of Understanding (MOU) between the Film & Digital Media Program of the State of Arizona and the Film Office of the State of Sonora, aimed at collaboratively promoting strategies to increase film & digital media production in the Arizona-Sonora Region.\"\n}",
+    "parsed": {
+      "agreement_type": "Memorandum of Understanding",
+      "description": "A Memorandum of Understanding (MOU) between the Film & Digital Media Program of the State of Arizona and the Film Office of the State of Sonora, aimed at collaboratively promoting strategies to increase film & digital media production in the Arizona-Sonora Region."
+    }
+  },
+  {
+    "filename": "Arizona_13.txt",
+    "extraction": " {\n\"agreement_type\": \"Memorandum of Understanding\",\n\"description\": \"A Memorandum of Understanding (MOU) between the Film & Digital Media Program of the State of Arizona and the Film Office of the State of Sonora, aimed at collaboratively promoting strategies to increase film & digital media production in the Arizona-Sonora Region.\"\n}",
+    "parsed": {
+      "agreement_type": "Memorandum of Understanding",
+      "description": "A Memorandum of Understanding (MOU) between the Film & Digital Media Program of the State of Arizona and the Film Office of the State of Sonora, aimed at collaboratively promoting strategies to increase film & digital media production in the Arizona-Sonora Region."
+    }
+  },
+  {
+    "filename": "Arizona_14.txt",
+    "extraction": " {\n\"agreement_type\": \"Memorandum of Understanding\",\n\"description\": \"A Memorandum of Understanding between the Government of Arizona and the State of Sonora for the development and implementation of an environmental strategic plan in the Arizona-Sonora megaregion.\"\n}",
+    "parsed": {
+      "agreement_type": "Memorandum of Understanding",
+      "description": "A Memorandum of Understanding between the Government of Arizona and the State of Sonora for the development and implementation of an environmental strategic plan in the Arizona-Sonora megaregion."
+    }
+  },
+  {
+    "filename": "Arizona_15.txt",
+    "extraction": " {\n\"agreement_type\": \"Memorandum of Understanding\",\n\"description\": \"A Memorandum of Understanding (MoU) between the State of Arizona, USA and the Ministry of Communications and Transport of Mexico, establishing a Joint Planning Committee for the development and maintenance of infrastructure at the Ports of Entry and important international trade routes between the two countries.\"\n}",
+    "parsed": {
+      "agreement_type": "Memorandum of Understanding",
+      "description": "A Memorandum of Understanding (MoU) between the State of Arizona, USA and the Ministry of Communications and Transport of Mexico, establishing a Joint Planning Committee for the development and maintenance of infrastructure at the Ports of Entry and important international trade routes between the two countries."
+    }
+  },
+  {
+    "filename": "Arizona_16.txt",
+    "extraction": " {\n\"agreement_type\": \"Memorandum of Understanding\",\n\"description\": \"This is a Memorandum of Understanding (MOU) between CEDES (Commission on Ecology and Sustainable Development of the State of Sonora), the Municipality of San Luis Rio Colorado, and the Arizona Department of Environmental Quality. The parties agree to collaborate on environmental management and protection, including air quality, water quality, solid waste management, and green area expansion.\"\n}",
+    "parsed": {
+      "agreement_type": "Memorandum of Understanding",
+      "description": "This is a Memorandum of Understanding (MOU) between CEDES (Commission on Ecology and Sustainable Development of the State of Sonora), the Municipality of San Luis Rio Colorado, and the Arizona Department of Environmental Quality. The parties agree to collaborate on environmental management and protection, including air quality, water quality, solid waste management, and green area expansion."
+    }
+  },
+  {
+    "filename": "Arizona_17.txt",
+    "extraction": " {\n\"agreement_type\": \"Memorandum of Understanding (MOU)\",\n\"description\": \"This Memorandum of Understanding (MOU) is between the Arizona-Mexico Commission and the Comision Sonora, aiming to mutually recognize the conditions and requirements to execute the '2015: Arizona and Sonora's New Border' Plan. The plan focuses on improving the infrastructure at Arizona's and Sonora's border ports of entry, addressing the issue of long wait times and outdated facilities, and increasing the throughput capacity at all major ports of entry by 2015.\"\n}",
+    "parsed": {
+      "agreement_type": "Memorandum of Understanding (MOU)",
+      "description": "This Memorandum of Understanding (MOU) is between the Arizona-Mexico Commission and the Comision Sonora, aiming to mutually recognize the conditions and requirements to execute the '2015: Arizona and Sonora's New Border' Plan. The plan focuses on improving the infrastructure at Arizona's and Sonora's border ports of entry, addressing the issue of long wait times and outdated facilities, and increasing the throughput capacity at all major ports of entry by 2015."
+    }
+  },
+  {
+    "filename": "Arizona_2.txt",
+    "extraction": " {\n\"agreement_type\": \"Memorandum of Understanding\",\n\"description\": \"This Cooperation Agreement is a Memorandum of Understanding between The Financial Supervisory Commission, Taiwan and The Office of the Arizona Attorney General, aimed at promoting innovation in financial services in their respective markets through cooperation and information sharing.\"\n}",
+    "parsed": {
+      "agreement_type": "Memorandum of Understanding",
+      "description": "This Cooperation Agreement is a Memorandum of Understanding between The Financial Supervisory Commission, Taiwan and The Office of the Arizona Attorney General, aimed at promoting innovation in financial services in their respective markets through cooperation and information sharing."
+    }
+  },
+  {
+    "filename": "Arizona_3.txt",
+    "extraction": " {\n\"agreement_type\": \"Memorandum of Understanding\",\n\"description\": \"This Cooperation Agreement is a Memorandum of Understanding between The Office of the Arizona Attorney General and Komisja Nadzoru Finansowego - Polish Financial Supervision Authority, focusing on innovation functions in their respective markets.\"\n}",
+    "parsed": {
+      "agreement_type": "Memorandum of Understanding",
+      "description": "This Cooperation Agreement is a Memorandum of Understanding between The Office of the Arizona Attorney General and Komisja Nadzoru Finansowego - Polish Financial Supervision Authority, focusing on innovation functions in their respective markets."
+    }
+  },
+  {
+    "filename": "Arizona_4.txt",
+    "extraction": " {\n\"agreement_type\": \"Memorandum of Understanding\",\n\"description\": \"A Memorandum of Understanding (MoU) between the Government of the State of Sonora and the Government of the State of Arizona, through their respective departments, for cooperation and collaboration in the Safety Corridor Program to enhance road safety between Lukeville/Sonoyta and Puerto Penasco, Sonora.\"\n}",
+    "parsed": {
+      "agreement_type": "Memorandum of Understanding",
+      "description": "A Memorandum of Understanding (MoU) between the Government of the State of Sonora and the Government of the State of Arizona, through their respective departments, for cooperation and collaboration in the Safety Corridor Program to enhance road safety between Lukeville/Sonoyta and Puerto Penasco, Sonora."
+    }
+  },
+  {
+    "filename": "Arizona_5.txt",
+    "extraction": " {\n\"agreement_type\": \"Memorandum of Understanding\",\n\"description\": \"A Memorandum of Understanding (MOU) between the Government of the State of Sonora and the Government of the State of Arizona, through their respective departments of Infrastructure and Urban Development and Transportation, to establish a cooperative and collaborative economic development initiative and participate in the development of a Safety Commercial Logistical Corridor Program.\"\n}",
+    "parsed": {
+      "agreement_type": "Memorandum of Understanding",
+      "description": "A Memorandum of Understanding (MOU) between the Government of the State of Sonora and the Government of the State of Arizona, through their respective departments of Infrastructure and Urban Development and Transportation, to establish a cooperative and collaborative economic development initiative and participate in the development of a Safety Commercial Logistical Corridor Program."
+    }
+  },
+  {
+    "filename": "Arizona_6.txt",
+    "extraction": " {\n\"agreement_type\": \"Memorandum of Understanding\",\n\"description\": \"A Memorandum of Understanding (MoU) between the State of Sonora of Mexico and the State of Arizona of the USA, aimed at catalyzing and promoting the Cruise Ship Port in Puerto Penasco, Sonora, to enhance economic development and tourism in the region.\"\n}",
+    "parsed": {
+      "agreement_type": "Memorandum of Understanding",
+      "description": "A Memorandum of Understanding (MoU) between the State of Sonora of Mexico and the State of Arizona of the USA, aimed at catalyzing and promoting the Cruise Ship Port in Puerto Penasco, Sonora, to enhance economic development and tourism in the region."
+    }
+  },
+  {
+    "filename": "Arizona_7.txt",
+    "extraction": " {\n\"agreement_type\": \"Memorandum of Understanding\",\n\"description\": \"A Memorandum of Understanding (MoU) between the Government of the State of Arizona and the Government of the State of Sonora, aimed at promoting trade, tourism and commerce, improving the quality of life in the region, and strengthening their bilateral partnership.\"\n}",
+    "parsed": {
+      "agreement_type": "Memorandum of Understanding",
+      "description": "A Memorandum of Understanding (MoU) between the Government of the State of Arizona and the Government of the State of Sonora, aimed at promoting trade, tourism and commerce, improving the quality of life in the region, and strengthening their bilateral partnership."
+    }
+  },
+  {
+    "filename": "Arizona_8.txt",
+    "extraction": " {\n\"agreement_type\": \"Memorandum of Understanding\",\n\"description\": \"A Memorandum of Understanding (MoU) between the Border Governors of the United States and Mexican States, aimed at implementing cross-border policies and strengthening their alliance based on thirty years of shared experience.\"\n}",
+    "parsed": {
+      "agreement_type": "Memorandum of Understanding",
+      "description": "A Memorandum of Understanding (MoU) between the Border Governors of the United States and Mexican States, aimed at implementing cross-border policies and strengthening their alliance based on thirty years of shared experience."
+    }
+  },
+  {
+    "filename": "Arizona_9.txt",
+    "extraction": " {\n\"agreement_type\": \"Memorandum of Understanding\",\n\"description\": \"This is a Memorandum of Understanding (MOU) among the Ministry of Environment and Natural Resources of the United Mexican States, the U.S. Fish and Wildlife Service, the Arizona Game and Fish Department, and the New Mexico Department of Game and Fish, for the conservation, management, and recovery of the Mexican Wolf (Canis lupus baileyi). The agreement acknowledges the historical extinction of the Mexican wolf in both the United States and Mexico and the subsequent development of the Mexican Wolf Recovery Plan in 1982. The parties aim to maintain a captive breeding program and reestablish viable, self-sustaining populations of the Mexican wolf within their historical ranges, with a goal of at least 320 individuals in the United States and 200 individuals in Mexico, while ensuring appropriate gene diversity.\"\n",
+    "parsed": null
+  }
+]
