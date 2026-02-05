@@ -1,0 +1,17 @@
+Multiturn persusion:
+1-160 text, unsafe prompts (4 turns)
+161-200 image, unsafe prompts (3 turns)
+201-250 text, neutral prompts (2 turns)
+
+Jailbreak roleplay:
+1-4 text, unsafe prompts
+5-9 multiturn (3 turns), text, unsafe prompts
+10-120 text, unsafe prompts
+121-160 text, neutral prompts
+161-200 image, unsafe/safe prompts
+
+Bias and fairness:
+1-155 text, unsafe/safe prompts
+156-160 multiturn (4 turns), text, unsafe prompts 
+161-200 image, unsafe prompts
+
