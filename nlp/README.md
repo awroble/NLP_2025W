@@ -14,19 +14,30 @@ This project implements a **Retrieval-Augmented Generation (RAG) chatbot** optim
 
 ## Project Structure
 
-```text
 nlp/
-├── README.md                              # This file
-├── requirements.txt                       # Python dependencies
-├── chatbot_csv.csv                        # Educational FAQ dataset (500 Q&A pairs)
-├── chatbot_interactive.py                 # Interactive RAG chatbot CLI
-├── chatbot_parameter_analysis.py          # Grid search over 216 configurations
-├── WUT_Chatbot_EDA_Advanced.ipynb         # Exploratory Data Analysis notebook
-├── WUT_FAQ_Sources_Documentation.txt      # Detailed FAQ source references
-├── REPRODUCIBILITY_DETAILED.md            # Detailed reproducibility checklist
-├── CONTRIBUTIONS.md                       # Team member contributions
-└── [Report PDF]                           # Full project report (9–12 pages)
-```
+├── README.md                               
+
+├── data/
+│   ├── chatbot_csv.csv                     # Educational FAQ dataset (500 Q&A pairs)
+│   └── WUT_FAQ_Sources_Documentation.txt   # Detailet FAQ sources
+
+├── code/
+│   ├── requirements.txt                    # Python dependencies
+│   ├── chatbot_interactive.py              # Interactive RAG chatbot CLI
+│   ├── chatbot_parameter_analysis.py       # Grid search over 216 configurations
+│   └── WUT_Chatbot_EDA_Advanced.ipynb      # Exploratory Data Analysis notebook
+
+├── docs/
+│   ├── Optimized_Retrieval_Augmented_Generation_Systemfor_University_Educational_FAQ_Retrieval.pdf  # Report PDF
+│   ├── REPRODUCIBILITY_DETAILED.md         # Detailed reproducibility checklist
+│   ├── CONTRIBUTIONS.md                    # Team member contributions
+│   
+
+├── results/
+│   ├── chatbot_results_20260120_182117.csv 
+│   ├── chatbot_ranking_20260120_182117.csv 
+│   └── chatbot_report_20260120_182117.txt  
+
 
 ---
 
@@ -231,7 +242,6 @@ For detailed reproducibility information, see **`REPRODUCIBILITY_DETAILED.md`**.
 - All 216 configurations reproducible via `chatbot_parameter_analysis.py`
 
 ---
-
 
 
 ## Key References
