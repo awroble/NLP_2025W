@@ -1,0 +1,299 @@
+State,Filename,Detected_Topics,Top_Topic,Top_Score
+Vermont,Vermont_10.json,"Technology & Innovation, Friendship & Goodwill, Education & Students, Trade & Economic Development",Technology & Innovation,0.693
+Vermont,Vermont_11.json,Culture & Arts,Culture & Arts,0.641
+Vermont,Vermont_12.json,Environment & Green Energy,Environment & Green Energy,0.254
+Vermont,Vermont_13.json,Technology & Innovation,Technology & Innovation,0.818
+Vermont,Vermont_14.json,"Friendship & Goodwill, Environment & Green Energy, Technology & Innovation, Infrastructure & Transport, Trade & Economic Development, Culture & Arts",Friendship & Goodwill,0.769
+Vermont,Vermont_15.json,Technology & Innovation,Technology & Innovation,0.416
+Vermont,Vermont_2.json,"Education & Students, Culture & Arts, Friendship & Goodwill",Education & Students,0.903
+Vermont,Vermont_6.json,Infrastructure & Transport,Infrastructure & Transport,0.09
+Vermont,Vermont_7.json,"Environment & Green Energy, Infrastructure & Transport, Technology & Innovation, Trade & Economic Development, Friendship & Goodwill",Environment & Green Energy,0.898
+Vermont,Vermont_8.json,"Technology & Innovation, Infrastructure & Transport, Environment & Green Energy, Trade & Economic Development, Friendship & Goodwill, Public Health, Education & Students",Technology & Innovation,0.968
+Vermont,Vermont_9.json,"Technology & Innovation, Infrastructure & Transport, Environment & Green Energy, Friendship & Goodwill, Public Health, Tourism, Trade & Economic Development, Culture & Arts, Education & Students",Technology & Innovation,0.961
+New Hampshire,NewHempshire_3.json,Environment & Green Energy,Environment & Green Energy,0.254
+Alaska,Alaska_1.json,Public Health,Public Health,0.205
+Alaska,Alaska_10.json,Infrastructure & Transport,Infrastructure & Transport,0.584
+Alaska,Alaska_11.json,"Infrastructure & Transport, Environment & Green Energy, Trade & Economic Development",Infrastructure & Transport,0.73
+Alaska,Alaska_12.json,Environment & Green Energy,Environment & Green Energy,0.225
+Alaska,Alaska_2.json,Friendship & Goodwill,Friendship & Goodwill,0.312
+Alaska,Alaska_3.json,Trade & Economic Development,Trade & Economic Development,0.728
+Alaska,Alaska_4.json,Infrastructure & Transport,Infrastructure & Transport,0.428
+Alaska,Alaska_5.json,"Trade & Economic Development, Environment & Green Energy, Friendship & Goodwill, Technology & Innovation",Trade & Economic Development,0.816
+Alaska,Alaska_6.json,"Tourism, Friendship & Goodwill, Trade & Economic Development, Infrastructure & Transport, Culture & Arts, Technology & Innovation, Environment & Green Energy",Tourism,0.927
+Alaska,Alaska_7.json,Environment & Green Energy,Environment & Green Energy,0.235
+Alaska,Alaska_8.json,Infrastructure & Transport,Infrastructure & Transport,0.271
+Alaska,Alaska_9.json,Public Health,Public Health,0.472
+Illinois,Illinois_6.json,"Friendship & Goodwill, Infrastructure & Transport, Environment & Green Energy",Friendship & Goodwill,0.567
+Virginia,Virgina_1.json,"Education & Students, Infrastructure & Transport, Culture & Arts, Environment & Green Energy, Tourism, Technology & Innovation, Friendship & Goodwill, Trade & Economic Development, Public Health",Education & Students,0.931
+Washington,Washington_17.json,"Technology & Innovation, Trade & Economic Development, Infrastructure & Transport, Environment & Green Energy, Friendship & Goodwill, Tourism, Culture & Arts, Education & Students, Public Health",Technology & Innovation,0.963
+Washington,Washington_19.json,Friendship & Goodwill,Friendship & Goodwill,0.931
+Washington,Washington_34.json,"Environment & Green Energy, Infrastructure & Transport, Technology & Innovation, Trade & Economic Development",Environment & Green Energy,0.841
+Washington,Washington_4.json,"Environment & Green Energy, Friendship & Goodwill",Environment & Green Energy,0.76
+Connecticut,Connecticut_1.json,Technology & Innovation,Technology & Innovation,0.544
+Connecticut,Connecticut_6.json,Environment & Green Energy,Environment & Green Energy,0.254
+Alabama,Alabama_1.json,"Trade & Economic Development, Tourism",Trade & Economic Development,0.686
+Alabama,Alabama_10.json,Technology & Innovation,Technology & Innovation,0.351
+Alabama,Alabama_2.json,"Trade & Economic Development, Friendship & Goodwill, Environment & Green Energy, Technology & Innovation, Infrastructure & Transport, Tourism, Education & Students, Culture & Arts",Trade & Economic Development,0.889
+Alabama,Alabama_3.json,"Trade & Economic Development, Technology & Innovation",Trade & Economic Development,0.788
+Alabama,Alabama_4.json,"Trade & Economic Development, Technology & Innovation, Friendship & Goodwill, Infrastructure & Transport, Environment & Green Energy",Trade & Economic Development,0.904
+Alabama,Alabama_5.json,Infrastructure & Transport,Infrastructure & Transport,0.449
+Alabama,Alabama_6.json,Trade & Economic Development,Trade & Economic Development,0.525
+Alabama,Alabama_7.json,Friendship & Goodwill,Friendship & Goodwill,0.733
+Alabama,Alabama_8.json,"Technology & Innovation, Friendship & Goodwill",Technology & Innovation,0.835
+Alabama,Alabama_9.json,Friendship & Goodwill,Friendship & Goodwill,0.435
+Utah,Utah_1.json,"Environment & Green Energy, Technology & Innovation",Environment & Green Energy,0.59
+Utah,Utah_10.json,"Education & Students, Friendship & Goodwill, Technology & Innovation, Culture & Arts",Education & Students,0.893
+Utah,Utah_11.json,Environment & Green Energy,Environment & Green Energy,0.507
+Utah,Utah_12.json,"Education & Students, Culture & Arts",Education & Students,0.845
+Utah,Utah_13.json,Trade & Economic Development,Trade & Economic Development,0.484
+Utah,Utah_14.json,Education & Students,Education & Students,0.331
+Utah,Utah_15.json,"Friendship & Goodwill, Education & Students, Technology & Innovation, Culture & Arts, Trade & Economic Development",Friendship & Goodwill,0.819
+Utah,Utah_16.json,"Education & Students, Trade & Economic Development, Infrastructure & Transport",Education & Students,0.727
+Utah,Utah_17.json,Environment & Green Energy,Environment & Green Energy,0.097
+Utah,Utah_18.json,Education & Students,Education & Students,0.468
+Utah,Utah_19.json,"Technology & Innovation, Trade & Economic Development",Technology & Innovation,0.6
+Utah,Utah_2.json,"Friendship & Goodwill, Technology & Innovation",Friendship & Goodwill,0.69
+Utah,Utah_20.json,"Friendship & Goodwill, Trade & Economic Development, Technology & Innovation, Infrastructure & Transport, Environment & Green Energy, Public Health, Culture & Arts, Education & Students",Friendship & Goodwill,0.959
+Utah,Utah_21.json,"Education & Students, Friendship & Goodwill, Trade & Economic Development",Education & Students,0.891
+Utah,Utah_22.json,"Tourism, Culture & Arts, Friendship & Goodwill, Education & Students, Trade & Economic Development",Tourism,0.939
+Utah,Utah_3.json,"Technology & Innovation, Friendship & Goodwill, Education & Students, Trade & Economic Development",Technology & Innovation,0.693
+Utah,Utah_4.json,Friendship & Goodwill,Friendship & Goodwill,0.491
+Utah,Utah_5.json,Trade & Economic Development,Trade & Economic Development,0.859
+Utah,Utah_6.json,"Environment & Green Energy, Technology & Innovation, Infrastructure & Transport",Environment & Green Energy,0.857
+Utah,Utah_7.json,"Friendship & Goodwill, Trade & Economic Development",Friendship & Goodwill,0.908
+Utah,Utah_8.json,"Trade & Economic Development, Friendship & Goodwill, Education & Students, Technology & Innovation",Trade & Economic Development,0.879
+Utah,Utah_9.json,"Friendship & Goodwill, Trade & Economic Development, Technology & Innovation",Friendship & Goodwill,0.906
+Ohio,Ohio_1.json,"Friendship & Goodwill, Culture & Arts, Trade & Economic Development, Technology & Innovation",Friendship & Goodwill,0.838
+Ohio,Ohio_2.json,Friendship & Goodwill,Friendship & Goodwill,0.778
+Ohio,Ohio_3.json,"Friendship & Goodwill, Infrastructure & Transport, Environment & Green Energy",Friendship & Goodwill,0.567
+Ohio,Ohio_7.json,"Friendship & Goodwill, Trade & Economic Development",Friendship & Goodwill,0.799
+Ohio,Ohio_8.json,"Friendship & Goodwill, Trade & Economic Development, Technology & Innovation, Culture & Arts",Friendship & Goodwill,0.967
+Maine,Maine_20.json,Environment & Green Energy,Environment & Green Energy,0.254
+Indiana,Indiana_2.json,"Friendship & Goodwill, Infrastructure & Transport, Environment & Green Energy",Friendship & Goodwill,0.567
+Indiana,Indiana_5.json,"Education & Students, Friendship & Goodwill",Education & Students,0.799
+Indiana,Indiana_7.json,"Friendship & Goodwill, Tourism, Technology & Innovation",Friendship & Goodwill,0.918
+Arkansas,Arkansas_1.json,"Tourism, Trade & Economic Development, Culture & Arts",Tourism,0.977
+Arkansas,Arkansas_10.json,Infrastructure & Transport,Infrastructure & Transport,0.455
+Arkansas,Arkansas_2.json,Friendship & Goodwill,Friendship & Goodwill,0.86
+Arkansas,Arkansas_3.json,"Trade & Economic Development, Friendship & Goodwill, Technology & Innovation",Trade & Economic Development,0.936
+Arkansas,Arkansas_4.json,Infrastructure & Transport,Infrastructure & Transport,0.242
+Arkansas,Arkansas_5.json,Infrastructure & Transport,Infrastructure & Transport,0.174
+Arkansas,Arkansas_6.json,"Friendship & Goodwill, Technology & Innovation",Friendship & Goodwill,0.914
+Arkansas,Arkansas_7.json,"Friendship & Goodwill, Technology & Innovation",Friendship & Goodwill,0.914
+Arkansas,Arkansas_8.json,"Friendship & Goodwill, Technology & Innovation",Friendship & Goodwill,0.914
+Arkansas,Arkansas_9.json,Infrastructure & Transport,Infrastructure & Transport,0.341
+Wisconsin,Wisconsin_12.json,Friendship & Goodwill,Friendship & Goodwill,0.308
+Wisconsin,Wisconsin_9.json,"Friendship & Goodwill, Infrastructure & Transport, Environment & Green Energy",Friendship & Goodwill,0.567
+Arizona,Arizona_1.json,Technology & Innovation,Technology & Innovation,0.397
+Arizona,Arizona_10.json,"Friendship & Goodwill, Technology & Innovation, Infrastructure & Transport",Friendship & Goodwill,0.721
+Arizona,Arizona_11.json,"Technology & Innovation, Friendship & Goodwill, Trade & Economic Development, Environment & Green Energy, Infrastructure & Transport",Technology & Innovation,0.859
+Arizona,Arizona_12.json,"Tourism, Friendship & Goodwill, Technology & Innovation, Trade & Economic Development",Tourism,0.948
+Arizona,Arizona_13.json,"Tourism, Friendship & Goodwill, Technology & Innovation, Trade & Economic Development",Tourism,0.948
+Arizona,Arizona_14.json,Public Health,Public Health,0.514
+Arizona,Arizona_15.json,"Infrastructure & Transport, Technology & Innovation, Trade & Economic Development, Friendship & Goodwill",Infrastructure & Transport,0.965
+Arizona,Arizona_16.json,Environment & Green Energy,Environment & Green Energy,0.317
+Arizona,Arizona_17.json,Infrastructure & Transport,Infrastructure & Transport,0.388
+Arizona,Arizona_2.json,"Technology & Innovation, Infrastructure & Transport",Technology & Innovation,0.681
+Arizona,Arizona_3.json,Technology & Innovation,Technology & Innovation,0.583
+Arizona,Arizona_4.json,"Infrastructure & Transport, Friendship & Goodwill, Tourism",Infrastructure & Transport,0.952
+Arizona,Arizona_5.json,"Infrastructure & Transport, Technology & Innovation, Friendship & Goodwill, Trade & Economic Development, Tourism",Infrastructure & Transport,0.992
+Arizona,Arizona_6.json,"Tourism, Friendship & Goodwill, Infrastructure & Transport, Trade & Economic Development",Tourism,0.976
+Arizona,Arizona_7.json,"Infrastructure & Transport, Tourism, Trade & Economic Development",Infrastructure & Transport,0.873
+Arizona,Arizona_8.json,"Friendship & Goodwill, Technology & Innovation, Infrastructure & Transport, Trade & Economic Development, Environment & Green Energy, Education & Students, Tourism, Culture & Arts, Public Health",Friendship & Goodwill,0.972
+Arizona,Arizona_9.json,"Friendship & Goodwill, Technology & Innovation",Friendship & Goodwill,0.729
+New York,NewYork_1.json,"Environment & Green Energy, Technology & Innovation, Infrastructure & Transport",Environment & Green Energy,0.668
+New York,NewYork_32.json,Environment & Green Energy,Environment & Green Energy,0.254
+New York,NewYork_4.json,"Friendship & Goodwill, Infrastructure & Transport, Environment & Green Energy",Friendship & Goodwill,0.567
+New Jersey,NewJersey_9.json,"Public Health, Technology & Innovation",Public Health,0.962
+Massachusetts,Massachusetts_26.json,Environment & Green Energy,Environment & Green Energy,0.254
+Michigan,Michigan_1.json,"Infrastructure & Transport, Trade & Economic Development, Environment & Green Energy, Technology & Innovation, Tourism",Infrastructure & Transport,0.774
+Michigan,Michigan_3.json,"Infrastructure & Transport, Technology & Innovation, Trade & Economic Development, Environment & Green Energy, Friendship & Goodwill, Tourism, Education & Students, Public Health",Infrastructure & Transport,0.807
+Michigan,Michigan_6.json,"Friendship & Goodwill, Infrastructure & Transport, Environment & Green Energy",Friendship & Goodwill,0.567
+Michigan,Michigan_9.json,Friendship & Goodwill,Friendship & Goodwill,0.308
+Minnesota,Minesota_4.json,"Friendship & Goodwill, Infrastructure & Transport, Environment & Green Energy",Friendship & Goodwill,0.567
+Minnesota,Minesota_6.json,Friendship & Goodwill,Friendship & Goodwill,0.308
+Texas,Texas_1.json,"Infrastructure & Transport, Technology & Innovation, Friendship & Goodwill, Environment & Green Energy, Trade & Economic Development, Culture & Arts, Education & Students, Public Health",Infrastructure & Transport,0.788
+Texas,Texas_10.json,Infrastructure & Transport,Infrastructure & Transport,0.987
+Texas,Texas_11.json,"Friendship & Goodwill, Trade & Economic Development, Technology & Innovation, Education & Students",Friendship & Goodwill,0.99
+Texas,Texas_12.json,"Environment & Green Energy, Infrastructure & Transport",Environment & Green Energy,0.627
+Texas,Texas_13.json,Infrastructure & Transport,Infrastructure & Transport,0.267
+Texas,Texas_14.json,"Friendship & Goodwill, Technology & Innovation, Infrastructure & Transport, Trade & Economic Development, Environment & Green Energy, Education & Students, Tourism, Culture & Arts, Public Health",Friendship & Goodwill,0.972
+Texas,Texas_15.json,"Technology & Innovation, Trade & Economic Development, Friendship & Goodwill",Technology & Innovation,0.802
+Texas,Texas_16.json,"Infrastructure & Transport, Trade & Economic Development",Infrastructure & Transport,0.822
+Texas,Texas_17.json,"Friendship & Goodwill, Tourism, Trade & Economic Development",Friendship & Goodwill,0.891
+Texas,Texas_18.json,"Friendship & Goodwill, Trade & Economic Development, Tourism, Culture & Arts",Friendship & Goodwill,0.918
+Texas,Texas_19.json,"Trade & Economic Development, Tourism",Trade & Economic Development,0.912
+Texas,Texas_2.json,"Infrastructure & Transport, Friendship & Goodwill, Trade & Economic Development, Technology & Innovation",Infrastructure & Transport,0.939
+Texas,Texas_20.json,"Trade & Economic Development, Technology & Innovation, Tourism, Friendship & Goodwill, Infrastructure & Transport, Environment & Green Energy",Trade & Economic Development,0.977
+Texas,Texas_21.json,"Trade & Economic Development, Tourism, Friendship & Goodwill, Technology & Innovation, Education & Students, Infrastructure & Transport, Environment & Green Energy",Trade & Economic Development,0.902
+Texas,Texas_22.json,"Environment & Green Energy, Friendship & Goodwill, Technology & Innovation, Trade & Economic Development, Infrastructure & Transport, Public Health, Culture & Arts, Education & Students",Environment & Green Energy,0.968
+Texas,Texas_23.json,Trade & Economic Development,Trade & Economic Development,0.615
+Texas,Texas_24.json,"Technology & Innovation, Environment & Green Energy, Friendship & Goodwill, Infrastructure & Transport, Trade & Economic Development, Culture & Arts, Education & Students, Tourism, Public Health",Technology & Innovation,0.997
+Texas,Texas_25.json,Trade & Economic Development,Trade & Economic Development,0.154
+Texas,Texas_26.json,"Technology & Innovation, Friendship & Goodwill, Infrastructure & Transport, Environment & Green Energy, Trade & Economic Development",Technology & Innovation,0.948
+Texas,Texas_27.json,Infrastructure & Transport,Infrastructure & Transport,0.542
+Texas,Texas_28.json,"Friendship & Goodwill, Infrastructure & Transport, Trade & Economic Development",Friendship & Goodwill,0.71
+Texas,Texas_29.json,"Infrastructure & Transport, Trade & Economic Development, Friendship & Goodwill, Environment & Green Energy, Technology & Innovation",Infrastructure & Transport,0.749
+Texas,Texas_3.json,"Trade & Economic Development, Education & Students, Technology & Innovation, Friendship & Goodwill, Environment & Green Energy, Infrastructure & Transport, Tourism, Public Health",Trade & Economic Development,0.895
+Texas,Texas_30.json,"Friendship & Goodwill, Tourism",Friendship & Goodwill,0.96
+Texas,Texas_31.json,"Technology & Innovation, Environment & Green Energy, Friendship & Goodwill",Technology & Innovation,0.865
+Texas,Texas_32.json,"Friendship & Goodwill, Culture & Arts",Friendship & Goodwill,0.915
+Texas,Texas_33.json,Friendship & Goodwill,Friendship & Goodwill,0.658
+Texas,Texas_34.json,"Trade & Economic Development, Environment & Green Energy, Technology & Innovation, Friendship & Goodwill, Infrastructure & Transport",Trade & Economic Development,0.927
+Texas,Texas_35.json,"Trade & Economic Development, Friendship & Goodwill, Technology & Innovation, Environment & Green Energy",Trade & Economic Development,0.962
+Texas,Texas_36.json,"Trade & Economic Development, Technology & Innovation",Trade & Economic Development,0.965
+Texas,Texas_37.json,"Trade & Economic Development, Tourism, Environment & Green Energy, Technology & Innovation, Friendship & Goodwill, Infrastructure & Transport",Trade & Economic Development,0.82
+Texas,Texas_38.json,"Trade & Economic Development, Tourism, Friendship & Goodwill, Technology & Innovation, Infrastructure & Transport",Trade & Economic Development,0.969
+Texas,Texas_39.json,"Trade & Economic Development, Friendship & Goodwill, Technology & Innovation",Trade & Economic Development,0.981
+Texas,Texas_4.json,"Tourism, Culture & Arts, Technology & Innovation, Trade & Economic Development, Friendship & Goodwill, Education & Students, Infrastructure & Transport, Environment & Green Energy",Tourism,0.989
+Texas,Texas_40.json,"Trade & Economic Development, Tourism",Trade & Economic Development,0.825
+Texas,Texas_41.json,"Trade & Economic Development, Technology & Innovation, Friendship & Goodwill, Environment & Green Energy",Trade & Economic Development,0.907
+Texas,Texas_42.json,Trade & Economic Development,Trade & Economic Development,0.908
+Texas,Texas_43.json,"Trade & Economic Development, Tourism, Friendship & Goodwill, Infrastructure & Transport, Technology & Innovation",Trade & Economic Development,0.933
+Texas,Texas_44.json,Trade & Economic Development,Trade & Economic Development,0.28
+Texas,Texas_45.json,"Infrastructure & Transport, Friendship & Goodwill",Infrastructure & Transport,0.69
+Texas,Texas_46.json,Trade & Economic Development,Trade & Economic Development,0.607
+Texas,Texas_47.json,Infrastructure & Transport,Infrastructure & Transport,0.88
+Texas,Texas_48.json,Environment & Green Energy,Environment & Green Energy,0.394
+Texas,Texas_49.json,"Technology & Innovation, Trade & Economic Development",Technology & Innovation,0.681
+Texas,Texas_5.json,"Trade & Economic Development, Infrastructure & Transport, Friendship & Goodwill, Environment & Green Energy, Technology & Innovation, Culture & Arts, Public Health, Tourism, Education & Students",Trade & Economic Development,0.961
+Texas,Texas_50.json,"Trade & Economic Development, Tourism, Technology & Innovation, Environment & Green Energy, Infrastructure & Transport, Education & Students, Culture & Arts, Friendship & Goodwill",Trade & Economic Development,0.88
+Texas,Texas_51.json,"Trade & Economic Development, Tourism, Environment & Green Energy, Technology & Innovation, Infrastructure & Transport, Culture & Arts, Friendship & Goodwill, Education & Students, Public Health",Trade & Economic Development,0.82
+Texas,Texas_52.json,"Trade & Economic Development, Tourism, Technology & Innovation, Environment & Green Energy, Infrastructure & Transport, Culture & Arts, Education & Students, Public Health, Friendship & Goodwill",Trade & Economic Development,0.822
+Texas,Texas_53.json,"Friendship & Goodwill, Trade & Economic Development",Friendship & Goodwill,0.617
+Texas,Texas_54.json,"Environment & Green Energy, Friendship & Goodwill, Technology & Innovation, Trade & Economic Development",Environment & Green Energy,0.687
+Texas,Texas_6.json,Friendship & Goodwill,Friendship & Goodwill,0.56
+Texas,Texas_7.json,Technology & Innovation,Technology & Innovation,0.544
+Texas,Texas_8.json,Infrastructure & Transport,Infrastructure & Transport,0.43
+Texas,Texas_9.json,"Culture & Arts, Tourism, Education & Students, Infrastructure & Transport",Culture & Arts,0.697
+Maryland,Maryland_10.json,"Infrastructure & Transport, Trade & Economic Development, Technology & Innovation, Friendship & Goodwill, Tourism, Public Health, Culture & Arts, Environment & Green Energy",Infrastructure & Transport,0.972
+Maryland,Maryland_55.json,"Education & Students, Tourism, Culture & Arts, Technology & Innovation, Friendship & Goodwill, Infrastructure & Transport, Trade & Economic Development, Environment & Green Energy",Education & Students,0.844
+Maryland,Maryland_56.json,"Education & Students, Tourism, Culture & Arts, Trade & Economic Development, Technology & Innovation, Infrastructure & Transport, Environment & Green Energy, Friendship & Goodwill",Education & Students,0.751
+Maryland,Maryland_70.json,"Culture & Arts, Tourism, Infrastructure & Transport, Environment & Green Energy, Technology & Innovation, Education & Students",Culture & Arts,0.838
+Rhode Island,RhodeIsland_7.json,Environment & Green Energy,Environment & Green Energy,0.254
+Hawaii,Hawaii_10.json,Friendship & Goodwill,Friendship & Goodwill,0.873
+Hawaii,Hawaii_14.json,"Infrastructure & Transport, Culture & Arts, Tourism, Friendship & Goodwill, Education & Students, Environment & Green Energy, Technology & Innovation, Trade & Economic Development",Infrastructure & Transport,0.667
+Hawaii,Hawaii_35.json,"Friendship & Goodwill, Trade & Economic Development",Friendship & Goodwill,0.988
+Hawaii,Hawaii_37.json,"Friendship & Goodwill, Trade & Economic Development, Infrastructure & Transport, Technology & Innovation, Tourism",Friendship & Goodwill,0.969
+Pennsylvania,Pennsylvania_20.json,"Technology & Innovation, Culture & Arts, Friendship & Goodwill, Environment & Green Energy, Trade & Economic Development, Infrastructure & Transport, Education & Students, Tourism, Public Health",Technology & Innovation,0.977
+Pennsylvania,Pennsylvania_8.json,"Friendship & Goodwill, Infrastructure & Transport, Environment & Green Energy",Friendship & Goodwill,0.567
+North Carolina,NorthCarolina_18.json,Culture & Arts,Culture & Arts,0.454
+North Carolina,NorthCarolina_7.json,Technology & Innovation,Technology & Innovation,0.567
+California,1 (5).json,Infrastructure & Transport,Infrastructure & Transport,0.217
+California,1 (CA - Chille).json,Environment & Green Energy,Environment & Green Energy,0.431
+California,110242023.json,Environment & Green Energy,Environment & Green Energy,0.648
+California,110252023.json,"Environment & Green Energy, Infrastructure & Transport, Technology & Innovation",Environment & Green Energy,0.909
+California,110262023.json,Environment & Green Energy,Environment & Green Energy,0.305
+California,110282023.json,"Technology & Innovation, Environment & Green Energy, Infrastructure & Transport, Education & Students, Trade & Economic Development",Technology & Innovation,0.942
+California,110292023.json,"Infrastructure & Transport, Environment & Green Energy",Infrastructure & Transport,0.658
+California,111102021.json,"Technology & Innovation, Infrastructure & Transport, Environment & Green Energy, Friendship & Goodwill, Public Health, Tourism, Trade & Economic Development, Culture & Arts, Education & Students",Technology & Innovation,0.961
+California,11182021.json,"Technology & Innovation, Friendship & Goodwill, Infrastructure & Transport, Environment & Green Energy",Technology & Innovation,0.987
+California,11212021.json,"Technology & Innovation, Environment & Green Energy, Infrastructure & Transport",Technology & Innovation,0.707
+California,112122022.json,"Technology & Innovation, Environment & Green Energy, Trade & Economic Development, Friendship & Goodwill, Infrastructure & Transport",Technology & Innovation,0.915
+California,1282023 (1).json,Environment & Green Energy,Environment & Green Energy,0.687
+California,1282023.json,Environment & Green Energy,Environment & Green Energy,0.687
+California,13112022.json,"Technology & Innovation, Environment & Green Energy",Technology & Innovation,0.578
+California,13142023.json,"Infrastructure & Transport, Environment & Green Energy, Trade & Economic Development, Technology & Innovation, Public Health",Infrastructure & Transport,0.968
+California,13212022.json,"Environment & Green Energy, Trade & Economic Development, Technology & Innovation, Infrastructure & Transport",Environment & Green Energy,0.915
+California,1352021.json,"Environment & Green Energy, Infrastructure & Transport, Technology & Innovation",Environment & Green Energy,0.909
+California,1392021.json,Technology & Innovation,Technology & Innovation,0.343
+California,1392022.json,"Technology & Innovation, Environment & Green Energy, Trade & Economic Development",Technology & Innovation,0.699
+California,14182022.json,"Infrastructure & Transport, Environment & Green Energy, Technology & Innovation",Infrastructure & Transport,0.745
+California,14212023.json,"Environment & Green Energy, Technology & Innovation, Infrastructure & Transport",Environment & Green Energy,0.738
+California,14282021.json,"Technology & Innovation, Environment & Green Energy, Trade & Economic Development, Infrastructure & Transport, Friendship & Goodwill",Technology & Innovation,0.914
+California,15272022.json,"Environment & Green Energy, Infrastructure & Transport, Technology & Innovation",Environment & Green Energy,0.681
+California,1692022.json,"Infrastructure & Transport, Environment & Green Energy, Technology & Innovation",Infrastructure & Transport,0.818
+California,18122021.json,"Infrastructure & Transport, Environment & Green Energy, Friendship & Goodwill, Technology & Innovation",Infrastructure & Transport,0.857
+California,1962022.json,"Friendship & Goodwill, Infrastructure & Transport, Technology & Innovation, Environment & Green Energy",Friendship & Goodwill,0.879
+California,1April10 ( CA - China Provinces).json,Trade & Economic Development,Trade & Economic Development,0.832
+California,1April14.json,"Technology & Innovation, Trade & Economic Development, Friendship & Goodwill, Culture & Arts, Environment & Green Energy, Education & Students",Technology & Innovation,0.931
+California,1April15.json,"Tourism, Friendship & Goodwill, Technology & Innovation, Trade & Economic Development, Environment & Green Energy",Tourism,0.969
+California,1April17.json,"Environment & Green Energy, Trade & Economic Development, Infrastructure & Transport",Environment & Green Energy,0.796
+California,1April19.json,"Environment & Green Energy, Friendship & Goodwill, Technology & Innovation, Infrastructure & Transport",Environment & Green Energy,0.981
+California,1April30.json,Environment & Green Energy,Environment & Green Energy,0.5
+California,1April6 (CA - Catalonia).json,"Friendship & Goodwill, Public Health, Culture & Arts, Trade & Economic Development, Technology & Innovation, Education & Students, Environment & Green Energy, Infrastructure & Transport",Friendship & Goodwill,0.999
+California,1August11.json,"Friendship & Goodwill, Technology & Innovation, Trade & Economic Development, Environment & Green Energy",Friendship & Goodwill,0.617
+California,1August23.json,Technology & Innovation,Technology & Innovation,0.25
+California,1August26.json,Tourism,Tourism,0.881
+California,1December10.json,Technology & Innovation,Technology & Innovation,0.628
+California,1December18.json,Technology & Innovation,Technology & Innovation,0.823
+California,1December21.json,Environment & Green Energy,Environment & Green Energy,0.6
+California,1December4.json,Tourism,Tourism,0.367
+California,1December7 (1).json,Environment & Green Energy,Environment & Green Energy,0.448
+California,1December7 (2).json,"Infrastructure & Transport, Technology & Innovation, Environment & Green Energy, Trade & Economic Development, Education & Students, Culture & Arts, Tourism, Public Health",Infrastructure & Transport,0.864
+California,1December7.json,"Infrastructure & Transport, Technology & Innovation, Environment & Green Energy",Infrastructure & Transport,0.716
+California,1February14.json,Technology & Innovation,Technology & Innovation,0.946
+California,1February26.json,Technology & Innovation,Technology & Innovation,0.484
+California,1January30.json,"Environment & Green Energy, Technology & Innovation",Environment & Green Energy,0.589
+California,1January9.json,"Environment & Green Energy, Technology & Innovation, Friendship & Goodwill, Infrastructure & Transport, Trade & Economic Development",Environment & Green Energy,0.958
+California,1July12.json,Friendship & Goodwill,Friendship & Goodwill,0.873
+California,1July29.json,"Technology & Innovation, Environment & Green Energy",Technology & Innovation,0.743
+California,1July30 (1).json,"Technology & Innovation, Environment & Green Energy, Trade & Economic Development",Technology & Innovation,0.978
+California,1July30.json,Friendship & Goodwill,Friendship & Goodwill,0.473
+California,1July5.json,Education & Students,Education & Students,0.693
+California,1June1 (1).json,"Environment & Green Energy, Infrastructure & Transport, Technology & Innovation, Public Health, Trade & Economic Development",Environment & Green Energy,0.851
+California,1June1.json,"Environment & Green Energy, Infrastructure & Transport, Technology & Innovation, Trade & Economic Development",Environment & Green Energy,0.841
+California,1June14.json,"Technology & Innovation, Culture & Arts, Friendship & Goodwill, Environment & Green Energy, Trade & Economic Development, Infrastructure & Transport, Education & Students, Tourism, Public Health",Technology & Innovation,0.977
+California,1June24 (1).json,Trade & Economic Development,Trade & Economic Development,0.357
+California,1June26.json,"Infrastructure & Transport, Environment & Green Energy",Infrastructure & Transport,0.622
+California,1June5.json,"Technology & Innovation, Environment & Green Energy, Trade & Economic Development, Infrastructure & Transport, Friendship & Goodwill",Technology & Innovation,0.942
+California,1June6.json,"Technology & Innovation, Environment & Green Energy, Trade & Economic Development, Infrastructure & Transport, Public Health",Technology & Innovation,0.884
+California,1June7 (1).json,Environment & Green Energy,Environment & Green Energy,0.361
+California,1June7 (2).json,"Technology & Innovation, Environment & Green Energy, Infrastructure & Transport",Technology & Innovation,0.577
+California,1June7.json,"Technology & Innovation, Environment & Green Energy, Trade & Economic Development, Infrastructure & Transport, Public Health, Friendship & Goodwill",Technology & Innovation,0.977
+California,1June9.json,Environment & Green Energy,Environment & Green Energy,0.868
+California,1March11.json,"Environment & Green Energy, Technology & Innovation, Infrastructure & Transport, Trade & Economic Development, Education & Students",Environment & Green Energy,0.987
+California,1March15.json,Infrastructure & Transport,Infrastructure & Transport,0.259
+California,1March28.json,Environment & Green Energy,Environment & Green Energy,0.423
+California,1March5.json,"Technology & Innovation, Friendship & Goodwill, Culture & Arts, Environment & Green Energy, Trade & Economic Development, Education & Students",Technology & Innovation,0.947
+California,1May11.json,"Environment & Green Energy, Education & Students, Friendship & Goodwill, Trade & Economic Development, Technology & Innovation, Tourism",Environment & Green Energy,0.892
+California,1May24.json,"Friendship & Goodwill, Infrastructure & Transport, Environment & Green Energy",Friendship & Goodwill,0.829
+California,1May25.json,"Technology & Innovation, Environment & Green Energy, Friendship & Goodwill, Infrastructure & Transport",Technology & Innovation,0.993
+California,1November11.json,"Infrastructure & Transport, Technology & Innovation, Environment & Green Energy, Trade & Economic Development",Infrastructure & Transport,0.649
+California,1November12.json,Technology & Innovation,Technology & Innovation,0.707
+California,1November13.json,Technology & Innovation,Technology & Innovation,0.576
+California,1November2 (1).json,"Technology & Innovation, Environment & Green Energy",Technology & Innovation,0.98
+California,1November2.json,"Technology & Innovation, Environment & Green Energy, Infrastructure & Transport, Friendship & Goodwill",Technology & Innovation,0.917
+California,1November7.json,Technology & Innovation,Technology & Innovation,0.111
+California,1November8.json,"Infrastructure & Transport, Environment & Green Energy, Technology & Innovation",Infrastructure & Transport,0.952
+California,1November9.json,"Technology & Innovation, Friendship & Goodwill, Infrastructure & Transport, Environment & Green Energy",Technology & Innovation,0.843
+California,1October14.json,"Environment & Green Energy, Trade & Economic Development",Environment & Green Energy,0.659
+California,1October2 (1).json,"Technology & Innovation, Environment & Green Energy",Technology & Innovation,0.624
+California,1October2.json,"Environment & Green Energy, Technology & Innovation",Environment & Green Energy,0.597
+California,1October28 (1).json,Technology & Innovation,Technology & Innovation,0.606
+California,1October28.json,"Technology & Innovation, Environment & Green Energy, Trade & Economic Development, Infrastructure & Transport, Friendship & Goodwill",Technology & Innovation,0.989
+California,1October3.json,"Friendship & Goodwill, Technology & Innovation, Infrastructure & Transport, Trade & Economic Development, Environment & Green Energy, Education & Students, Tourism, Culture & Arts, Public Health",Friendship & Goodwill,0.972
+California,1October31.json,"Environment & Green Energy, Technology & Innovation",Environment & Green Energy,0.704
+California,1October4 (1).json,"Technology & Innovation, Trade & Economic Development, Environment & Green Energy",Technology & Innovation,0.926
+California,1October4.json,"Trade & Economic Development, Infrastructure & Transport, Technology & Innovation, Environment & Green Energy",Trade & Economic Development,0.716
+California,1October5.json,Environment & Green Energy,Environment & Green Energy,0.42
+California,1September10 (1).json,"Environment & Green Energy, Trade & Economic Development, Technology & Innovation",Environment & Green Energy,0.649
+California,1September10.json,"Environment & Green Energy, Infrastructure & Transport, Trade & Economic Development, Technology & Innovation",Environment & Green Energy,0.806
+California,1September12.json,"Friendship & Goodwill, Environment & Green Energy, Trade & Economic Development",Friendship & Goodwill,0.694
+California,1September15 (1).json,"Environment & Green Energy, Infrastructure & Transport",Environment & Green Energy,0.639
+California,1September15 (2).json,"Technology & Innovation, Environment & Green Energy, Infrastructure & Transport",Technology & Innovation,0.965
+California,1September15.json,Environment & Green Energy,Environment & Green Energy,0.335
+California,1September19.json,"Technology & Innovation, Environment & Green Energy",Technology & Innovation,0.932
+California,1September22 (1).json,"Friendship & Goodwill, Tourism, Environment & Green Energy, Trade & Economic Development, Technology & Innovation, Culture & Arts, Education & Students, Infrastructure & Transport",Friendship & Goodwill,0.941
+California,1September22 (2).json,"Environment & Green Energy, Technology & Innovation, Public Health, Infrastructure & Transport",Environment & Green Energy,0.757
+California,1September29.json,"Friendship & Goodwill, Environment & Green Energy, Technology & Innovation, Infrastructure & Transport, Trade & Economic Development, Culture & Arts",Friendship & Goodwill,0.769
+California,1Undated (1).json,Education & Students,Education & Students,0.861
+California,1Undated.json,"Environment & Green Energy, Infrastructure & Transport, Technology & Innovation",Environment & Green Energy,0.698
+California,California_1.json,"Environment & Green Energy, Trade & Economic Development, Technology & Innovation, Infrastructure & Transport",Environment & Green Energy,0.922
+California,California_10.json,Environment & Green Energy,Environment & Green Energy,0.427
+California,California_11.json,"Technology & Innovation, Infrastructure & Transport, Environment & Green Energy, Trade & Economic Development",Technology & Innovation,0.927
+California,California_12.json,"Technology & Innovation, Environment & Green Energy, Infrastructure & Transport, Trade & Economic Development, Friendship & Goodwill, Education & Students",Technology & Innovation,0.888
+California,California_13.json,"Technology & Innovation, Environment & Green Energy, Infrastructure & Transport",Technology & Innovation,0.597
+California,California_14.json,"Technology & Innovation, Culture & Arts, Tourism, Trade & Economic Development, Friendship & Goodwill, Environment & Green Energy, Education & Students",Technology & Innovation,0.902
+California,California_15.json,Environment & Green Energy,Environment & Green Energy,0.374
+California,California_16.json,Infrastructure & Transport,Infrastructure & Transport,0.09
+California,California_2.json,"Friendship & Goodwill, Public Health",Friendship & Goodwill,0.982
+California,California_3.json,Friendship & Goodwill,Friendship & Goodwill,0.427
+California,California_4.json,Infrastructure & Transport,Infrastructure & Transport,0.271
+California,California_5.json,"Environment & Green Energy, Trade & Economic Development",Environment & Green Energy,0.781
+California,California_6.json,"Technology & Innovation, Infrastructure & Transport, Environment & Green Energy, Trade & Economic Development",Technology & Innovation,0.885
+California,California_7.json,"Environment & Green Energy, Technology & Innovation, Friendship & Goodwill, Trade & Economic Development, Tourism",Environment & Green Energy,0.944
+California,California_8.json,"Education & Students, Technology & Innovation, Environment & Green Energy, Infrastructure & Transport, Culture & Arts, Trade & Economic Development, Friendship & Goodwill, Tourism",Education & Students,0.905
+California,California_9.json,"Technology & Innovation, Environment & Green Energy, Tourism, Trade & Economic Development, Friendship & Goodwill, Culture & Arts, Education & Students",Technology & Innovation,0.89
+Idaho,Idaho_1.json,Friendship & Goodwill,Friendship & Goodwill,0.835
+Oregon,Oregon_13.json,"Environment & Green Energy, Infrastructure & Transport, Technology & Innovation, Trade & Economic Development",Environment & Green Energy,0.841
