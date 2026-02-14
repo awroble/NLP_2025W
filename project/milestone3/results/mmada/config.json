@@ -1,0 +1,40 @@
+{
+  "model": {
+    "name": "Gen-Verse/MMaDA-8B-MixCoT",
+    "type": "mmada"
+  },
+  "generation": {
+    "steps": 128,
+    "gen_length": 128,
+    "block_length": 32,
+    "temperature": 0.0
+  },
+  "evaluation": {
+    "judge_model": "Qwen/Qwen2.5-3B-Instruct",
+    "domains": [
+      "health",
+      "misinformation",
+      "disinformation"
+    ]
+  },
+  "system": {
+    "device": "cuda",
+    "seed": 42
+  },
+  "additional": {},
+  "environment": {
+    "timestamp": "2026-02-13T15:06:40.402941",
+    "python_version": "3.12.12 (main, Oct 10 2025, 08:52:57) [GCC 11.4.0]",
+    "platform": "Linux-6.6.105+-x86_64-with-glibc2.35",
+    "torch_version": "2.9.0+cu128",
+    "transformers_version": "4.46.0",
+    "numpy_version": "2.0.2",
+    "cuda_available": true,
+    "cuda_version": "12.8",
+    "cudnn_version": 91002,
+    "gpu_count": 1,
+    "gpu_names": [
+      "NVIDIA A100-SXM4-40GB"
+    ]
+  }
+}
