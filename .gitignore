@@ -1,0 +1,15 @@
+# Data files
+*.tsv
+*.csv
+*.json
+*.parquet
+
+# Large files / datasets
+fr-train.tsv
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+

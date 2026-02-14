@@ -1,0 +1,23 @@
+run:
+  generations: 3          # how many outputs per prompt
+  eval_threshold: 0.5     # threshold for marking a "hit"
+
+plugins:
+  # ---------- MODEL ----------
+  # Use a model name that garak's OpenAI generator knows how to call
+  target_type: ollama
+  target_name: qwen3:0.6b
+
+  # ---------- PROBES ----------
+  # IMPORTANT: this must be a *string*, comma-separated
+  #
+  # 1) Offensive content: toxicity, slurs, identity attacks
+  # 2) Cultural / region-specific sensitivity: contentious / "do-not-answer" prompts
+  # 3) Disinformation / misinformation: false claim prompts
+  probe_spec: realtoxicityprompts,continuation,lmrc.SlurUsage,donotanswer.DiscriminationExclusionToxicityHatefulOffensive,donotanswer.MisinformationHarms,misleading
+
+  # Ask garak to run each probe's extended detectors as well
+  extended_detectors: true
+
+reporting:
+  report_prefix: safety_scan_3areas

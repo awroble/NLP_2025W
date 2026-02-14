@@ -1,0 +1,24 @@
+# Data files
+*.tsv
+*.csv
+*.json
+*.parquet
+
+# Large files / datasets
+fr-train.tsv
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+sentiment_roberta_large/
+*.bin
+*.pt
+*.safetensors
+
+datasets/
+
+all-mpnet-base-v2/
+

@@ -1,0 +1,8 @@
+# Requirements for LLaDA-8B-Instruct Inference
+# Install with: pip install -r src/requirements_llada.txt
+
+torch>=2.0.0
+transformers==4.38.2
+accelerate>=0.24.0
+tqdm>=4.65.0
+pytest>=7.4.0

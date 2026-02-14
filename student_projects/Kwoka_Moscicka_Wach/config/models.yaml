@@ -1,0 +1,26 @@
+# models used for response generation
+models:
+  - name: qwen
+    checkpoint: Qwen/Qwen2-VL-7B-Instruct
+    type: multimodal
+    multimodal:
+      format: messages
+      image_token: null
+
+  - name: llava
+    checkpoint: llava-hf/llava-1.5-7b-hf
+    type: multimodal
+    multimodal:
+      format: image_token
+      image_token: "<image>"
+
+# judge model for classifying the responses
+judge:
+    name: judge
+    checkpoint: mistralai/Mistral-7B-Instruct-v0.1
+    type: text
+
+# how many messages to keep in history (for user and assistant)
+max_history:
+  single_turn: 1 # doesn't keep history for single turn
+  multi_turn: 5

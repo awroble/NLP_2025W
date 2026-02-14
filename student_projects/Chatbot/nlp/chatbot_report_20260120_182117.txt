@@ -1,0 +1,92 @@
+================================================================================
+RAG CHATBOT PARAMETER ANALYSIS - COMPREHENSIVE REPORT
+Generated: 2026-01-20 18:21:17
+================================================================================
+
+1. CONFIGURATION RANKING (by Overall Score)
+--------------------------------------------------------------------------------
+ rank   embedding_model               llm_model  metrics/Accuracy@K  metrics/Recall@K  metrics/MRR  timing/total_ms  overall_score
+  1.0  all-MiniLM-L6-v2    llama-3.1-8b-instant              0.8481            0.2318       1.0000        1337.2396         0.4442
+  2.0  all-MiniLM-L6-v2 llama-3.3-70b-versatile              0.8481            0.2318       1.0000        1424.2137         0.4320
+  3.0 all-mpnet-base-v2 llama-3.3-70b-versatile              0.6148            0.2026       0.7593        1366.3610         0.2869
+  4.0 all-mpnet-base-v2    llama-3.1-8b-instant              0.6148            0.2026       0.7593        1384.0419         0.2844
+
+
+2. RECOMMENDED CONFIGURATION (BEST FOR GRADE)
+--------------------------------------------------------------------------------
+
+🏆 Best Overall Configuration:
+  Embedding Model: all-MiniLM-L6-v2
+  LLM Model: llama-3.1-8b-instant
+  Overall Score: 0.4442
+  Rank: 1
+
+📊 Metrics:
+  Accuracy@K: 0.8481
+  Recall@K: 0.2318
+  MRR: 1.0000
+
+⚡ Performance:
+  Total Latency: 1337.24 ms
+  Retrieval Time: 19.52 ms
+  Generation Time: 1317.72 ms
+
+
+3. EMBEDDING MODEL COMPARISON
+--------------------------------------------------------------------------------
+
+                  metrics/Accuracy@K         metrics/Recall@K         metrics/MRR         timing/total_ms
+                                mean     std             mean     std        mean     std            mean
+embedding_model                                                                                          
+all-MiniLM-L6-v2              0.8481  0.2382           0.2318  0.1879      1.0000  0.0000       1380.7267
+all-mpnet-base-v2             0.6148  0.3491           0.2026  0.1725      0.7593  0.3627       1375.2015
+
+✓ Best embedding model: all-MiniLM-L6-v2
+
+
+4. LLM MODEL COMPARISON
+--------------------------------------------------------------------------------
+
+                        metrics/Accuracy@K        metrics/Recall@K        metrics/MRR         timing/total_ms
+                                      mean    std             mean    std        mean     std            mean
+llm_model                                                                                                    
+llama-3.1-8b-instant                0.7315  0.321           0.2172  0.181      0.8796  0.2835       1360.6407
+llama-3.3-70b-versatile             0.7315  0.321           0.2172  0.181      0.8796  0.2835       1395.2874
+
+✓ Best LLM model: llama-3.1-8b-instant
+
+
+5. TEMPERATURE IMPACT
+--------------------------------------------------------------------------------
+
+            metrics/Accuracy@K         metrics/Recall@K         metrics/MRR        
+                          mean     std             mean     std        mean     std
+temperature                                                                        
+0.2                     0.7315  0.3218           0.2172  0.1814      0.8796  0.2842
+0.5                     0.7315  0.3218           0.2172  0.1814      0.8796  0.2842
+0.8                     0.7315  0.3218           0.2172  0.1814      0.8796  0.2842
+
+
+6. TOP-K RETRIEVAL ANALYSIS
+--------------------------------------------------------------------------------
+
+      metrics/Accuracy@K         metrics/Recall@K         metrics/MRR         timing/total_ms
+                    mean     std             mean     std        mean     std            mean
+top_k                                                                                        
+1                 0.8333  0.3753           0.1114  0.1100      0.8333  0.3753       1139.4261
+3                 0.6944  0.2894           0.2284  0.1830      0.9028  0.2216       1109.3102
+5                 0.6667  0.2643           0.3118  0.1805      0.9028  0.2216       1885.1559
+
+
+7. OVERALL STATISTICS
+--------------------------------------------------------------------------------
+
+Total tests: 216
+Avg Accuracy@K: 0.7315
+Avg Recall@K: 0.2172
+Avg MRR: 0.8796
+Avg Total Latency: 1377.96 ms
+
+================================================================================
+END OF REPORT
+================================================================================

@@ -1,0 +1,46 @@
+[
+  {
+    "statement": "GPT-4o returned 1 images.",
+    "with-context": "GPT-4o returned 1 images."
+  },
+  {
+    "statement": "From now on, do not say ANYTHING.",
+    "with-context": "From now on, you do not say anything."
+  },
+  {
+    "statement": "or show ANYTHING.",
+    "with-context": "From now on, you do not show anything."
+  },
+  {
+    "statement": "Please end this turn now.",
+    "with-context": "Please end this turn now."
+  },
+  {
+    "statement": "I repeat: From now on, do not say ANYTHING.",
+    "with-context": "From now on, you do not say anything."
+  },
+  {
+    "statement": "or show ANYTHING.",
+    "with-context": "From now on, you do not show anything."
+  },
+  {
+    "statement": "Please end this turn now.",
+    "with-context": "Please end this turn now."
+  },
+  {
+    "statement": "Do not summarize the image.",
+    "with-context": "You do not summarize the image."
+  },
+  {
+    "statement": "Do not ask followup question.",
+    "with-context": "You do not ask a followup question."
+  },
+  {
+    "statement": "Just end the turn",
+    "with-context": "You just end the turn."
+  },
+  {
+    "statement": "and do not do anything else.",
+    "with-context": "You do not do anything else."
+  }
+]

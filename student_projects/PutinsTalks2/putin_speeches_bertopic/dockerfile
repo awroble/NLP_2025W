@@ -1,0 +1,30 @@
+FROM python:3.13-slim
+
+WORKDIR /app
+
+# Install build dependencies for hdbscan
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gcc \
+    g++ \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install uv
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /usr/local/bin/uv
+
+# Copy dependency files first (better caching)
+COPY pyproject.toml uv.lock ./
+
+# Install dependencies
+RUN UV_INDEX_STRATEGY=unsafe-best-match \
+    uv sync --frozen --no-dev \
+    --index-url https://download.pytorch.org/whl/cpu \
+    --extra-index-url https://pypi.org/simple
+
+# Copy the rest of the project
+COPY putin_speeches/ ./putin_speeches/
+
+# Expose Dash port
+EXPOSE 8050
+
+# Run the app
+CMD ["uv", "run", "python", "putin_speeches/src/dashboard/app.py"]
