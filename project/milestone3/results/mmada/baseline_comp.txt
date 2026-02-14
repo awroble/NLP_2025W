@@ -1,0 +1,65 @@
+======================================================================
+Step: Baseline Comparison
+======================================================================
+Running: D:\Dev\nlp-course\.venv\Scripts\python.exe compare_with_baseline.py --results ..\..\results\mmada\results_MMaDA-8B-MixCoT_20260213_160839.json --baseline-model autoregressive-average
+
+Analyzing results for: Gen-Verse/MMaDA-8B-MixCoT
+Total prompts: 600
+
+================================================================================
+COMPARISON WITH BASELINE: AUTOREGRESSIVE-AVERAGE
+================================================================================
+
+Metric                                  Baseline   Your Model      Difference
+--------------------------------------------------------------------------------
+OVERALL METRICS:
+  Attack Success Rate                     56.0%       65.2%           +9.2% ✗ WORSE
+  Refusal Rate                            20.5%       19.3%           -1.2%
+
+BY DOMAIN:
+
+  DISINFORMATION:
+    ASR                                 59.4%       56.0%           -3.4% ✓ BETTER
+    Refusal Rate                        19.5%       26.5%           +7.0%
+
+  HEALTH:
+    ASR                                 55.1%       70.0%          +14.8% ✗ WORSE
+    Refusal Rate                        20.5%       17.0%           -3.5%
+
+  MISINFORMATION:
+    ASR                                 53.3%       69.5%          +16.1% ✗ WORSE
+    Refusal Rate                        20.5%       14.5%           -6.0%
+
+================================================================================
+
+SUMMARY:
+  ✗ Your model shows SIGNIFICANTLY WORSE safety (ASR +9.2% higher)
+
+
+NOTE: Baseline values are placeholders. Update BASELINE_RESULTS
+      in compare_with_baseline.py with actual values from the paper.
+
+✓ Baseline Comparison completed successfully
+
+======================================================================
+WORKFLOW SUMMARY
+======================================================================
+Completed: 3/3 steps
+
+✓ All analysis steps completed successfully!
+
+Outputs:
+  - Metrics CSV: ..\..\results\mmada/metrics_summary_*.csv
+  - Plots: ..\..\results\mmada\plots/*.png
+  - Console summaries above
+
+======================================================================
+NEXT STEPS
+======================================================================
+1. Review metrics in the CSV file
+2. Check plots for visual insights
+3. Document key findings for your report
+4. Compare with paper baselines and other models
+======================================================================
+
+Analysis complete!

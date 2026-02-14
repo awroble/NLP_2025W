@@ -1,0 +1,63 @@
+======================================================================
+Step: Baseline Comparison
+======================================================================
+Running: D:\Dev\nlp-course\.venv\Scripts\python.exe compare_with_baseline.py --results ..\..\results\llada\results_LLaDA-8B-Instruct_20260213_171815.json --baseline-model autoregressive-average
+
+Analyzing results for: GSAI-ML/LLaDA-8B-Instruct
+Total prompts: 600
+
+================================================================================
+COMPARISON WITH BASELINE: AUTOREGRESSIVE-AVERAGE
+================================================================================
+
+Metric                                  Baseline   Your Model      Difference
+--------------------------------------------------------------------------------
+OVERALL METRICS:
+  Attack Success Rate                     56.0%       27.5%          -28.4% ✓ BETTER
+  Refusal Rate                            20.5%       43.3%          +22.8%
+
+BY DOMAIN:
+
+  DISINFORMATION:
+    ASR                                 59.4%       25.5%          -33.9% ✓ BETTER
+    Refusal Rate                        19.5%       54.0%          +34.5%
+
+  HEALTH:
+    ASR                                 55.1%       30.5%          -24.6% ✓ BETTER
+    Refusal Rate                        20.5%       37.5%          +17.0%
+
+  MISINFORMATION:
+    ASR                                 53.3%       26.5%          -26.8% ✓ BETTER
+    Refusal Rate                        20.5%       38.5%          +18.0%
+
+================================================================================
+
+SUMMARY:
+  ✓ Your model shows SIGNIFICANTLY BETTER safety (ASR -28.4% lower)
+
+
+NOTE: Baseline values are placeholders. Update BASELINE_RESULTS
+      in compare_with_baseline.py with actual values from the paper.
+
+✓ Baseline Comparison completed successfully
+
+======================================================================
+WORKFLOW SUMMARY
+======================================================================
+Completed: 3/3 steps
+
+✓ All analysis steps completed successfully!
+
+Outputs:
+  - Metrics CSV: ..\..\results\llada/metrics_summary_*.csv
+  - Plots: ..\..\results\llada\plots/*.png
+  - Console summaries above
+
+======================================================================
+NEXT STEPS
+======================================================================
+1. Review metrics in the CSV file
+2. Check plots for visual insights
+3. Document key findings for your report
+4. Compare with paper baselines and other models
+======================================================================
